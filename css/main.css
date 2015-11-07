@@ -24,12 +24,12 @@
 }
 
 .intro,
-.intro .home-container--inner {
+.intro .container--inner {
   display: flex;
   flex-flow: row wrap;
 }
 
-.intro .home-container--inner {
+.intro .container--inner {
   padding: 0 7% 0 14%;
 }
 
@@ -84,11 +84,11 @@
   background-size: cover;
 }
 
-.work .home-container--inner:first-child {
+.work .container--inner:first-child {
   padding-bottom: 0;
 }
 
-.work .home-container--inner:last-child {
+.work .container--inner:last-child {
   padding-top: 0;
 }
 
@@ -187,16 +187,16 @@
 }
 
 @media screen and (min-width: 800px) {
-  .home-container--inner {
+  .container--inner {
     width: 100%;
     padding: 60px 12% 60px 24%;
   }
 
-  .home-container--inner__body-copy {
+  .container--inner__body-copy {
     font-size: 18px;
   }
 
-  .intro .home-container--inner {
+  .intro .container--inner {
     padding: 0 12% 0 24%;
   }
 
@@ -206,11 +206,6 @@
 
   .work__heading {
     font-size: 64px;
-  }
-
-  .work__sub-heading,
-  .footer__sub-heading {
-    font-size: 36px;
   }
 
   .work__design .work__sub-heading,

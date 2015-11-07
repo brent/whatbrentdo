@@ -38,7 +38,7 @@
   font-family: Cabin, sans-serif;
   border-top-color: #a26b00;
   color: #a26b00;
-  margin: 2.2em auto;
+  margin-top: 2.2em;
 }
 
 .whatupbro .case-study__details-copy {
@@ -49,7 +49,6 @@
   font-family: Cabin, sans-serif;
   width: 100%;
   margin-bottom: 1.5rem;
-  /* margin: 2em 0 4em 0; */
 }
 
 .cta-container a {

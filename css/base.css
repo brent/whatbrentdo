@@ -21,13 +21,13 @@ b {
   font-weight: bold;
 }
 
-.home-container {
+.container {
   box-sizing: border-box;
   width: 100%;
   min-height: 100vh;
 }
 
-.home-container--inner {
+.container--inner {
   max-width: 560px;
   padding: 60px 7% 60px 14%;
 }
@@ -43,7 +43,7 @@ b {
   color: #aaa;
 }
 
-.footer .home-container--inner > p {
+.footer .container--inner > p {
   font-size: 0.8rem;
 }
 
@@ -68,7 +68,6 @@ b {
 }
 
 @media screen and (min-width: 800px) {
-
   .footer__sub-heading {
     font-size: 1.8rem;
   }
@@ -98,7 +97,6 @@ b {
 }
 
 @media screen and (min-width: 800px) {
-
   .footer__sign-off {
     border-top: 1px solid #515151;
     font-size: 3rem;
@@ -145,6 +143,10 @@ b {
   flex: 0 0 auto;
   margin: 0;
   padding-bottom: 30px;
+}
+
+.case-study__body .cta-container {
+  margin-bottom: 1.5rem;
 }
 
 .cta-container a {
@@ -209,10 +211,6 @@ b {
   margin-bottom: 1rem;
 }
 
-.case-study__footer-work li:nth-child(odd) {
-  margin-right: 1rem;
-}
-
 .case-study__footer-work li:last-child {
   margin-bottom: 0;
 }
@@ -224,6 +222,12 @@ b {
 
 .case-study__footer-work img {
   width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .case-study__footer-work li:nth-child(even) {
+    margin-left: 1rem;
+  }
 }
 
 /***************************/
