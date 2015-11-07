@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,900|Pacifico|Cabin);
+
+.whatupbro {
+  background: #F2A100;
+}
+
+.whatupbro--inner {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.whatupbro--inner p {
+  font-family: inherit;
+}
+
+.whatupbro__title {
+  color: #fff;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 19vw;
+  font-weight: 900;
+  text-shadow: 5px 5px 0 rgba(0,0,0,0.33);
+  text-transform: uppercase;
+}
+
+.whatupbro__title span {
+  font-family: Pacifico, serif;
+  font-size: 15vw;
+  text-transform: lowercase;
+}
+
+.whatupbro__main > p {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 1.1rem;
+  line-height: 1.25em;
+}
+
+.whatupbro .case-study__details {
+  font-family: Cabin, sans-serif;
+  border-top-color: #a26b00;
+  color: #a26b00;
+  margin: 2.2em auto;
+}
+
+.whatupbro .case-study__details-copy {
+  color: inherit;
+}
+
+.cta-container {
+  font-family: Cabin, sans-serif;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  /* margin: 2em 0 4em 0; */
+}
+
+.cta-container a {
+  border-color: #a26b00;
+  color: #a26b00;
+  -webkit-transition: 0.2s background, 0.2s border-color, 0.2s color;
+  transition: 0.2s background, 0.2s border-color, 0.2s color;
+}
+
+.cta-container a:hover {
+  background: #fff;
+  border-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  color: #F2A100;
+}
+
+.whatupbro__intro .cta-container a {
+  max-width: 220px;
+}
+
+.whatupbro__main .cta-container a {
+}
+
+/***************************/
+
+@media screen and (min-width: 600px) {
+}
+
+@media screen and (min-width: 800px) {
+
+  .whatupbro__main > p {
+    font-size: 3rem;
+    margin-bottom: 6rem;
+  }
+
+  .whatupbro__title {
+    font-size: 144px;
+    text-shadow: 5px 5px 0 rgba(0,0,0,0.33);
+  }
+
+  .whatupbro__title span {
+    font-size: 114px;
+  }
+}

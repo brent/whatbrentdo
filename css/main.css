@@ -1,0 +1,220 @@
+/* @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic&PT+Serif); */
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic);
+
+/***************************/
+
+.attribution {
+  font-size: 0.8em;
+}
+
+.attributed-link {
+  color: inherit;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.attributed-link:hover {
+  text-decoration: underline;
+}
+
+/***************************/
+
+.intro {
+  background: #645373;
+}
+
+.intro,
+.intro .home-container--inner {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.intro .home-container--inner {
+  padding: 0 7% 0 14%;
+}
+
+.intro p {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #fff;
+  line-height: 1.25em;
+}
+
+.intro__greeting {
+  color: #fff;
+  flex: 1 100%;
+  font-weight: 300;
+  font-size: 10vw;
+  line-height: 1.2em;
+  position: relative;
+  top: -3.6875rem;
+}
+
+.intro__greeting a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.intro__greeting a:hover {
+  color: #e5e5e5;
+  text-decoration: none;
+}
+
+.intro__name {
+  font-weight: bold;
+}
+
+.intro__logo {
+  align-self: flex-start;
+  flex: 1 100%;
+  margin-top: 1.25rem;
+}
+
+.intro__logo a {
+  background: url("../img/logo.svg") no-repeat;
+  display: block;
+  text-indent: -9999px;
+  height: 2.4375rem;
+  width: 3rem;
+}
+
+/***************************/
+
+.work {
+  background: url("../img/bg.png") no-repeat center;
+  background-size: cover;
+}
+
+.work .home-container--inner:first-child {
+  padding-bottom: 0;
+}
+
+.work .home-container--inner:last-child {
+  padding-top: 0;
+}
+
+.work p {
+  line-height: 1.4375em;
+  margin-bottom: 2.5rem;
+}
+
+.work__sub-heading-container {
+  margin-bottom: 1.25rem;
+}
+
+.work__sub-heading {
+  color: #6F5388;
+  font-size: 6vw;
+  font-weight: 300;
+}
+
+.work__design,
+.work__tech {
+  padding-bottom: 2.5rem;
+}
+
+.work__heading {
+  color: #6F5388;
+  font-size: 10vw;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+}
+
+.work__list ul {
+}
+
+.work__list p {
+  color: #777;
+  font-size: 0.75rem;
+}
+
+.work__list p > a {
+  color: inherit;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.work__list p > a:hover {
+  text-decoration: underline;
+}
+
+.work__gallery {
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  width: 100vw;
+  padding-left: 5%;
+}
+
+.work__gallery::-webkit-scrollbar {
+  display: none;
+}
+
+.work__gallery-item {
+  display: inline-block;
+  width: 86%;
+  max-width: 512px;
+  margin-right: 5%;
+}
+
+.work__gallery-item a {
+  display: block;
+  width: 100%;
+}
+
+.work__gallery-item img {
+  box-shadow: 0 1px 7px rgba(0,0,0,0.25);
+  width: inherit;
+}
+
+/***************************/
+
+@media screen and (min-width: 600px) {
+  .intro__greeting {
+    font-size: 8vw;
+    line-height: 1.2rem;
+  }
+
+  .work__heading {
+    font-size: 7vw;
+  }
+
+  .work__sub-heading,
+  .footer__sub-heading {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .home-container--inner {
+    width: 100%;
+    padding: 60px 12% 60px 24%;
+  }
+
+  .home-container--inner__body-copy {
+    font-size: 18px;
+  }
+
+  .intro .home-container--inner {
+    padding: 0 12% 0 24%;
+  }
+
+  .intro__greeting {
+    font-size: 72px;
+  }
+
+  .work__heading {
+    font-size: 64px;
+  }
+
+  .work__sub-heading,
+  .footer__sub-heading {
+    font-size: 36px;
+  }
+
+  .work__design .work__sub-heading,
+  .work__sub-heading-container {
+    margin-bottom: 40px;
+  }
+}
