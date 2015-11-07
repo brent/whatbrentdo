@@ -180,8 +180,7 @@
     font-size: 7vw;
   }
 
-  .work__sub-heading,
-  .footer__sub-heading {
+  .work__sub-heading {
     font-size: 4vw;
   }
 }
@@ -206,6 +205,10 @@
 
   .work__heading {
     font-size: 64px;
+  }
+
+  .work__sub-heading {
+    font-size: 1.8rem;
   }
 
   .work__design .work__sub-heading,

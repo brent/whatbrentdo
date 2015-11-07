@@ -67,6 +67,12 @@ b {
   margin-bottom: 1.25em;
 }
 
+@media screen and (min-width: 600px) {
+  .footer__sub-heading {
+    font-size: 4vw;
+  }
+}
+
 @media screen and (min-width: 800px) {
   .footer__sub-heading {
     font-size: 1.8rem;
