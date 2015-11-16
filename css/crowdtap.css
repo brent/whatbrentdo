@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "Proxima Nova";
+  src: url('fonts/proxima-nova-regular.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url('fonts/proxima-nova-regular-italic.woff') format('woff');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url('fonts/proxima-nova-black.woff') format('woff');
+  font-weight: 900;
+}
+
+body,
+p,
+.crowdtap {
+  font-family: "Proxima Nova";
+}
+
+.crowdtap__splash {
+  background: #FA1300;
+}
+
+.case-study__title {
+  color: #fff;
+}
+
+.case-study__title p {
+  color: inherit;
+}
+
+.case-study__title .ct-logo {
+  display: inline-block;
+  background: url('../img/crowdtap_logo_knockout.svg') no-repeat;
+  width: 67vw;
+  height: auto;
+  min-height: 2.95rem;
+  text-indent: -9999px;
+}
+
+.crowdtap__intro-big-text {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.crowdtap__big-damn,
+.crowdtap__crazy-red {
+  color: #FA1300;
+}
+
+.crowdtap__big-damn {
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 4.8rem;
+  text-transform: uppercase;
+}
+
+.crowdtap__crazy-red {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.crowdtap__redesign-start {
+  font-style: italic;
+  font-size: 0.8rem;
+  line-height: 0.9rem;
+}
+
+.crowdtap__intro-copy {
+  font-size: 1.6rem;
+}
+
+.crowdtap__intro-copy p {
+  color: #444;
+  line-height: 1.95rem;
+  margin-bottom: 2rem;
+}
+
+.crowdtap__intro-copy p.crowdtap--red-copy {
+  color: #FA1300;
+}
+
+.crowdtap__responsibilities-blurb {
+  background: #00B0CA;
+}
+
+.crowdtap__ct-1-dot-5 {
+  color: #33c0d5;
+  font-family: "Proxima Nova";
+  font-size: 2.2rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.crowdtap__onboarding-thumbs > img,
+.crowdtap__portal img,
+.crowdtap__components img {
+  width: 100%;
+}
+
+.crowdtap__mobile-onboarding-grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 0.25rem 0 0.5rem;
+}
+
+.crowdtap__mobile-onboarding-grid img {
+  flex: 0 0 auto;
+  width: 104px;
+  height: 185px;
+  margin-bottom: 0.5rem;
+}
+
+.crowdtap__mobile-onboarding-grid img:nth-child(n+3) {
+  margin-bottom: 0;
+}
+
+.crowdtap__portal {
+  background: #F5F7F9;
+}

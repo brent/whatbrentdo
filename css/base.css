@@ -1,14 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+
 html,
 body {
   font-size: 20px;
 }
 
-body {
+.wrapper {
   font-family: "Roboto Condensed", sans-serif;
 }
 
 p {
-  font-family: Georgia, serif;
   color: #777;
   line-height: 1.25rem;
 }
@@ -42,6 +43,7 @@ b {
 .footer,
 .footer p {
   color: #aaa;
+  font-family: Georgia, sans-serif;
 }
 
 .footer .container--inner > p {
@@ -51,7 +53,8 @@ b {
 .footer__heading,
 .footer__sub-heading {
   color: #eee;
-  margin-bottom: 1.25rem;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 1rem;
 }
 
 .footer__heading {
@@ -124,7 +127,7 @@ b {
   max-width: 1024px;
 }
 
-.case-study__intro .case-study--inner {
+.case-study__splash .case-study--inner {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
@@ -146,7 +149,7 @@ b {
   width: 2rem;
 }
 
-.case-study__intro .cta-container {
+.case-study__splash .cta-container {
   flex: 0 0 auto;
   margin: 0;
   padding-bottom: 30px;
@@ -236,8 +239,7 @@ b {
     max-width: 49%;
   }
 
-  .case-study__footer-work li {
-  }
+  .case-study__footer-work li { }
 }
 
 @media screen and (min-width: 800px) {
@@ -248,8 +250,6 @@ b {
 
 /***************************/
 
-@media screen and (min-width: 600px) {
-}
+@media screen and (min-width: 600px) { }
 
-@media screen and (min-width: 800px) {
-}
+@media screen and (min-width: 800px) { }

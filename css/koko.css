@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic);
+
+.case-study--inner img {
+  width: 100%;
+}
+
+.wrapper {
+  font-family: "Open Sans", sans-serif;
+}
+
+.koko__splash {
+  background: #299BB6;
+}
+
+.case-study__title .koko-logo {
+  display: inline-block;
+  background: url('../work/koko/img/koko-logo.svg') no-repeat;
+  width: 53vw;
+  height: auto;
+  min-height: 5.6rem;
+  text-indent: -9999px;
+}
+
+.case-study__title p {
+  color: #fff;
+}
+
+.koko__intro {
+  background: #299BB6;
+}
+
+.koko__intro p {
+  margin-bottom: 1rem;
+}
+
+.koko__intro p:nth-last-child(1),
+.koko__intro p:nth-last-child(2) {
+  font-weight: bold;
+}
+
+.koko__community {
+  background: #40BDD1;
+}
