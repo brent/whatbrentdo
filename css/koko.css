@@ -1,4 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,900,400italic);
+
+img {
+  margin-bottom: 2rem;
+}
 
 .case-study--inner img {
   width: 100%;
@@ -12,17 +16,40 @@
   background: #299BB6;
 }
 
-.case-study__title .koko-logo {
+.case-study__title .koko__logo {
   display: inline-block;
   background: url('../work/koko/img/koko-logo.svg') no-repeat;
-  width: 53vw;
+  background-size: auto;
+  width: 10rem;
   height: auto;
   min-height: 5.6rem;
   text-indent: -9999px;
+  margin: 0.5rem 0;
 }
 
 .case-study__title p {
   color: #fff;
+}
+
+.koko__with-dan {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.koko__with-dan a {
+  color: inherit;
+}
+
+.case-study__body p {
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.koko__heading {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 0 0 2rem;
 }
 
 .koko__intro {
@@ -30,7 +57,7 @@
 }
 
 .koko__intro p {
-  margin-bottom: 1rem;
+  color: #fff;
 }
 
 .koko__intro p:nth-last-child(1),
@@ -38,6 +65,67 @@
   font-weight: bold;
 }
 
-.koko__community {
+.koko__community,
+.koko__context,
+.koko__extras {
   background: #40BDD1;
+}
+
+.koko__community p,
+.koko__context p,
+.koko__extras p {
+  color: #156F84;
+}
+
+.koko__thumb-container {
+  position: relative;
+}
+
+.koko__thumb-container .koko__example-num {
+  position: absolute;
+}
+
+.koko__thumb-container.koko__thumb--review .koko__example-num {
+  bottom: 19rem;
+  left: -0.5rem;
+}
+
+.koko__example-num {
+  background: #FF5784;
+  border-radius: 100%;
+  border: 3px solid #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+  color: #fff;
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 900;
+  padding: 0.15rem 0.33rem;
+  text-align: center;
+  line-height: 0.8rem;
+}
+
+.koko__example-container {
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 0.8rem;
+}
+
+.koko__example-container p {
+  line-height: 1.2rem;
+}
+
+.koko__example-container .koko__example-num p,
+.koko__example-container .koko__example-num-container {
+  flex: 0 0 auto;
+}
+
+.koko__example-container .koko__example-num {
+  margin-right: 0.5rem;
+}
+
+.koko__thumb-container.koko__thumb--remix .koko__example-num,
+.koko__thumb-container.koko__thumb--reframe-01 .koko__example-num,
+.koko__thumb-container.koko__thumb--reframe-02 .koko__example-num {
+  top: -0.5rem;
+  left: 46%;
 }

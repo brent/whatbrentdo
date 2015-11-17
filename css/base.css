@@ -31,7 +31,7 @@ b {
 
 .container--inner {
   max-width: 560px;
-  padding: 60px 7% 60px 14%;
+  padding: 3rem 7% 3rem 14%;
 }
 
 /***************************/
@@ -179,7 +179,7 @@ b {
 }
 
 .case-study__body {
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 
 .case-study__details {
@@ -245,6 +245,10 @@ b {
 @media screen and (min-width: 800px) {
   .case-study__footer-work li:nth-child(even) {
     margin-left: 1rem;
+  }
+
+  .case-study__body {
+    padding: 4rem 0;
   }
 }
 
