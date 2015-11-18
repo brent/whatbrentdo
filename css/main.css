@@ -136,35 +136,8 @@
   text-decoration: underline;
 }
 
-.work__gallery {
-  -webkit-overflow-scrolling: touch;
-  box-sizing: border-box;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
-  width: 100vw;
-  padding-left: 5%;
-}
-
-.work__gallery::-webkit-scrollbar {
-  display: none;
-}
-
-.work__gallery-item {
-  display: inline-block;
-  width: 86%;
-  max-width: 512px;
-  margin-right: 5%;
-}
-
-.work__gallery-item a {
-  display: block;
-  width: 100%;
-}
-
 .work__gallery-item img {
   box-shadow: 0 1px 7px rgba(0,0,0,0.25);
-  width: inherit;
 }
 
 /***************************/

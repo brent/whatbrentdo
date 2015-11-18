@@ -36,6 +36,37 @@ b {
 
 /***************************/
 
+.work__gallery--horizontal {
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  width: 100vw;
+  padding-left: 5%;
+}
+
+.work__gallery--horizontal::-webkit-scrollbar {
+  display: none;
+}
+
+.work__gallery-item {
+  display: inline-block;
+  width: 86%;
+  max-width: 512px;
+  margin-right: 5%;
+}
+
+.work__gallery-item a {
+  display: block;
+}
+
+.work__gallery-item img {
+  width: 100%;
+}
+
+/***************************/
+
 .footer {
   background: #333;
 }
