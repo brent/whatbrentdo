@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic);
+
+.socialstars {
+  font-family: Lato, sans-serif;
+  font-size: 0.9rem;
+}
+
+.socialstars p {
+  margin-bottom: 2rem;
+  line-height: 1.6rem;
+}
+
+.socialstars__splash {
+  background: url('../work/socialstars/img/socialstars-splash.png') no-repeat;
+  background-size: cover;
+}
+
+.case-study__title .socialstars__logo {
+  background: url('../work/socialstars/img/socialstars-logo.svg') no-repeat;
+  background-size: 10rem 8.05rem;
+  display: inline-block;
+  height: auto;
+  margin: 0 auto;
+  min-height: 9.1rem;
+  text-indent: -9999px;
+  width: 11.3rem;
+}
+
+.socialstars__big-text {
+  color: #1EB2C3;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+.socialstars__intro {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.socialstars__intro .case-study--inner {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.socialstars__similar-different-block {
+  margin: 3rem 0 2rem;
+}
+
+.socialstars__similar-different-block .socialstars__similar,
+.socialstars__similar-different-block .socialstars__different {
+  color: #1EB2C3;
+  display: block;
+  font-weight: bold;
+  height: auto;
+  line-height: auto;
+  width: 100%;
+}
+
+.socialstars__similar-different-block .socialstars__similar {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.socialstars__similar-different-block .socialstars__different {
+  font-size: 2.7rem;
+}
+
+.socialstars__main .socialstars__big-text {
+  text-align: center;
+}
+
+.socialstars__main img {
+  width: 100%;
+  margin-bottom: 2rem;
+}

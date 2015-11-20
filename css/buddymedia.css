@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+
+.buddymedia {
+  font-family: Arial, sans-serif;
+}
+
+.buddymedia h2 {
+  color: #1E9EED;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.buddymedia h2 small {
+  display: block;
+  font-size: 0.9rem;
+}
+
+.case-study__title {
+  font-size: 0.8rem;
+}
+
+.case-study__header a { }
+
+.case-study__title .buddymedia__logo {
+  background: url('../work/buddymedia/img/buddymedia-logo.png') no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  height: auto;
+  margin: 0.5rem 0 0;
+  min-height: 2.1rem;
+  text-indent: -9999px;
+  width: 16.75rem;
+}
+
+.case-study--inner img {
+  box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.buddymedia__analytics p,
+.buddymedia__conversationbuddy p {
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  line-height: 1.2rem;
+}

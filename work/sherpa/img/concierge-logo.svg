@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="152px" height="113px" viewBox="0 0 152 113" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="77px" height="58px" viewBox="0 0 77 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
     <title>Path 4 + Concierge</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-644.000000, -454.000000)" fill="#FFFFFF">
-            <g id="Bitmap-+-Rectangle-15-+-Path-4-+-Concierge" sketch:type="MSLayerGroup">
-                <g id="Path-4-+-Concierge" transform="translate(643.000000, 454.000000)">
-                    <path d="M40,56 L54.3382353,29.12 L58.75,36.96 L75.2941176,0 L89.6323529,25.76 L94.0441176,13.44 L115,56 L40,56 Z" id="Path-4" sketch:type="MSShapeGroup"></path>
-                    <text id="Concierge" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="36" font-weight="260">
-                        <tspan x="0" y="106">Concierge</tspan>
-                    </text>
-                </g>
+        <g id="[mobile]-sherpa-concierge" sketch:type="MSArtboardGroup" transform="translate(-149.000000, -133.000000)" fill="#FFFFFF">
+            <g id="Path-4-+-Concierge" sketch:type="MSLayerGroup" transform="translate(148.750000, 133.333333)">
+                <path d="M20.1290323,28.2434783 L27.3444023,14.6866087 L29.5645161,18.6406957 L37.8899431,0 L45.1053131,12.992 L47.3254269,6.77843478 L57.8709677,28.2434783 L20.1290323,28.2434783 Z" id="Path-4" sketch:type="MSShapeGroup"></path>
+                <text id="Concierge" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="18" font-weight="260">
+                    <tspan x="0" y="52.8086957">Concierge</tspan>
+                </text>
             </g>
         </g>
     </g>

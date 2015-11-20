@@ -10,10 +10,20 @@
   background-size: cover;
 }
 
+.case-study__title {
+  text-align: center;
+  line-height: auto;
+}
+
 .case-study__title .sherpa__logo {
-  background-size: 3.9rem 2.9rem;
-  display: block;
+  background: url('../work/sherpa/img/concierge-logo.svg') center no-repeat;
+  background-size: 100% 80%;
+  display: inline-block;
+  height: auto;
+  margin: 0 auto;
+  min-height: 4.85rem;
   text-indent: -9999px;
+  width: 5.85rem;
 }
 
 .case-study__body p {
