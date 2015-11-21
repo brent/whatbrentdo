@@ -6,6 +6,7 @@
 }
 
 .socialstars p {
+  color: #777;
   margin-bottom: 2rem;
   line-height: 1.6rem;
 }
@@ -26,10 +27,17 @@
   width: 11.3rem;
 }
 
-.socialstars__big-text {
+p.socialstars__big-text {
   color: #1EB2C3;
   font-size: 1.4rem;
   line-height: 1.6rem;
+}
+
+p.socialstars__shh {
+  border-bottom: 1px solid #eee;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 .socialstars__intro {

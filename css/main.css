@@ -1,5 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic);
 
+.wrapper {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+p {
+  color: #777;
+  line-height: 1.25rem;
+}
+
+.container--inner__body-copy {
+}
+
+.container--inner > p {
+  font-family: Georgia, serif;
+  font-size: 0.8rem;
+}
+
 /***************************/
 
 .attribution {

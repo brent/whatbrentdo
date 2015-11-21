@@ -30,9 +30,19 @@
   margin-bottom: 2rem;
 }
 
+.sherp__intro .case-study--inner {
+  min-height: 0;
+}
+
 .sherpa__intro p {
   color: #ECE69D;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+
+.sherpa__intro p:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .sherpa__intro .case-study--inner {
@@ -44,7 +54,6 @@
   font-size: 1.2rem;
   text-align: center;
   line-height: 1.6rem;
-  margin-bottom: 4rem;
 }
 
 .sherpa__gallery {

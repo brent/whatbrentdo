@@ -42,7 +42,8 @@
 
 .buddymedia__analytics p,
 .buddymedia__conversationbuddy p {
-  font-size: 0.9rem;
+  color: #777;
+  font-size: 0.8rem;
   margin-bottom: 2rem;
   line-height: 1.2rem;
 }

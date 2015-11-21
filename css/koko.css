@@ -5,6 +5,10 @@
   width: 100%;
 }
 
+.case-study--inner .koko__thumb-container:last-child img {
+  margin-bottom: 0;
+}
+
 .wrapper {
   font-family: "Open Sans", sans-serif;
 }
@@ -55,6 +59,10 @@
 
 .koko__intro p {
   color: #fff;
+}
+
+.koko__intro p:last-child {
+  margin-bottom: 0;
 }
 
 .koko__intro p:nth-last-child(1),

@@ -4,17 +4,12 @@
   background: #F2A100;
 }
 
-.whatupbro--inner {
+.case-study--inner {
   font-family: "Titillium Web", sans-serif;
-}
-
-.whatupbro--inner p {
-  font-family: inherit;
 }
 
 .whatupbro__title {
   color: #fff;
-  font-family: "Titillium Web", sans-serif;
   font-size: 19vw;
   font-weight: 900;
   text-shadow: 5px 5px 0 rgba(0,0,0,0.33);
@@ -27,11 +22,16 @@
   text-transform: lowercase;
 }
 
-.whatupbro__main > p {
-  color: #fff;
+.whatupbro__main {
+  color: #fbe3b3;
+  /* color: #fff; */
   font-size: 1.5rem;
   margin-bottom: 1.1rem;
   line-height: 1.25em;
+}
+
+.whatupbro__main p {
+  margin-bottom: 2rem;
 }
 
 .whatupbro .case-study__details {
@@ -43,6 +43,7 @@
 
 .whatupbro .case-study__details-copy {
   color: inherit;
+  margin-bottom: 0;
 }
 
 .cta-container {

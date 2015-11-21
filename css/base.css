@@ -5,15 +5,6 @@ body {
   font-size: 20px;
 }
 
-.wrapper {
-  font-family: "Roboto Condensed", sans-serif;
-}
-
-p {
-  color: #777;
-  line-height: 1.25rem;
-}
-
 em {
   font-style: italic;
 }
@@ -191,15 +182,16 @@ b {
 }
 
 .cta-container a {
-  backgrond: none;
+  background: none;
   border-radius: 3px;
   border-style: solid;
   border-width: 2px;
   box-sizing: border-box;
   display: block;
   font-size: 0.8rem;
+  line-height: 1rem;
   margin: 0 auto;
-  padding: 0.75em;
+  padding: 0.5rem 0;
   text-align: center;
   text-decoration: none;
 }
@@ -223,11 +215,15 @@ b {
 
 .case-study__details-copy {
   font-size: 0.8rem;
+  line-height: 1.4rem;
 }
 
 .case-study__footer {
-  padding-top: 4rem;
   background: #333;
+  color: #aaa;
+  font-family: Georgia, serif;
+  line-height: 1.2rem;
+  padding-top: 4rem;
 }
 
 .case-study__footer--inner {

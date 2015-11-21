@@ -17,8 +17,6 @@
   font-weight: 900;
 }
 
-body,
-p,
 .crowdtap {
   font-family: "Proxima Nova";
 }
@@ -35,6 +33,20 @@ p,
   color: inherit;
 }
 
+.case-study__body p {
+  color: #777;
+  line-height: 1.4rem;
+}
+
+.case-study--inner h3 {
+  margin-bottom: 2rem;
+}
+
+.case-study--inner h4 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
 .case-study__title .ct-logo {
   display: inline-block;
   background: url('../img/crowdtap_logo_knockout.svg') no-repeat;
@@ -46,27 +58,27 @@ p,
 
 .crowdtap__intro-big-text {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
-.crowdtap__big-damn,
-.crowdtap__crazy-red {
+p.crowdtap__big-damn,
+p.crowdtap__crazy-red {
   color: #FA1300;
+  line-height: normal;
 }
 
-.crowdtap__big-damn {
+.crowdtap__intro-big-text p.crowdtap__big-damn {
   font-size: 5rem;
   font-weight: 900;
-  line-height: 4.8rem;
   text-transform: uppercase;
+  margin-bottom: -1.5rem;
 }
 
-.crowdtap__crazy-red {
+.crowdtap__intro-big-text p.crowdtap__crazy-red {
   font-size: 2.2rem;
-  margin-bottom: 0.5rem;
 }
 
-.crowdtap__redesign-start {
+.crowdtap__intro-big-text p.crowdtap__redesign-start {
   font-style: italic;
   font-size: 0.8rem;
   line-height: 0.9rem;
@@ -82,20 +94,56 @@ p,
   margin-bottom: 2rem;
 }
 
+.crowdtap__intro-copy p:last-child {
+  margin-bottom: 0;
+}
+
 .crowdtap__intro-copy p.crowdtap--red-copy {
   color: #FA1300;
 }
 
 .crowdtap__responsibilities-blurb {
   background: #00B0CA;
+  font-size: 1.2rem;
+  color: #fff;
+  line-height: 1.45rem;
+}
+
+.crowdtap__responsibilities-blurb .case-study--inner {
+  min-height: 0;
 }
 
 .crowdtap__ct-1-dot-5 {
-  color: #33c0d5;
+  color: #80d8e5;
   font-family: "Proxima Nova";
   font-size: 2.2rem;
   font-weight: 900;
   text-align: center;
+  margin-bottom: 2rem;
+}
+
+.crowdtap__responsibilities-blurb p {
+  color: #fff;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.crowdtap__responsibilities-blurb p:last-child {
+  margin-bottom: 0;
+}
+
+.crowdtap__work-section-heading {
+  color: #FA1300;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.crowdtap__onboarding .crowdtap__work-section-heading {
+  font-size: 2.4rem;
+}
+
+.crowdtap__onboarding p {
+  margin: 2rem 0;
 }
 
 .crowdtap__onboarding-thumbs > img,
@@ -124,4 +172,12 @@ p,
 
 .crowdtap__portal {
   background: #F5F7F9;
+}
+
+.crowdtap__portal p {
+  margin-top: 2rem;
+}
+
+.crowdtap__portal .crowdtap__work-section-heading {
+  color: #444;
 }
