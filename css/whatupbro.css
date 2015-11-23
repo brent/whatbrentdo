@@ -46,19 +46,19 @@
   margin-bottom: 0;
 }
 
-.cta-container {
+.whatupbro .cta-container {
   font-family: Cabin, sans-serif;
   width: 100%;
 }
 
-.cta-container a {
+.whatupbro .cta-container a {
   border-color: #a26b00;
   color: #a26b00;
   -webkit-transition: 0.2s background, 0.2s border-color, 0.2s color;
   transition: 0.2s background, 0.2s border-color, 0.2s color;
 }
 
-.cta-container a:hover {
+.whatupbro .cta-container a:hover {
   background: #fff;
   border-color: #fff;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
