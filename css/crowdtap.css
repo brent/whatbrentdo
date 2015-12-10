@@ -68,7 +68,7 @@ p.crowdtap__crazy-red {
 }
 
 .crowdtap__intro-big-text p.crowdtap__big-damn {
-  font-size: 5rem;
+  font-size: 5.25rem;
   font-weight: 900;
   text-transform: uppercase;
   margin-bottom: -1.5rem;
@@ -149,6 +149,9 @@ p.crowdtap__crazy-red {
 .crowdtap__onboarding-thumbs > img,
 .crowdtap__portal img,
 .crowdtap__components img {
+  display: block;
+  margin: 0 auto;
+  max-width: 40rem;
   width: 100%;
 }
 
@@ -161,13 +164,10 @@ p.crowdtap__crazy-red {
 
 .crowdtap__mobile-onboarding-grid img {
   flex: 0 0 auto;
+  /* flex: 0 0 30%; */
   width: 104px;
   height: 185px;
   margin-bottom: 0.5rem;
-}
-
-.crowdtap__mobile-onboarding-grid img:nth-child(n+3) {
-  margin-bottom: 0;
 }
 
 .crowdtap__portal {
@@ -180,4 +180,37 @@ p.crowdtap__crazy-red {
 
 .crowdtap__portal .crowdtap__work-section-heading {
   color: #444;
+}
+
+/***************************/
+
+@media screen and (min-width: 600px) {
+  .crowdtap__intro-big-text {
+    margin-bottom: 4rem;
+  }
+
+  .crowdtap__intro-big-text p.crowdtap__big-damn {
+    font-size: 7.5rem;
+    margin-bottom: -2rem;
+  }
+
+  .crowdtap__intro-big-text p.crowdtap__crazy-red {
+    font-size: 3.3rem;
+  }
+
+  .crowdtap__intro-big-text p.crowdtap__redesign-start {
+    font-size: 0.9rem;
+    line-height: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .case-study--inner {
+    max-width: 45rem;
+  }
+
+  .crowdtap__onboarding-thumbs > img {
+    max-width: 40rem;
+    margin: 0 auto;
+  }
 }

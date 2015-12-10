@@ -51,8 +51,10 @@ p.socialstars__shh {
   padding-bottom: 0;
 }
 
+p.socialstars__similar-different-block,
 .socialstars__similar-different-block {
-  margin: 3rem 0 2rem;
+  /* margin: 3rem 0 2rem; */
+  margin: 4rem 0;
 }
 
 .socialstars__similar-different-block .socialstars__similar,
@@ -67,7 +69,7 @@ p.socialstars__shh {
 
 .socialstars__similar-different-block .socialstars__similar {
   font-size: 5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5em;
 }
 
 .socialstars__similar-different-block .socialstars__different {
@@ -82,3 +84,18 @@ p.socialstars__shh {
   width: 100%;
   margin-bottom: 2rem;
 }
+
+/***************************/
+
+@media screen and (min-width: 600px) {
+  .socialstars .case-study__body {
+    max-width: 30rem;
+    margin: 0 auto;
+  }
+
+  .socialstars__splash {
+    background-position: center;
+  }
+}
+
+@media screen and (min-width: 800px) { }

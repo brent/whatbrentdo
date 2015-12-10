@@ -89,3 +89,28 @@
 .sherpa__landing-page {
   border-bottom: 2px solid #1F2439;
 }
+
+/***************************/
+
+@media screen and (min-width: 600px) {
+  .sherpa__intro .sherpa__big-text,
+  .sherpa__big-text {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .sherpa__intro .sherpa__big-text,
+  .sherpa__big-text {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    width: 37rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .case-study--inner img {
+    max-width: 45rem;
+  }
+}
