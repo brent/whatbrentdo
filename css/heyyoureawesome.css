@@ -25,7 +25,7 @@ body {
   font-family: Cabin, sans-serif;
   font-size: 13vw;
   font-weight: 600;
-  margin-bottom: -2rem;
+  margin-bottom: -0.8em;
 }
 
 .heyyoureawesome__title .heyyoureawesome__awesome {
@@ -102,6 +102,12 @@ p.heyyoureawesome__script-headline {
   padding: 0;
 }
 
+.heyyoureawesome__form-gif {
+  display: block;
+  margin: 0 auto;
+  max-width: 512px;
+}
+
 @media screen and (min-width: 601px) {
   .heyyoureawesome__thumbs {
     display: flex;
@@ -125,4 +131,12 @@ p.heyyoureawesome__script-headline {
   }
 }
 
-@media screen and (min-width: 800px) { }
+@media screen and (min-width: 800px) {
+  .heyyoureawesome__title .heyyoureawesome__hey-youre {
+    font-size: 94px;
+  }
+
+  .heyyoureawesome__title .heyyoureawesome__awesome {
+    font-size: 124px;
+  }
+}

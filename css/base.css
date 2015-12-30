@@ -30,6 +30,7 @@ b {
 .work__gallery--horizontal {
   -webkit-overflow-scrolling: touch;
   box-sizing: border-box;
+  cursor: ew-resize;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;

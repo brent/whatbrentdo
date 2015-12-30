@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,900,400italic);
 
+.koko section {
+  clear: both;
+  overflow: hidden;
+}
+
 .case-study--inner img {
   margin-bottom: 2rem;
   width: 100%;
@@ -133,4 +138,81 @@
 .koko__thumb-container.koko__thumb--reframe-02 .koko__example-num {
   top: -0.5rem;
   left: 46%;
+}
+
+@media screen and (min-width: 600px) {
+}
+
+@media screen and (min-width: 800px) {
+  .case-study__body p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  .koko__app-thumb {
+    max-width: 18rem;
+  }
+
+  .koko__heading {
+    color: #fff;
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin: 0 0 2rem;
+  }
+
+  .koko__intro .koko__app-thumb {
+    float: left;
+    margin-right: 2rem;
+  }
+
+  p.koko__intro-big-text {
+    clear: both;
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+
+  .koko__thumb-container.koko__thumb--remix {
+    max-width: 360px;
+    position: relative;
+  }
+
+  .koko__example-container p {
+    font-size: .8rem;
+    line-height: 1.2em;
+  }
+
+  .koko__community .case-study--inner {
+    position: relative;
+  }
+
+  .koko__community-inner-container--review:after,
+  .koko__community-inner-container--remix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .koko__community-inner-copy {
+    float: right;
+  }
+
+  .koko__community-inner-thumb {
+    float: left;
+    width: 360px;
+  }
+
+  .koko__community-inner-container--review .koko__community-inner-copy {
+    width: 614px;
+  }
+
+  .koko__community-inner-container--remix {
+    position: absolute;
+    width: 712px;
+    top: 535px;
+    left: 312px;
+  }
+
+  .koko__community-inner-container--remix .koko__community-inner-copy {
+    width: 332px;
+  }
 }

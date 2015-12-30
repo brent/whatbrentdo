@@ -29,6 +29,10 @@
   line-height: 1.25em;
 }
 
+.whatupbro__main .case-study--inner {
+  min-height: auto;
+}
+
 .whatupbro__main p {
   margin-bottom: 2rem;
 }
