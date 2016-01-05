@@ -75,7 +75,7 @@ p.crowdtap__crazy-red {
 }
 
 .crowdtap__intro-big-text p.crowdtap__crazy-red {
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 
 .crowdtap__intro-big-text p.crowdtap__redesign-start {
@@ -110,7 +110,9 @@ p.crowdtap__crazy-red {
 }
 
 .crowdtap__responsibilities-blurb .case-study--inner {
-  min-height: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
 }
 
 .crowdtap__ct-1-dot-5 {
@@ -159,15 +161,17 @@ p.crowdtap__crazy-red {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  padding: 0.25rem 0 0.5rem;
+  padding: 4% 0 0;
+}
+
+.crowdtap__mobile-onboarding-grid .crowdtap__thumb-container {
+  flex: 0 0 31%;
+  max-width: 320px;
+  margin-bottom: 4%;
 }
 
 .crowdtap__mobile-onboarding-grid img {
-  flex: 0 0 auto;
-  /* flex: 0 0 30%; */
-  width: 104px;
-  height: 185px;
-  margin-bottom: 0.5rem;
+  width: 100%;
 }
 
 .crowdtap__portal {
@@ -182,6 +186,10 @@ p.crowdtap__crazy-red {
   color: #444;
 }
 
+.crowdtap__components-group {
+  margin-bottom: 2rem;
+}
+
 /***************************/
 
 @media screen and (min-width: 600px) {
@@ -190,12 +198,12 @@ p.crowdtap__crazy-red {
   }
 
   .crowdtap__intro-big-text p.crowdtap__big-damn {
-    font-size: 7.5rem;
+    font-size: 8.5rem;
     margin-bottom: -2rem;
   }
 
   .crowdtap__intro-big-text p.crowdtap__crazy-red {
-    font-size: 3.3rem;
+    font-size: 3rem;
   }
 
   .crowdtap__intro-big-text p.crowdtap__redesign-start {
@@ -205,12 +213,35 @@ p.crowdtap__crazy-red {
 }
 
 @media screen and (min-width: 800px) {
-  .case-study--inner {
-    max-width: 45rem;
+  .crowdtap__intro-big-text p.crowdtap__big-damn {
+    font-size: 16rem;
+    margin-bottom: -5rem;
+  }
+
+  .crowdtap__intro-big-text p.crowdtap__crazy-red {
+    font-size: 5rem;
+  }
+
+  .crowdtap__onboarding-thumbs {
+    width: 1024px;
+  }
+
+  .crowdtap__onboarding-thumbs > p {
+    margin: 3rem auto;
+    text-align: center;
+    width: 900px;
   }
 
   .crowdtap__onboarding-thumbs > img {
-    max-width: 40rem;
     margin: 0 auto;
+    max-width: 40rem;
+  }
+
+  .crowdtap__portal h3,
+  .crowdtap__portal p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 900px;
   }
 }

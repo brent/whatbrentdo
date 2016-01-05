@@ -1,11 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic);
 
+body {
+  background: #fafafa;
+}
+
 .socialstars {
   font-family: Lato, sans-serif;
   font-size: 0.9rem;
 }
 
-.socialstars p {
+.case-study--inner p {
   color: #777;
   margin-bottom: 2rem;
   line-height: 1.6rem;
@@ -46,15 +50,19 @@ p.socialstars__shh {
 }
 
 .socialstars__intro .case-study--inner {
-  border-bottom: 1px solid #eee;
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
-p.socialstars__similar-different-block,
-.socialstars__similar-different-block {
-  /* margin: 3rem 0 2rem; */
-  margin: 4rem 0;
+.socialstars__intro .case-study--inner > p:last-of-type {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 2rem;
+  margin-bottom: 0;
+}
+
+.socialstars__intro p.socialstars__similar-different-block {
+  margin-top: 6rem;
+  margin-bottom: 5rem;
 }
 
 .socialstars__similar-different-block .socialstars__similar,
@@ -81,14 +89,29 @@ p.socialstars__similar-different-block,
 }
 
 .socialstars__main img {
+  border-radius: 4px;
+  box-shadow: 0 1px 7px rgba(0,0,0,0.15);
+  display: block;
+  margin: 0 auto 2rem;
   width: 100%;
-  margin-bottom: 2rem;
+}
+
+.socialstars__app-screen {
+  max-width: 1024px;
+}
+
+.socialstars__email-screen {
+  margin: 0 auto;
+}
+
+.socialstars__email-screen img {
+  max-width: 618px;
 }
 
 /***************************/
 
 @media screen and (min-width: 600px) {
-  .socialstars .case-study__body {
+  .case-study__body {
     max-width: 30rem;
     margin: 0 auto;
   }
@@ -98,4 +121,33 @@ p.socialstars__similar-different-block,
   }
 }
 
-@media screen and (min-width: 800px) { }
+@media screen and (min-width: 800px) {
+  .case-study__body {
+    margin: 0 auto;
+    max-width: 1024px;
+  }
+
+  .case-study__body p {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30rem;
+  }
+
+  .socialstars__email-screens-container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .socialstars__email-screen {
+    flex: 0 0 47%;
+  }
+
+  .socialstars__email-screen img {
+    margin-bottom: 1rem;
+  }
+
+  .socialstars__email-screen:nth-of-type(1) { order: 1; }
+  .socialstars__email-screen:nth-of-type(2) { order: 3; }
+  .socialstars__email-screen:nth-of-type(3) { order: 2; }
+  .socialstars__email-screen:nth-of-type(4) { order: 4; }
+}

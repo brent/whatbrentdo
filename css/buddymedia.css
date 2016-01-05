@@ -34,10 +34,15 @@
   width: 16.75rem;
 }
 
+.case-study--inner {
+  max-width: 900px;
+}
+
 .case-study--inner img {
+  border-radius: 4px;
   box-shadow: 0 1px 5px rgba(0,0,0,0.15);
-  width: 100%;
   margin-bottom: 2rem;
+  width: 100%;
 }
 
 .buddymedia__analytics p,
@@ -46,4 +51,14 @@
   font-size: 0.8rem;
   margin-bottom: 2rem;
   line-height: 1.2rem;
+}
+
+@media screen and (min-width: 600px) {
+}
+
+@media screen and (min-width: 800px) {
+  .buddymedia h2 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
 }

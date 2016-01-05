@@ -70,7 +70,8 @@ b {
 }
 
 .footer .container--inner > p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
 }
 
 .footer__heading,
@@ -231,7 +232,7 @@ b {
   margin: 0 auto;
   max-width: 1024px;
   width: 89%;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .case-study__footer-work {
