@@ -64,12 +64,12 @@
   background: #323651;
 }
 
-.sherpa__gallery .work__gallery--horizontal {
-  padding-bottom: 3px;
+.work__gallery--horizontal .swiper-wrapper {
+  margin-left: 1rem;
 }
 
-.work__gallery-item img {
-  display: block;
+.work__gallery-item {
+  margin-right: 2rem;
 }
 
 .sherpa__profile {
@@ -88,6 +88,10 @@
 
 .sherpa__profile img {
   box-shadow: 0 1px 7px rgba(0,0,0,0.15);
+}
+
+.sherpa__profile .sherpa__big-text:last-of-type {
+  margin-bottom: 0;
 }
 
 .sherpa__landing-page {
@@ -127,5 +131,13 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 45rem;
+  }
+
+  .work__gallery--horizontal .swiper-wrapper {
+    margin-left: 4rem;
+  }
+
+  .work__gallery-item {
+    margin-right: 4rem;
   }
 }

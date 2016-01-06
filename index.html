@@ -4,6 +4,7 @@
   <head>
     <title>Brent Meyer is a designer and tech addict</title>
     <link href="css/reset.css" type="text/css" rel="stylesheet">
+    <link href="css/swiper.min.css" type="text/css" rel="stylesheet">
     <link href="css/base.css" type="text/css" rel="stylesheet">
     <link href="css/main.css" type="text/css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -46,45 +47,49 @@
 
           </div><!-- END .home-contianer -inner -->
 
-            <ul class="work__gallery--horizontal">
+          <ul class="swiper-container work__gallery--horizontal">
 
-              <li class="work__gallery-item">
+            <div class="swiper-wrapper">
+
+              <li class="swiper-slide work__gallery-item">
                 <a href="./work/crowdtap/index.html">
                   <img src="img/crowdtap_thumb.png">
                 </a>
               </li>
-              <li class="work__gallery-item">
+              <li class="swiper-slide work__gallery-item">
                 <a href="./work/koko/index.html">
                   <img src="img/koko_thumb.png">
                 </a>
               </li>
-              <li class="work__gallery-item">
+              <li class="swiper-slide work__gallery-item">
                 <a href="./work/sherpa/index.html">
                   <img src="img/sherpaconcierge_thumb.png">
                 </a>
               </li>
-              <li class="work__gallery-item">
+              <li class="swiper-slide work__gallery-item">
                 <a href="./work/socialstars/index.html">
                   <img src="img/socialstars_thumb.png">
                 </a>
               </li>
-              <li class="work__gallery-item">
+              <li class="swiper-slide work__gallery-item">
                 <a href="./work/buddymedia/index.html">
                   <img src="img/buddymedia_thumb.png">
-                  </a>
+                </a>
               </li>
-              <li class="work__gallery-item">
+              <li class="swiper-slide work__gallery-item">
                 <a href="./work/heyyoureawesome/index.html">
                   <img src="img/heyyoureawesome_thumb.png">
                 </a>
               </li>
-              <li class="work__gallery-item">
+              <li class="swiper-slide work__gallery-item">
                 <a href="./work/whatupbro/index.html">
                   <img src="img/whatupbro_thumb.png">
                 </a>
               </li>
 
-            </ul><!-- END .work__gallery -->
+            </div>
+
+          </ul><!-- END .work__gallery -->
 
         </div><!-- END .work__design" -->
 
@@ -156,6 +161,16 @@
       </section><!-- END .footer -->
 
     </div><!-- END .wrapper -->
+
+    <script src="js/swiper.min.js"></script>
+    <script>
+      var mySwiper = new Swiper ('.swiper-container', {
+        grabCursor: true,
+        freeMode: true,
+        freeModeMomentumRatio: 0.66,
+        slidesPerView: 'auto'
+      })
+    </script>
 
   </body>
 </html>
