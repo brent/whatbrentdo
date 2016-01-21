@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Cabin:400,600|Pacifico);
 
+.case-study__header a {
+  background-position: 0 -117px;
+}
+
 body {
   background: #F7F7F7;
 }

@@ -104,9 +104,9 @@ p.crowdtap__crazy-red {
 
 .crowdtap__responsibilities-blurb {
   background: #00B0CA;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   color: #fff;
-  line-height: 2rem;
+  line-height: 1.6rem;
 }
 
 .crowdtap__responsibilities-blurb p {
@@ -240,8 +240,9 @@ p.crowdtap__crazy-red {
 
   .crowdtap__responsibilities-blurb-chart {
     display: block;
-    max-width: 1400px;
     margin: 3rem auto;
+    max-width: 1400px;
+    width: 100%;
   }
 
   .crowdtap__onboarding-thumbs {

@@ -85,10 +85,10 @@ p {
 }
 
 .intro__logo a {
-  background: url("../img/logo.svg") no-repeat;
+  background: url("../img/logos.svg") no-repeat;
   display: block;
   text-indent: -9999px;
-  height: 2.4375rem;
+  height: 2rem;
   width: 3rem;
 }
 
