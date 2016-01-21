@@ -50,7 +50,8 @@
 }
 
 .sherpa__intro .case-study--inner {
-  min-height: auto;
+  /* min-height: auto; */
+  min-height: initial;
 }
 
 .sherpa__intro .sherpa__big-text,

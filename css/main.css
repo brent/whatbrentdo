@@ -150,8 +150,16 @@ p {
   text-decoration: underline;
 }
 
+.work__gallery--horizontal {
+  box-sizing: border-box;
+}
+
 .work__gallery--horizontal .swiper-wrapper {
-  margin-left: 1.5rem;
+  margin-left: 0.75rem;
+}
+
+div[class^="swiper-button-"] {
+  display: none;
 }
 
 .work__gallery-item {
@@ -220,6 +228,10 @@ p {
 
   .work__gallery--horizontal .swiper-wrapper {
     margin-left: 3rem;
+  }
+
+  div[class^="swiper-button-"] {
+    display: block;
   }
 
   .work__gallery-item {

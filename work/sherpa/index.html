@@ -10,13 +10,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   </head>
   <body>
+    <p id="windowHeight"></p>
+    <p id="splashHeight"></p>
+    <p id="introHeight"></p>
 
     <div class="wrapper sherpa case-study">
 
       <section class="sherpa__splash case-study__splash">
         <div class="case-study--inner">
           <header class="case-study__header">
-            <a href="../../index.html">Brent Meyer</a>
+            <a href="../../">Brent Meyer</a>
           </header>
 
           <h1 class="case-study__title">
@@ -124,13 +127,13 @@
           <section class="case-study__footer-work">
             <h3 class="footer__sub-heading">More work</h3>
             <ul>
-              <li><a href="./../crowdtap/index.html"><img src="../../img/crowdtap_thumb.png" /></a></li>
-              <li><a href="./../koko/index.html"><img src="../../img/koko_thumb.png" /></a></li>
-              <!-- <li><a href="./../sherpa/index.html"><img src="../../img/sherpaconcierge_thumb.png" /></a></li> -->
-              <li><a href="./../socialstars/index.html"><img src="../../img/socialstars_thumb.png" /></a></li>
-              <li><a href="./../buddymedia/index.html"><img src="../../img/buddymedia_thumb.png" /></a></li>
-              <li><a href="./../heyyoureawesome/index.html"><img src="../../img/heyyoureawesome_thumb.png" /></a></li>
-              <li><a href="./../whatupbro/index.html"><img src="../../img/whatupbro_thumb.png" /></a></li>
+              <li><a href="./../crowdtap/"><img src="../../img/crowdtap_thumb.png" /></a></li>
+              <li><a href="./../koko/"><img src="../../img/koko_thumb.png" /></a></li>
+              <!-- <li><a href="./../sherpa/"><img src="../../img/sherpaconcierge_thumb.png" /></a></li> -->
+              <li><a href="./../socialstars/"><img src="../../img/socialstars_thumb.png" /></a></li>
+              <li><a href="./../buddymedia/"><img src="../../img/buddymedia_thumb.png" /></a></li>
+              <li><a href="./../heyyoureawesome/"><img src="../../img/heyyoureawesome_thumb.png" /></a></li>
+              <li><a href="./../whatupbro/"><img src="../../img/whatupbro_thumb.png" /></a></li>
             </ul>
           </section><!-- END .case-study__footer-work -->
 
@@ -155,13 +158,25 @@
 
     <script src="../../js/swiper.min.js"></script>
     <script>
-      var mySwiper = new Swiper ('.swiper-container', {
-        grabCursor: true,
-        freeMode: true,
-        freeModeMomentumRatio: 0.66,
-        slidesPerView: 'auto'
-      })
+      (function() {
+
+        var mySwiper = new Swiper ('.swiper-container', {
+          grabCursor: true,
+          freeMode: true,
+          //freeModeMomentum: false,
+          freeModeMomentumRatio: 0.5,
+          longSwipes: false,
+          slidesPerView: 'auto'
+        })
+
+        var vh = screen.height+'px',
+            splashDiv = document.querySelector('.sherpa__splash .case-study--inner');
+        splashDiv.style.minHeight = vh;
+
+      })();
+
     </script>
 
   </body>
 </html>
+

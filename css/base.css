@@ -33,6 +33,7 @@ b {
 }
 
 .work__gallery-item a {
+  display: block;
 }
 
 .work__gallery-item img {
@@ -147,8 +148,10 @@ b {
 }
 
 .case-study__header a {
-  background: url("../img/logo.svg") no-repeat;
-  background-size: 2rem 1.565rem;
+  /* background: url("../img/logo.svg") no-repeat; */
+  /* background-size: 2rem 1.565rem; */
+  background: url("../img/logos.svg") no-repeat;
+  background-size: 2.5rem 2rem;
   display: block;
   text-indent: -9999px;
   height: 1.56rem;
