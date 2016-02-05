@@ -1,11 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+.buddymedia {
+  font-family: "Open Sans", sans-serif;
+}
 
 .case-study__header a {
   background-position: 0 -78px;
-}
-
-.buddymedia {
-  font-family: Arial, sans-serif;
 }
 
 .buddymedia h2 {
@@ -57,6 +57,17 @@
   line-height: 1.2rem;
 }
 
+p.buddymedia__intro-paragraph {
+  margin-bottom: 3rem;
+}
+
+.buddymedia__divider {
+  width: 50%;
+  border: none;
+  border-top: 1px solid #eee;
+  margin-bottom: 3rem;
+}
+
 @media screen and (min-width: 600px) {
 }
 
@@ -64,5 +75,11 @@
   .buddymedia h2 {
     font-size: 3rem;
     margin-bottom: 3rem;
+  }
+
+  .buddymedia__analytics p,
+  .buddymedia__conversationbuddy p {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
   }
 }

@@ -77,6 +77,10 @@ body {
   margin-right: auto;
 }
 
+.heyyoureawesome__body-copy a {
+  color: #E4472A;
+}
+
 p.heyyoureawesome__big-headline,
 p.heyyoureawesome__script-headline {
   font-size: 1.5rem;

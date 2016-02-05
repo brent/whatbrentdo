@@ -115,13 +115,20 @@ p.crowdtap__crazy-red {
 }
 
 .crowdtap__responsibilities-blurb .case-study--inner {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
+  /* display: flex; */
+  /* flex-flow: column nowrap; */
+  /* align-items: center; */
   max-width: none;
+  min-height: 0;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .crowdtap__responsibilities-blurb-chart {
+  margin-bottom: 2rem;
+}
+
+.crowdtap__responsibilities-blurb-chart img {
   display: none;
 }
 
@@ -239,10 +246,14 @@ p.crowdtap__crazy-red {
   }
 
   .crowdtap__responsibilities-blurb-chart {
-    display: block;
     margin: 3rem auto;
-    max-width: 1400px;
     width: 100%;
+  }
+
+  .crowdtap__responsibilities-blurb-chart img {
+    display: block;
+    max-width: 100%;
+    height: auto;
   }
 
   .crowdtap__onboarding-thumbs {

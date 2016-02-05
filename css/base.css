@@ -49,12 +49,12 @@ b {
 .footer,
 .footer p {
   color: #aaa;
-  font-family: Georgia, sans-serif;
+  font-family: Merriweather, Georgia, sans-serif;
 }
 
 .footer .container--inner > p {
-  font-size: 0.9rem;
-  line-height: 1.5rem;
+  font-size: 0.8rem;
+  line-height: 1.4rem;
 }
 
 .footer__heading,
@@ -96,7 +96,7 @@ b {
   border-top: 1px solid #515151;
   font-size: 1.9rem;
   margin-top: 2rem;
-  padding: 2rem 0;
+  padding: 2rem 0 0;
   width: 10rem;
 }
 
@@ -107,6 +107,7 @@ b {
   font-weight: 300;
   line-height: 0.875em;
   text-transform: uppercase;
+  margin-bottom: 0;
 }
 
 .footer__sign-off span {
@@ -127,6 +128,32 @@ b {
 }
 
 /***************************/
+
+.footer__social {
+  margin-top: 1rem;
+}
+
+.footer__social-icon {
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  margin-right: 1rem;
+}
+
+.footer__social-icon.social-icon--blog {
+  /* background: url('../img/footer-blog-icon.svg') no-repeat; */
+}
+
+.footer__social-icon.social-icon--twitter {
+  /* background: url('../img/footer-twitter-icon.svg') no-repeat; */
+}
+
+.footer__social-icon.social-icon--linkedin {
+  /* background: url('../img/footer-linkedin-icon.svg') no-repeat; */
+}
+
+/***************************/
+
 
 .case-study--inner {
   margin: 0 auto;
@@ -215,6 +242,7 @@ b {
   max-width: 1024px;
   width: 89%;
   font-size: 0.9rem;
+  padding-bottom: 3rem;
 }
 
 .case-study__footer-work {

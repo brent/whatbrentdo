@@ -19,6 +19,10 @@ body {
   line-height: 1.6rem;
 }
 
+.case-study--inner p a {
+  color: #1EB2C3;
+}
+
 .socialstars__splash {
   background: url('../work/socialstars/img/socialstars-splash.png') no-repeat;
   background-size: cover;
@@ -37,8 +41,8 @@ body {
 
 p.socialstars__big-text {
   color: #1EB2C3;
-  font-size: 2rem;
-  line-height: 2.2rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
 }
 
 .socialstars__intro .socialstars__shh {
@@ -131,6 +135,11 @@ p.socialstars__big-text {
   .case-study__body {
     margin: 0 auto;
     max-width: 1024px;
+  }
+
+  p.socialstars__big-text {
+    font-size: 2rem;
+    line-height: 2.5rem;
   }
 
   .case-study__body p {

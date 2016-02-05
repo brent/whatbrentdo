@@ -23,7 +23,8 @@
 }
 
 .whatupbro__main {
-  color: #fbe3b3;
+  color: #FDF5E6;
+  /* color: #fff; */
   font-size: 1.5rem;
   margin-bottom: 1.1rem;
   line-height: 1.25em;
@@ -82,8 +83,10 @@
 
 @media screen and (min-width: 800px) {
 
-  .whatupbro__main > p {
+  /* .whatupbro__main > p { */
+  .case-study--inner > p {
     font-size: 3rem;
+    line-height: 4rem;
     margin-bottom: 6rem;
   }
 

@@ -21,9 +21,9 @@
   display: inline-block;
   height: auto;
   margin: 0 auto;
-  min-height: 4.85rem;
   text-indent: -9999px;
-  width: 5.85rem;
+  width: 11.55rem;
+  height: 8.55rem;
 }
 
 .case-study__body p {
@@ -125,6 +125,11 @@
     margin-left: auto;
     margin-right: auto;
     width: 37rem;
+  }
+
+  .sherpa__intro p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
   }
 
   .case-study--inner img {
