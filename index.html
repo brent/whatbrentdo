@@ -113,7 +113,7 @@
               <ul class="extras-list">
 
                 <li class="extras-list__item">
-                  <a href="http://whatbrentsay.com/2016/02/01/a-half-hour-in-kyrat/">A Half Hour in Kyrat</a>
+                  <a href="http://whatbrentsay.com/2016/02/05/a-half-hour-in-kyrat/">A Half Hour in Kyrat</a>
                 </li>
 
                 <li class="extras-list__item">
@@ -186,6 +186,9 @@
     <script src="js/swiper.min.js"></script>
     <script>
       (function() {
+        var vh = screen.availHeight+'px';
+        var splashDiv = document.querySelector('.intro.container');
+        splashDiv.style.minHeight = vh;
 
         var mySwiper = new Swiper ('.swiper-container', {
           nextButton: '.swiper-button-next',
@@ -197,10 +200,6 @@
           slidesPerView: 'auto',
           slideOffsetAfter: 30
         })
-
-        var vh = window.innerHeight+'px',
-            splashDiv = document.querySelector('.intro.container');
-        splashDiv.style.minHeight = vh;
 
       })();
     </script>

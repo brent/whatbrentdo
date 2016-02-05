@@ -23,8 +23,7 @@
             <p>(a redesign)</p>
           </h1>
 
-          <div class="cta-container">
-          </div>
+          <div class="cta-container"></div>
 
         </div><!-- END .case-study- -inner -->
       </section><!-- END case-study__splash -->
@@ -197,8 +196,9 @@
     <script type="text/javascript">
 
       (function() {
-        var vh = window.innerHeight+'px',
-            splashDiv = document.querySelector('.crowdtap__splash .case-study--inner');
+        //var vh = window.innerHeight+'px';
+        var vh = screen.availHeight+'px';
+        var splashDiv = document.querySelector('.crowdtap__splash .case-study--inner');
         splashDiv.style.minHeight = vh;
       })();
 

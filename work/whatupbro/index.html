@@ -39,7 +39,7 @@
 
           <section class="case-study__details">
             <div class="cta-container">
-              <a href="#whatupbro">Check it out</a>
+              <a href="http://whatupbro.com">Check it out</a>
             </div>
 
             <p class="case-study__details-copy"><em>What up, bro?</em> is dead simple. Each page load pulls a random "bro"-infused word out of a JSON file. That's it. Originally powered by a few lines of PHP and later rewritten as a Sinatra app for fun.</p>
@@ -91,8 +91,8 @@
     <script type="text/javascript">
 
       (function() {
-        var vh = window.innerHeight+'px',
-            splashDiv = document.querySelector('.whatupbro__splash .case-study--inner');
+        var vh = screen.availHeight+'px';
+        var splashDiv = document.querySelector('.whatupbro__splash .case-study--inner');
         splashDiv.style.minHeight = vh;
       })();
 

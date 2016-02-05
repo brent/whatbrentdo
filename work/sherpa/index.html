@@ -159,6 +159,32 @@
     <script>
       (function() {
 
+        var vh = screen.availHeight+'px';
+        var splashDiv = document.querySelector('.sherpa__splash .case-study--inner');
+        splashDiv.style.minHeight = vh;
+
+        function elementInViewport(el) {
+          // from http://stackoverflow.com/a/125106
+          // thanks Prestaul
+          var top = el.offsetTop;
+          var left = el.offsetLeft;
+          var width = el.offsetWidth;
+          var height = el.offsetHeight;
+
+          while(el.offsetParent) {
+            el = el.offsetParent;
+            top += el.offsetTop;
+            left += el.offsetLeft;
+          }
+
+          return (
+            top >= window.pageYOffset &&
+            left >= window.pageXOffset &&
+            (top + height) <= (window.pageYOffset + window.innerHeight) &&
+            (left + width) <= (window.pageXOffset + window.innerWidth)
+          );
+        }
+
         var mySwiper = new Swiper ('.swiper-container', {
           grabCursor: true,
           freeMode: true,
@@ -167,10 +193,6 @@
           longSwipes: false,
           slidesPerView: 'auto'
         })
-
-        var vh = window.innerHeight+'px',
-            splashDiv = document.querySelector('.sherpa__splash .case-study--inner');
-        splashDiv.style.minHeight = vh;
 
       })();
 
