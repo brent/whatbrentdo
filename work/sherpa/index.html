@@ -7,6 +7,7 @@
     <link href="../../css/swiper.min.css" type="text/css" rel="stylesheet">
     <link href="../../css/base.css" type="text/css" rel="stylesheet">
     <link href="../../css/sherpa.css" type="text/css" rel="stylesheet">
+    <link rel="icon" href="../../img/favicon.png" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   </head>
   <body>
@@ -93,6 +94,9 @@
 
           </div>
 
+          <div class="swiper-button-prev swiper-button-black"></div>
+          <div class="swiper-button-next swiper-button-black"></div>
+
         </ul><!-- END .work__gallery -->
 
       </section><!-- END case-study__body -->
@@ -103,7 +107,7 @@
           <p class="sherpa__big-text">The questionnaire served a dual purpose; it naturally built your profile page, too.</p>
           <img src="img/sherpa-profile-page.png" />
           <p class="sherpa__big-text">After completing your profile, a Sherpa calls you to follow up.</p>
-          <p class="sherpa__big-text">The elevator pitch said it was high-touch.  That wasn't just for shits.</p>
+          <p class="sherpa__big-text">The elevator pitch said it was high-touch. That wasn't an empty promise.</p>
 
         </div><!-- END .case-study- -inner -->
       </section><!-- END .sherpa__profile .case-study__body -->
@@ -186,12 +190,13 @@
         }
 
         var mySwiper = new Swiper ('.swiper-container', {
-          grabCursor: true,
+          nextButton: '.swiper-button-next',
+          prevButton: '.swiper-button-prev',
           freeMode: true,
-          //freeModeMomentum: false,
-          freeModeMomentumRatio: 0.5,
           longSwipes: false,
-          slidesPerView: 'auto'
+          slidesPerView: 'auto',
+          slideOffsetAfter: 30,
+          grabCursor: true
         })
 
       })();
