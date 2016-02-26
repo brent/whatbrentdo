@@ -69,6 +69,10 @@
   margin-left: 1rem;
 }
 
+div[class^="swiper-button-"] {
+  display: none;
+}
+
 .work__gallery-item {
   margin-right: 2rem;
 }
@@ -141,6 +145,10 @@
 
   .work__gallery--horizontal .swiper-wrapper {
     margin-left: 4rem;
+  }
+
+  div[class^="swiper-button-"] {
+    display: block;
   }
 
   .work__gallery-item {
