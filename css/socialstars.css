@@ -71,8 +71,8 @@ p.socialstars__big-text {
 }
 
 .socialstars__intro p.socialstars__similar-different-block {
-  margin-top: 6rem;
-  margin-bottom: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 .socialstars__similar-different-block .socialstars__similar,
@@ -156,6 +156,11 @@ p.socialstars__big-text {
   .socialstars__main p.socialstars__big-text:first-child {
     margin-top: 0;
     margin-bottom: 3rem;
+  }
+
+  .socialstars__intro p.socialstars__similar-different-block {
+    margin-top: 6rem;
+    margin-bottom: 5rem;
   }
 
   .socialstars__email-screens-container {
