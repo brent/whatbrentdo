@@ -154,6 +154,7 @@ p {
 
 .work__gallery--horizontal {
   box-sizing: border-box;
+  padding: 0.625rem 0;
 }
 
 .work__gallery--horizontal .swiper-wrapper {
@@ -169,7 +170,8 @@ div[class^="swiper-button-"] {
 }
 
 .work__gallery-item img {
-  box-shadow: 0 0 3px rgba(0,0,0,0.15);
+  border-radius: 0.3125rem;
+  box-shadow: 0 0 0.625rem rgba(0,0,0,0.15);
 }
 
 .work__sub-heading-container + .extras-list {
