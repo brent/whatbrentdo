@@ -232,13 +232,14 @@
           <section class="case-study__footer-work">
             <h3 class="footer__sub-heading">My work</h3>
             <ul>
-              <li><a href="http://whatbrentdo.com/work/crowdtap"><img src="../../img/crowdtap_thumb.png" /></a></li>
-              <li><a href="http://whatbrentdo.com/work/koko"><img src="../../img/koko_thumb.png" /></a></li>
-              <li><a href="http://whatbrentdo.com/work/sherpa"><img src="../../img/sherpaconcierge_thumb.png" /></a></li>
-              <li><a href="http://whatbrentdo.com/work/socialstars"><img src="../../img/socialstars_thumb.png" /></a></li>
-              <li><a href="http://whatbrentdo.com/work/buddymedia"><img src="../../img/buddymedia_thumb.png" /></a></li>
-              <li><a href="http://whatbrentdo.com/work/heyyoureawesome"><img src="../../img/heyyoureawesome_thumb.png" /></a></li>
-              <li><a href="http://whatbrentdo.com/work/whatupbro"><img src="../../img/whatupbro_thumb.png" /></a></li>
+              <li><a href="./../kokobot"><img src="../../img/kokobot_thumb.png" /></a></li>
+              <li><a href="./../crowdtap"><img src="../../img/crowdtap_thumb.png" /></a></li>
+              <li><a href="./../koko"><img src="../../img/koko_thumb.png" /></a></li>
+              <li><a href="./../sherpa"><img src="../../img/sherpaconcierge_thumb.png" /></a></li>
+              <li><a href="./../socialstars"><img src="../../img/socialstars_thumb.png" /></a></li>
+              <li><a href="./../buddymedia"><img src="../../img/buddymedia_thumb.png" /></a></li>
+              <li><a href="./../heyyoureawesome"><img src="../../img/heyyoureawesome_thumb.png" /></a></li>
+              <li><a href="./../whatupbro"><img src="../../img/whatupbro_thumb.png" /></a></li>
             </ul>
           </section>
 
@@ -248,18 +249,36 @@
 
           <div class="footer__social">
             <ul>
-              <li class=""></li>
-              <li class=""></li>
-              <li class=""></li>
-              <li class=""></li>
+              <li class="footer__contact-item social-icon--email">brent.e.meyer@gmail.com</li>
+              <li class="footer__contact-item social-icon--twitter"><a href="http://twitter.com/brentmeyer">@brentmeyer</a></li>
+              <li class="footer__contact-item social-icon--linkedin"><a href="http://linkedin.com/in/brentemeyer">/in/brentemeyer</a></li>
             </ul>
-          </div>
+          </div><!-- END .footer__social -->
 
         </div><!-- END .container -inner -->
 
       </section><!-- END .footer -->
 
     </div><!-- END .wrapper -->
+
+    <script type="text/javascript">
+
+      (function() {
+        //var vh = window.innerHeight+'px';
+        var vh = screen.availHeight+'px';
+        var splashDiv = document.querySelector('.crowdtap__splash .case-study--inner');
+        splashDiv.style.minHeight = vh;
+      })();
+
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-15909605-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
 
   </body>
 </html>
