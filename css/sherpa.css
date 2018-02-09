@@ -67,6 +67,7 @@
 
 .work__gallery--horizontal .swiper-wrapper {
   margin-left: 1rem;
+  transform: translate3d(-80px, 0px, 0px);
 }
 
 div[class^="swiper-button-"] {
@@ -145,6 +146,8 @@ div[class^="swiper-button-"] {
 
   .work__gallery--horizontal .swiper-wrapper {
     margin-left: 4rem;
+    transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
   }
 
   div[class^="swiper-button-"] {

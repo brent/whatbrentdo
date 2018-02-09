@@ -1,57 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
 
-.intro__logo {
-  animation: fadeAndSlideUp 0.5s;
-}
-
-.intro__copy {
-  animation: fadeAndSlideUp 0.75s;
-}
-
-.work,
-.about,
-.footer {
-  animation: fadeAndSlideUp 0.9s;
-}
-
-.block::after {
-  animation: fadeAndSlideOver 0.75s;
-}
-
-.work__list > li::after {
-  animation: fadeAndSlideOver 0.75s;
-}
-
-@keyframes fadeAndSlideUp {
-  from { 
-    opacity: 0;
-    position: relative;
-    top: 3rem;
-  }
-  to { 
-    opacity: 1;
-    position: relative;
-    top: 0;
-  }
-}
-
-@keyframes fadeAndSlideOver {
-  0% {
-    opacity: 0;
-    position: relative;
-    left: 3rem;
-  }
-  66% {
-    opacity: 0;
-    position: relative;
-    left: 3rem;
-  }
-  100% {
-    opacity: 1;
-    position: relative;
-    left: 0;
-  }
-}
 
 body {
   border-top: 10px solid #645373;
@@ -201,6 +149,59 @@ h3 {
 @media screen and (min-width: 800px) {
   .intro__copy h2 {
     font-size: calc(1vw * 4);
+  }
+
+  .intro__logo {
+    animation: fadeAndSlideUp 0.5s;
+  }
+
+  .intro__copy {
+    animation: fadeAndSlideUp 0.75s;
+  }
+
+  .work,
+  .about,
+  .footer {
+    animation: fadeAndSlideUp 0.9s;
+  }
+
+  .block::after {
+    animation: fadeAndSlideOver 0.75s;
+  }
+
+  .work__list > li::after {
+    animation: fadeAndSlideOver 0.75s;
+  }
+
+  @keyframes fadeAndSlideUp {
+    from { 
+      opacity: 0;
+      position: relative;
+      top: 3rem;
+    }
+    to { 
+      opacity: 1;
+      position: relative;
+      top: 0;
+    }
+  }
+
+  @keyframes fadeAndSlideOver {
+    0% {
+      opacity: 0;
+      position: relative;
+      left: 3rem;
+    }
+    66% {
+      opacity: 0;
+      position: relative;
+      left: 3rem;
+    }
+    100% {
+      opacity: 1;
+      position: relative;
+      left: 0;
+    }
   }
 }
 
