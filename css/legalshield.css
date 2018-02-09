@@ -21,20 +21,20 @@ body {
   font-family: "Proxima Nova";
 }
 
-p {
+.case-study__body p {
   color: #777;
   line-height: 1.2;
   margin: 0 auto 3rem;
 }
 
-h2 {
+.case-study__body h2 {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 3rem;
   text-align: center;
 }
 
-img {
+.case-study__body img {
   max-width: 100%;
 }
 
