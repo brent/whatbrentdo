@@ -151,7 +151,7 @@
 
           <div class="footer__social">
             <ul>
-              <li class="footer__contact-item social-icon--email">brent.e.meyer@gmail.com</li>
+              <li class="footer__contact-item social-icon--email">brent.e.meyer[at]gmail.com</li>
               <li class="footer__contact-item social-icon--twitter"><a href="http://twitter.com/brentmeyer">@brentmeyer</a></li>
               <li class="footer__contact-item social-icon--linkedin"><a href="http://linkedin.com/in/brentemeyer">/in/brentemeyer</a></li>
             </ul>
@@ -171,6 +171,7 @@
         var splashDiv = document.querySelector('.sherpa__splash .case-study--inner');
         splashDiv.style.minHeight = vh;
 
+        /* Not sure why this was here...
         function elementInViewport(el) {
           // from http://stackoverflow.com/a/125106
           // thanks Prestaul
@@ -192,6 +193,7 @@
             (left + width) <= (window.pageXOffset + window.innerWidth)
           );
         }
+       */
 
         var mySwiper = new Swiper ('.swiper-container', {
           nextButton: '.swiper-button-next',
