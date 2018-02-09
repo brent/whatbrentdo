@@ -21,6 +21,10 @@ body {
   font-family: "Proxima Nova";
 }
 
+.wrapper {
+  overflow: hidden;
+}
+
 .case-study__body p {
   color: #777;
   line-height: 1.2;
