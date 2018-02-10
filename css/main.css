@@ -91,6 +91,10 @@ h3 {
   padding-bottom: 1rem;
 }
 
+.work__list > li:last-of-type {
+  margin-bottom: 1rem;
+}
+
 .work__list > li::after {
   content: url("../img/list-divider.png");
   display: block;
@@ -99,6 +103,10 @@ h3 {
   margin-top: -1rem;
   position: relative;
   top: 1rem;
+}
+
+.work__list > li:last-of-type::after {
+  display: none;
 }
 
 .work__list a::after {
