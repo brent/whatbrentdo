@@ -79,6 +79,14 @@ h3 {
   width: 3rem;
 }
 
+.intro__copy a {
+  text-decoration: underline;
+}
+
+.intro__strikethrough {
+  text-decoration: line-through;
+}
+
 /***************************/
 
 .work__list {
