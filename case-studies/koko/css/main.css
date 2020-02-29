@@ -1,0 +1,277 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,900,400italic);
+
+.koko .case-study__body {
+  padding: 3rem 0;
+}
+
+.case-study--inner img {
+  box-shadow: 0 1px 7px rgba(0,0,0,0.15);
+  border-radius: 4px;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.case-study--inner .koko__thumb-container:last-child img {
+  margin-bottom: 0;
+}
+
+.wrapper {
+  font-family: "Open Sans", sans-serif;
+}
+
+.koko__splash {
+  background: #299BB6;
+}
+
+.case-study__title .koko__logo {
+  display: inline-block;
+  background: url('../img/koko-logo.svg') no-repeat;
+  background-size: auto;
+  width: 10rem;
+  height: auto;
+  min-height: 5.6rem;
+  text-indent: -9999px;
+  margin: 0.5rem 0;
+}
+
+.case-study__title p {
+  color: #fff;
+}
+
+.koko__with-dan {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.koko__with-dan a {
+  color: inherit;
+}
+
+.case-study__body p {
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.koko__heading {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 0 0 2rem;
+}
+
+.koko__intro {
+  background: #299BB6;
+}
+
+.koko__intro p {
+  color: #fff;
+}
+
+.koko__intro p:last-child {
+  margin-bottom: 0;
+}
+
+.koko__intro p:nth-last-child(1),
+.koko__intro p:nth-last-child(2) {
+  font-weight: bold;
+}
+
+.koko__community,
+.koko__context,
+.koko__extras {
+  background: #40BDD1;
+}
+
+.koko__community p,
+.koko__context p,
+.koko__extras p {
+  color: #156F84;
+}
+
+.koko__community .koko__example-container:nth-of-type(1) {
+  margin-top: 2rem;
+}
+
+.koko__thumb-container {
+  position: relative;
+}
+
+.koko__thumb-container .koko__example-num {
+  position: absolute;
+}
+
+.koko__thumb-container.koko__thumb--review .koko__example-num {
+  bottom: 19rem;
+  left: -0.5rem;
+}
+
+.koko__example-num {
+  background: #FF5784;
+  border-radius: 100%;
+  border: 3px solid #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+  color: #fff;
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 900;
+  padding: 0.15rem 0.33rem;
+  text-align: center;
+  line-height: 0.8rem;
+}
+
+.koko__example-container {
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 0.8rem;
+}
+
+.koko__example-container p {
+  line-height: 1.2rem;
+}
+
+.koko__example-container .koko__example-num p,
+.koko__example-container .koko__example-num-container {
+  flex: 0 0 auto;
+}
+
+.koko__example-container .koko__example-num {
+  margin-right: 0.5rem;
+}
+
+.koko__thumb-container.koko__thumb--remix .koko__example-num {
+  top: -0.5rem;
+  left: 46%;
+}
+
+.koko__thumb-container.koko__thumb--reframe-01 .koko__example-num {
+  top: 14.5rem;
+  left: -4%;
+}
+
+.koko__thumb-container.koko__thumb--reframe-02 .koko__example-num {
+  top: 3rem;
+  left: 46%;
+}
+
+@media screen and (min-width: 600px) {
+}
+
+@media screen and (min-width: 800px) {
+
+  .koko .case-study__body {
+    clear: both;
+    overflow: hidden;
+  }
+  .case-study__body p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  .koko__app-thumb {
+    max-width: 16rem;
+  }
+
+  .koko__heading {
+    color: #fff;
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin: 0 0 2rem;
+  }
+
+  .koko__intro .koko__app-thumb {
+    float: left;
+    margin-right: 3rem;
+  }
+
+  p.koko__intro-big-text {
+    clear: both;
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+
+  .koko__thumb-container.koko__thumb--remix {
+    max-width: 320px;
+    position: relative;
+  }
+
+  .koko__thumb-container.koko__thumb--reframe-01 .koko__example-num {
+    left: 10%;
+  }
+
+  .koko__example-container p {
+    font-size: .8rem;
+    line-height: 1.2em;
+  }
+
+  .koko__community .case-study--inner {
+    position: relative;
+  }
+
+  .koko__community-inner-container--review:after,
+  .koko__community-inner-container--remix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .koko__community-inner-copy {
+    float: right;
+  }
+
+  .koko__community-inner-thumb {
+    float: left;
+    width: 360px;
+  }
+
+  .koko__community-inner-container--review .koko__community-inner-copy {
+    width: 650px;
+  }
+
+  .koko__community-inner-container--remix {
+    position: absolute;
+    width: 712px;
+    top: 535px;
+    left: 312px;
+  }
+
+  .koko__community-inner-container--remix .koko__community-inner-copy {
+    width: 352px;
+  }
+
+  .koko__thumb-example-wrapper {
+    box-sizing: border-box;
+    float: left;
+    width: 22.4rem;
+  }
+
+  .koko__context .koko__heading,
+  .koko__extras .koko__heading,
+  .koko__context .koko__heading + p {
+    text-align: center;
+  }
+
+  .koko__context .koko__heading + p,
+  .koko__extras .koko__heading + p {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .koko__thumb-example-wrapper:nth-of-type(1) {
+    margin: 0 2rem 0 1rem;
+  }
+
+  .koko__thumb-example-wrapper:nth-of-type(2) {
+    margin: 0 1rem 0 2rem;
+  }
+
+  .koko__context .koko__thumb-container,
+  .koko__extras .koko__thumb-example-wrapper {
+    text-align: center;
+  }
+
+  .koko__context .koko__example-container {
+    width: 20rem;
+    margin: 0 auto;
+  }
+}

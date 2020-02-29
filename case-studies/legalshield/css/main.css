@@ -1,0 +1,244 @@
+@font-face {
+  font-family: "Proxima Nova";
+  src: url('fonts/proxima-nova-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: italic;
+  src: url('fonts/proxima-nova-regular-italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-weight: bold;
+  src: url('fonts/proxima-nova-bold.woff') format('woff');
+}
+
+body {
+  font-family: "Proxima Nova";
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+.case-study__body p {
+  color: #777;
+  line-height: 1.2;
+  margin: 0 auto 3rem;
+}
+
+.case-study__body h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.case-study__body img {
+  max-width: 100%;
+}
+
+.case-study__header a {
+  background-position: 0 -200px;
+}
+
+.case-study__body img {
+  border: 1px solid #eee;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+.case-study__title {
+  background: url('../img/legalshield-logo.png') no-repeat;
+  background-size: 100% 100%;
+  height: 2.9rem;
+  margin: 0 auto;
+  text-indent: -9999rem;
+  width: 12.5rem;
+}
+
+.ls-questionnaire p:first-child {
+  text-align: center;
+}
+
+.ls-questionnaire p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.case-study__body p:last-child {
+  margin-bottom: 0;
+}
+
+.questionnaire-img-grid .img-wrapper {
+  margin-bottom: 1.5rem;
+}
+
+.zebra-section {
+  background: #FAFAFA;
+}
+
+.questionnaire-overview {
+  text-align: center;
+}
+
+.questionnaire-overview .case-study--inner {
+  min-height: inherit;
+}
+
+.questionnaire-overview img {
+  margin-bottom: 3rem;
+}
+
+.questionnaire-overview {
+  text-align: center;
+}
+
+.questionnaire-overview p {
+  text-align: left;
+}
+
+.page-details .case-study--inner {
+  min-height: inherit;
+}
+
+.page-details__item {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.page-details__item.element-sidebar img {
+  box-shadow: none;
+  border: 0;
+  max-width: 80%;
+}
+
+.page-details__item.placed-elements img {
+  border: none;
+  max-width: 100%;
+}
+
+.page-details__item:nth-child(4) img {
+  display: block;
+  margin: 0 auto 1.5rem;
+}
+
+.page-details__item img {
+  max-width: 100%;
+}
+
+.page-details__item:nth-child(1) img {
+  display: block;
+  margin-left: 10%;
+}
+
+.page-details__item:nth-child(3) img {
+  display: block;
+  position: relative;
+  left: -10%;
+}
+
+.placed-elements > img:nth-of-type(1),
+.placed-elements > img:nth-of-type(3) {
+  position: relative;
+  left: 1.5rem;
+}
+
+.placed-elements > img:nth-of-type(2) {
+  position: relative;
+  right: 1.5rem;
+}
+
+.full-size-screens img {
+  margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 600px) {
+  .questionnaire-img-grid .img-wrapper {
+    margin-bottom: 3rem;
+  }
+
+  .page-details__item:nth-child(1) img {
+    display: block;
+    margin-left: calc( calc(100% - 600) / 2);
+  }
+
+  .page-details__item:nth-child(3) img {
+    display: block;
+    position: relative;
+    left: -10%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    margin-bottom: 60px;
+    width: 80%;
+  }
+
+  .questionnaire-img-grid:after {
+    content:"";
+    clear: both;
+    display: table;
+  }
+
+  .questionnaire-img-grid .img-wrapper {
+    float: left;
+    margin-bottom: 1rem;
+    max-width: calc(50% - 0.5rem);
+  }
+
+  .questionnaire-img-grid .img-wrapper:nth-child(2n-1) {
+    margin-right: 1rem;
+  }
+
+  .questionnaire-img-grid .img-wrapper:nth-child(3) {
+    margin-top: -20.5%;
+  }
+
+  .page-details__item:nth-child(1) img {
+    display: block;
+    margin-left: calc( calc(100% - 800px) / 2);
+  }
+
+  .page-details__item:nth-child(3) img {
+    display: block;
+    position: relative;
+    left: -25%;
+  }
+
+
+  .page-details__item.element-sidebar img {
+    max-width: 50%;
+  }
+
+  .page-details__item.placed-elements img {
+    max-width: 66%;
+  }
+
+  .placed-elements > img:nth-of-type(1),
+  .placed-elements > img:nth-of-type(3) {
+    left: 0;
+  }
+
+  .placed-elements > img:nth-of-type(2) {
+    right: 0;
+  }
+
+  .full-size-screens img {
+    margin-bottom: 6rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .page-details__item:nth-child(3) img {
+    left: -5%;
+  }
+}

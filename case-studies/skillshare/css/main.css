@@ -1,0 +1,218 @@
+@font-face {
+  font-family: "Din";
+  src: url('../fonts/DINAlternate-Bold.woff') format('woff');
+  font-style: bold;
+  font-weight: 600;
+}
+
+.case-study__header a {
+  background-position: 0 -160px;
+}
+
+.skillshare {
+  font-family: Din;
+  font-size: 1rem;
+  line-height: 1.33;
+}
+
+.skillshare h2 {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+.skillshare h3 {
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.skillshare h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.skillshare p {
+  margin-bottom: 3rem;
+}
+
+.skillshare > p:last-child {
+  margin-bottom: 0;
+}
+
+.skillshare .case-study__body {
+  padding: 6rem 0;
+}
+
+.skillshare--inner {
+  margin: 0 auto;
+  max-width: 40rem;
+}
+
+.skillshare--inner:last-child > p:last-child {
+  margin-bottom: 0;
+}
+
+.skillshare__splash {
+  background: #fff;
+}
+
+.skillshare__title {
+  color: #73CACF;
+}
+
+.skillshare__title p {
+  margin-bottom: 0;
+}
+
+.skillshare-logo {
+  background: url('../img/skillshare-logo@2x.png') no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  height: auto;
+  margin: 0 0 1.5rem;
+  min-height: 5.95rem;
+  text-indent: -9999px;
+  width: 16.75rem;
+}
+
+.skillshare__intro {
+  color: #73CACF;
+  margin: 0 auto;
+  width: 89%;
+}
+
+.skillshare__research {
+  background: #73CACF;
+  color: #D5F1F3;
+}
+
+.skillshare__research a, 
+.skillshare__research a:visited {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.skillshare__research h2, 
+.skillshare__research h3 {
+  color: #fff;
+  text-align: center;
+}
+
+.skillshare__research .skillshare-flow-chart {
+  margin-bottom: 3rem;
+}
+
+.skillshare__research .skillshare-flow-chart img {
+  width: 100%;
+}
+
+.skillshare__research .skillshare-flow-chart span {
+  display: block;
+  font-family: Helvetica;
+  font-style: italic;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.skillshare-bullet-list {
+  margin-bottom: 3rem;
+}
+
+.skillshare-bullet-list:last-child {
+  margin-bottom: 0;
+}
+
+.skillshare-bullet-list span {
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.skillshare-bullet-list ul > li {
+  list-style-type: disc;
+  margin-left: 1rem;
+  margin: 0 0 0.5rem 1rem;
+}
+
+.skillshare__sketches-wireframes {
+  color: #777;
+}
+
+.skillshare__sketches-wireframes .case-study--inner,
+.skillshare__whats-next .case-study--inner {
+  min-height: 0;
+}
+
+.skillshare__sketches-wireframes h2, 
+.skillshare__sketches-wireframes h3 {
+  color: #73CACF;
+  text-align: center;
+}
+
+.skillshare__sketches-wireframes img,
+.skillshare__whats-next img {
+  border-radius: 0.15rem;
+  box-shadow: 0 0.05rem 0.3rem rgba(0,0,0,0.20);
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+.skillshare__sketches-wireframes h4 {
+  color: #73CACF;
+  text-align: center;
+}
+
+.skillshare-mobile-image-container img {
+  display: block;
+  height: auto;
+  margin: 0 auto 3rem;
+  max-height: 28.4rem;
+  max-width: 16rem;
+}
+
+.skillshare__whats-next {
+  background: #73CACF;
+  color: #D5F1F3;
+}
+
+.skillshare__whats-next .skillshare--inner p:last-child {
+  margin-bottom: 3rem;
+}
+
+.skillshare__whats-next h2 {
+  color: #fff;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+}
+
+@media screen and (min-width: 800px) {
+  .skillshare {
+    font-size: 1.2rem;
+  }
+
+  .skillshare h2 {
+    font-size: 2.4rem;
+  }
+
+  .skillshare h3 {
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+  }
+
+  .skillshare__research .skillshare-flow-chart span {
+    font-size: 0.8rem;
+  }
+
+  .skillshare-bullet-list span {
+    margin-bottom: 0.75rem;
+  }
+
+  .skillshare-bullet-list ul > li {
+    margin-left: 3rem;
+  }
+
+  .skillshare-mobile-image-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
