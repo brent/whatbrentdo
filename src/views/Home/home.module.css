@@ -1,0 +1,74 @@
+.homeWrapper { 
+  height: 100%;
+}
+
+.homeHeader {
+  position: fixed;
+}
+
+.homeContentBlockWrapper {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  height: 100%;
+}
+
+.homeContentBlock {
+  align-items: center;
+  display: flex;
+  padding: 0 1rem;
+}
+
+.homeContentBlockLight {
+  background: #fff;
+  color: #362C38;
+}
+
+.homeContentBlockDark {
+  background: #362C38;
+  color: #fff;
+}
+
+.homeContentBlockInner {
+  height: auto;
+}
+
+.homeContentBlockInner > * {
+  margin-bottom: 0.5rem;
+}
+
+.homeContentBlockInner > *:last-child {
+  margin-bottom: 0;
+}
+
+.homeContentBlockInner p {
+  line-height: 1.5;
+}
+
+.homeContentBlockInner ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+}
+
+.greeting,
+.sectionExplainer {
+  font-weight: bold;
+}
+
+.greeting {
+  font-size: 2rem;
+}
+
+.sectionExplainer {
+  font-size: 1.5rem;
+}
+
+.moreTrigger {
+  color: #B4B4B4;
+  font-size: inherit;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0;
+  outline: none;
+  background: none;
+  border: none;
+}

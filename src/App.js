@@ -1,13 +1,13 @@
 import React from 'react';
-import './css/reset.css';
-import styles from './css/app.module.css';
+import './reset.css';
+import styles from './app.module.css';
+
+import { Home } from './views/Home';
 
 function App() {
   return (
     <div className={ styles.wrapper }>
-      <div className={ styles.container }>
-        <p>Stay calm, this is a test.</p>
-      </div>
+      <Home />
     </div>
   );
 }

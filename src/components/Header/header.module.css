@@ -1,0 +1,16 @@
+.headerWrapper {
+  background: none;
+  text-align: center;
+  padding-top: 1rem;
+  width: 100%;
+}
+
+.title { 
+  text-indent: -9999px;
+  height: 0;
+}
+
+.logo {
+  width: 36px;
+  height: 29px;
+}
