@@ -8,8 +8,7 @@
 
 .homeContentBlockWrapper {
   display: grid;
-  grid-template-rows: 50% 50%;
-  height: 100%;
+  min-height: 100%;
 }
 
 .homeContentBlock {
@@ -30,6 +29,7 @@
 
 .homeContentBlockInner {
   height: auto;
+  margin: 10vh auto;
 }
 
 .homeContentBlockInner > * {
