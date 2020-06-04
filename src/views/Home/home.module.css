@@ -30,6 +30,7 @@
 .homeContentBlockInner {
   height: auto;
   margin: 10vh auto;
+  max-width: 48rem;
 }
 
 .homeContentBlockInner > * {
@@ -55,11 +56,11 @@
 }
 
 .greeting {
-  font-size: 2rem;
+  font-size: 2em;
 }
 
 .sectionExplainer {
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 .moreTrigger {
@@ -71,4 +72,20 @@
   outline: none;
   background: none;
   border: none;
+}
+
+@media (min-width: 768px) {
+  .homeWrapper {
+    font-size: 1.5rem;
+  }
+
+  .homeContentBlockInner > * {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .homeWrapper {
+    font-size: 1.66rem;
+  }
 }
