@@ -49,12 +49,15 @@ const ProfessionalAbout = ({ level, onMoreTap }) => {
 
   let displayContent = defaultContent;
 
-  if (level === 1) {
-    displayContent = levelOneContent;
-  } else if (level === 2) {
-    displayContent = levelTwoContent;
-  } else {
-    displayContent = defaultContent;
+  switch (level) {
+    case 1:
+      displayContent = levelOneContent;
+      break;
+    case 2:
+      displayContent = levelTwoContent;
+      break;
+    default:
+      displayContent = defaultContent;
   }
 
   return (
