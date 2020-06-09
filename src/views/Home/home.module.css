@@ -33,12 +33,14 @@
   max-width: 48rem;
 }
 
-.homeContentBlockInner > * {
+.homeContentBlockInner > p,
+.homeContentBlockInner > h1,
+.homeContentBlockInner > h2,
+.homeContentBlockInner > h3,
+.homeContentBlockInner > h4,
+.homeContentBlockInner > h5,
+.homeContentBlockInner > h6 {
   margin-bottom: 0.5rem;
-}
-
-.homeContentBlockInner > *:last-child {
-  margin-bottom: 0;
 }
 
 .homeContentBlockInner p {
@@ -51,7 +53,8 @@
 }
 
 .greeting,
-.sectionExplainer {
+.sectionExplainer,
+.caseStudiesHeader {
   font-weight: bold;
 }
 
@@ -61,6 +64,47 @@
 
 .sectionExplainer {
   font-size: 1.5em;
+}
+
+.caseStudiesHeader {
+  margin-top: 4rem;
+}
+
+.caseStudy__thumb,
+.caseStudy__name {
+  margin-bottom: 1rem;
+}
+
+.caseStudy__thumb {
+  width: 100%;
+  height: auto;
+}
+
+.caseStudy__name {
+  color: #444;
+  font-weight: 700;
+  text-align: center;
+}
+
+.caseStudy__projectDate {
+  color: #aaa;
+  font-weight: normal;
+}
+
+.caseStudyBlock:first-child {
+}
+
+.caseStudyBlock {
+  margin: 2rem auto;
+}
+
+.caseStudyBlock:last-child {
+  margin-bottom: 0;
+}
+
+.caseStudyBlock,
+.moreTrigger {
+  cursor: pointer;
 }
 
 .moreTrigger {
@@ -79,7 +123,13 @@
     font-size: 1.5rem;
   }
 
-  .homeContentBlockInner > * {
+  .homeContentBlockInner > p,
+  .homeContentBlockInner > h1,
+  .homeContentBlockInner > h2,
+  .homeContentBlockInner > h3,
+  .homeContentBlockInner > h4,
+  .homeContentBlockInner > h5,
+  .homeContentBlockInner > h6 {
     margin-bottom: 1rem;
   }
 }

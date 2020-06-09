@@ -26,6 +26,85 @@ const HomeContentBlock = ({ type, children }) => {
   );
 };
 
+const CaseStudyBlock = ({ name, imgSrc, date, blurb }) => {
+  return (
+    <div className={ styles.caseStudyBlock }>
+      <img className={ styles.caseStudy__thumb } src={ imgSrc} alt={ name }/>
+      <h5 className={ styles.caseStudy__name }>{ name }, <span className={ styles.caseStudy__projectDate }>{ date }</span></h5>
+      <p className={ styles.caseStudy__blurb }>{ blurb }</p>
+    </div>
+  );
+};
+
+const renderCaseStudies = () => {
+  const caseStudyContents = [
+    {
+      name: 'LegalShield questionnaire builder',
+      imgSrc: 'https://via.placeholder.com/343x156.png',
+      date: '2017',
+      blurb: 'Working closely with a Legalshield scrum team, I designed a tool that would give internal users the ability to quickly create and manage web-based legal questionnaire forms via a drag and drop web interface.',
+    },
+    {
+      name: 'Koko chatbot',
+      imgSrc: 'https://via.placeholder.com/343x156.png',
+      date: '2017',
+      blurb: 'In partnership with Koko’s team, I helped design their native iOS chat bot experience.',
+    },
+    {
+      name: 'NBA Today',
+      imgSrc: 'https://via.placeholder.com/343x156.png',
+      date: '2016',
+      blurb: 'A small Javascript application I built to display the day\'s NBA matchup in a more visual fashion.',
+    },
+    {
+      name: 'Crowdtap top of funnel redesign',
+      imgSrc: 'https://via.placeholder.com/343x156.png',
+      date: '2015',
+      blurb: 'During a busy year Crowdtap decided to redesign just about everything except its logo. My contribution in the redesign was focused closer to the top of the funnel.',
+    },
+    {
+      name: 'SocialStars MVP',
+      imgSrc: 'https://via.placeholder.com/343x156.png',
+      date: '2015',
+      blurb: 'Crowdtap introduced a second product to its offering, targeting a very different kind of user. I was part of the team responsible for bringing the first version to life.',
+    },
+    {
+      name: 'Sherpa Concierge',
+      imgSrc: 'https://via.placeholder.com/343x156.png',
+      date: '2015',
+      blurb: 'In partnership with Dan Berkowitz, I helped a job placement focused startup bring their MVP product to life.',
+    },
+    {
+      name: 'BuddyMedia Analytics v3',
+      imgSrc: 'https://via.placeholder.com/343x156.png',
+      date: '2011 - 2012',
+      blurb: 'While working at BuddyMedia I had the opportunity to design for most of their Fortune 500 serving social media marketing tools. I personally redesigned the Analytics product.',
+    },
+    {
+      name: 'Hey, you\'re awesome',
+      imgSrc: 'https://via.placeholder.com/343x156.png',
+      date: '2011',
+      blurb: 'A simple app I built that allowed users to send a personalized, greeting card-like page with an accompanying heyyoureaweso.me vanity url.',
+    },
+    {
+      name: 'What up, bro?',
+      imgSrc: 'https://via.placeholder.com/343x156.png',
+      date: '2011',
+      blurb: 'A web page that greets you with a fresh, bro\'d out nickname every time you visit.',
+    },
+  ];
+
+  return caseStudyContents.map((caseStudy) => (
+      <CaseStudyBlock 
+        name={caseStudy.name}
+        imgSrc={caseStudy.imgSrc}
+        date={caseStudy.date}
+        blurb={caseStudy.blurb}
+      />
+    )
+  );
+}
+
 const ProfessionalAbout = ({ level, onMoreTap }) => {
   const defaultContent = (
     <>
@@ -36,14 +115,17 @@ const ProfessionalAbout = ({ level, onMoreTap }) => {
   const levelOneContent = (
     <>
       { defaultContent }
-      <p>Previously I was at Jetblack, the first company out of Walmart’s Store No. 8 incubator, working on a similar product. My experience spans a decade, mostly at start ups and small companies—from contractor to full time and in between.</p>
+      <p>Previously I was at Jetblack, the first company out of Walmart’s Store No. 8 incubator which offered a similar product. I've got over a decade of design experience, mostly at start ups and small companies—from contractor to full time and in between.</p>
     </>
   );
 
   const levelTwoContent = (
     <>
-    { levelOneContent }
-    <p>I've been a User Interface Designer, User Experience Designer, Product Designer, Designer/Front-End Developer, etc. Titles for designers are all over the place. Simply put, I can design user experiences and produce visual artifacts across many channels, formats, and media. I'm also very comfortable writing code (VIM for life, yo).</p>
+      { levelOneContent }
+      <p>I've been a User Interface Designer, User Experience Designer, Product Designer, Designer/Front-End Developer, etc. Titles for designers are all over the place. Simply put, I can design user experiences and produce visual artifacts across many channels, formats, and media. I'm also very comfortable writing code (VIM for life, yo).</p>
+      <p>Since you’ve come this far, you may be interested in some case studies I put together in the past; they’ll give you a sense of some of the work I’ve done.</p>
+      <h4 className={ styles.caseStudiesHeader }>Case studies</h4>
+      { renderCaseStudies() }
     </>
   );
 
@@ -101,7 +183,7 @@ export const Home = () => {
         </HomeContentBlock>
 
         <HomeContentBlock type='dark'>
-          <h3 className={ styles.sectionExplainer }>Outside of work, I'm usually  coding, playing video games, or writing. </h3>
+          <h3 className={ styles.sectionExplainer }>In my free time I'm usually  coding, playing video games, or writing. </h3>
           <ul>
             <li>
               <p>I review games at <a href='http://byte-sized-reviews.whatbrentsay.com'>byte sized reviews</a></p>
