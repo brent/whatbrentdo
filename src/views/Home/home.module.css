@@ -1,4 +1,5 @@
 .homeWrapper { 
+  font-size: 1.125em;
   height: 100%;
 }
 
@@ -33,12 +34,14 @@
   max-width: 48rem;
 }
 
-.homeContentBlockInner > * {
-  margin-bottom: 0.5rem;
-}
-
-.homeContentBlockInner > *:last-child {
-  margin-bottom: 0;
+.homeContentBlockInner > p,
+.homeContentBlockInner > h1,
+.homeContentBlockInner > h2,
+.homeContentBlockInner > h3,
+.homeContentBlockInner > h4,
+.homeContentBlockInner > h5,
+.homeContentBlockInner > h6 {
+  margin-bottom: 1rem;
 }
 
 .homeContentBlockInner p {
@@ -51,7 +54,8 @@
 }
 
 .greeting,
-.sectionExplainer {
+.sectionExplainer,
+.caseStudiesHeader {
   font-weight: bold;
 }
 
@@ -63,6 +67,57 @@
   font-size: 1.5em;
 }
 
+.caseStudiesHeader {
+  margin-top: 4rem;
+}
+
+.caseStudy__thumb,
+.caseStudy__name {
+  margin-bottom: 1rem;
+}
+
+.caseStudy__thumb {
+  border-radius: 0.25rem;
+  height: auto;
+  width: 100%;
+}
+
+.caseStudy__name {
+  color: #444;
+  font-weight: 700;
+  text-align: center;
+}
+
+.caseStudy__projectDate {
+  color: #aaa;
+  font-weight: normal;
+}
+
+.caseStudyBlock:first-of-type {
+  margin-top: 4rem;
+}
+
+.caseStudyBlock {
+  border-radius: 0.25rem;
+  color: inherit;
+  display: block;
+  margin: 8rem auto;
+  text-decoration: none;
+}
+
+.caseStudyBlock:last-child {
+  margin-bottom: 0;
+}
+
+.caseStudyBlock,
+.moreTrigger {
+  cursor: pointer;
+}
+
+.caseStudy__blurb {
+}
+
+.caseStudy__readMore,
 .moreTrigger {
   color: #B4B4B4;
   font-size: inherit;
@@ -72,6 +127,13 @@
   outline: none;
   background: none;
   border: none;
+  margin-top: 1rem;
+  width: 100%;
+  text-align: left;
+}
+
+.caseStudy__readMore {
+  text-align: right;
 }
 
 @media (min-width: 768px) {
@@ -79,13 +141,33 @@
     font-size: 1.5rem;
   }
 
-  .homeContentBlockInner > * {
+  .homeContentBlockInner > p,
+  .homeContentBlockInner > h1,
+  .homeContentBlockInner > h2,
+  .homeContentBlockInner > h3,
+  .homeContentBlockInner > h4,
+  .homeContentBlockInner > h5,
+  .homeContentBlockInner > h6 {
     margin-bottom: 1rem;
+  }
+
+  .caseStudyBlock {
+    font-size: 1.5rem;
+  }
+
+  .caseStudy__thumb,
+  .caseStudy__name {
+    margin-bottom: 2rem;
+  }
+
+  .caseStudy__name {
+    font-size: 1.5em;
   }
 }
 
 @media (min-width: 1200px) {
-  .homeWrapper {
-    font-size: 1.66rem;
+  .homeWrapper,
+  .caseStudyBlock {
+    font-size: 1.75rem;
   }
 }

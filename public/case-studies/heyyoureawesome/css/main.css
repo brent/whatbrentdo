@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,600|Pacifico);
+
+.case-study__header a {
+  background-position: 0 -120px;
+}
+
+body {
+  background: #F7F7F7;
+}
+
+.heyyoureawesome {
+  color: #777;
+  font-family: Cabin, sans-serif;
+  line-height: 1.2rem;
+}
+
+.heyyoureawesome__title {
+  color: #BABABA;
+}
+
+.heyyoureawesome__title .heyyoureawesome__hey-youre,
+.heyyoureawesome__title .heyyoureawesome__awesome {
+  display: block;
+  line-height: normal;
+}
+
+.heyyoureawesome__title .heyyoureawesome__hey-youre {
+  color: #BABABA;
+  font-family: Cabin, sans-serif;
+  font-size: 13vw;
+  font-weight: 600;
+  margin-bottom: -0.8em;
+}
+
+.heyyoureawesome__title .heyyoureawesome__awesome {
+  color: #E4472A;
+  font-family: Pacifico, serif;
+  font-size: 16vw;
+}
+
+.heyyoureawesome .cta-container {
+  font-family: Cabin, sans-serif;
+}
+
+.heyyoureawesome .cta-container a {
+  background: #B8E986;
+  border: none;
+  color: #fff;
+  -webkit-transition: 0.2s box-shadow, 0.2s background;
+  transition: 0.2s box-shadow, 0.2s background;
+}
+
+.heyyoureawesome .cta-container a:hover {
+  background: #A4D770;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.heyyoureawesome__splash .cta-container a {
+  max-width: 220px;
+}
+
+.heyyoureawesome__main img {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.heyyoureawesome__main p {
+  font-family: inherit;
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+}
+
+.heyyoureawesome__body-copy {
+  max-width: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heyyoureawesome__body-copy a {
+  color: #E4472A;
+}
+
+p.heyyoureawesome__big-headline,
+p.heyyoureawesome__script-headline {
+  font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  max-width: 32rem;
+}
+
+p.heyyoureawesome__big-headline {
+  color: #BABABA;
+  font-family: Cabin, sans-serif;
+  line-height: 1.1em;
+}
+
+p.heyyoureawesome__script-headline {
+  color: #E4472A;
+  font-family: Pacifico, serif;
+  line-height: 1.4em;
+}
+
+.heyyoureawesome .case-study__details {
+  border-color: #d8d8d8;
+}
+
+.heyyoureawesome .case-study__details p {
+  padding: 0;
+}
+
+.heyyoureawesome__form-gif {
+  display: block;
+  margin: 0 auto;
+  max-width: 512px;
+}
+
+@media screen and (min-width: 601px) {
+  .heyyoureawesome__thumbs {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .heyyoureawesome__thumb-container:first-child {
+    margin-right: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .heyyoureawesome__main p {
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+  }
+
+  p.heyyoureawesome__big-headline,
+  p.heyyoureawesome__script-headline {
+    margin: 3rem auto;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .heyyoureawesome__title .heyyoureawesome__hey-youre {
+    font-size: 94px;
+  }
+
+  .heyyoureawesome__title .heyyoureawesome__awesome {
+    font-size: 124px;
+  }
+}
