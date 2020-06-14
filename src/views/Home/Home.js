@@ -76,7 +76,7 @@ const renderCaseStudies = () => {
     },
     {
       name: 'Sherpa Concierge',
-      imgSrc: 'img/sherpa_thumb.png',
+      imgSrc: 'img/sherpaconcierge_thumb.png',
       date: '2015',
       blurb: 'In partnership with designer-friend Dan Berkowitz, I helped a job placement focused startup bring their MVP product to life.',
       url: '/case-studies/sherpa',
