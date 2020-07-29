@@ -126,15 +126,18 @@ const ProfessionalAbout = ({ level, onMoreTap }) => {
   const levelOneContent = (
     <>
       { defaultContent }
-      <p>Previously I was at Jetblack, the first company out of Walmart’s Store No. 8 incubator which offered a similar product. I've got over a decade of design experience, mostly at start ups and small companies—from contractor to full time and in between.</p>
+      <p>Previously I was at Jetblack, the first company out of Walmart’s Store No. 8 incubator which offered a similar text-based shopping product. There, I was focused on the company’s mobile app, as well has a handful of internal tools and initiatives.
+      </p>
     </>
   );
 
   const levelTwoContent = (
     <>
       { levelOneContent }
-      <p>I've been a User Interface Designer, User Experience Designer, Product Designer, Designer/Front-End Developer, etc. Titles for designers are all over the place. Simply put, I can design user experiences and produce visual artifacts across many channels, formats, and media. I'm also very comfortable writing code (VIM for life, yo).</p>
-      <p>Since you’ve come this far, you may be interested in some case studies I put together in the past; they’ll give you a sense of some of the work I’ve done.</p>
+      <p>I have over a decade of design experience, mostly at start ups and small companies as a contractor, full timer, and in between. I’ve been delivering UX and UI artifacts for products at scale for a decade. I’m also comfortable writing code (VIM for life).
+      </p>
+      <p>Since you’ve come this far, you may be interested in some case studies I put together in the past. I’ve been slow to add more recent ones but if you want to talk about what I’ve been up to, say “hi” and send me an email.
+      </p>
       { renderCaseStudies() }
     </>
   );
@@ -193,7 +196,7 @@ export const Home = () => {
         </HomeContentBlock>
 
         <HomeContentBlock type='dark'>
-          <h3 className={ styles.sectionExplainer }>In my free time I'm usually  coding, playing video games, or writing. </h3>
+          <h3 className={ styles.sectionExplainer }>In my free time I'm usually  writing, doing something with javascript, or playing video games.</h3>
           <ul>
             <li>
               <p>I review games at <a href='http://byte-sized-reviews.whatbrentsay.com'>byte sized reviews</a></p>
@@ -202,7 +205,6 @@ export const Home = () => {
               <p>I keep other words at <a href='http://whatbrentsay.com'>whatbrentsay</a></p>
             </li>
           </ul>
-          <p>I've almost always got a side project I'm working on as well.</p>
         </HomeContentBlock>
       </div>
     </div>
