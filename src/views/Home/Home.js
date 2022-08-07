@@ -188,7 +188,7 @@ export const Home = () => {
       <div className={ styles.homeContentBlockWrapper }>
         <HomeContentBlock type='light'>
           <h2 className={ styles.greeting }>Hey, I’m Brent.</h2>
-          <h3 className={ styles.sectionExplainer }>I design and build digital products professionally.</h3>
+          <h3 className={ styles.sectionExplainer }>I design and build digital products.</h3>
           <ProfessionalAbout
             level={ moreLevel }
             onMoreTap={ onMoreTap }
@@ -196,13 +196,13 @@ export const Home = () => {
         </HomeContentBlock>
 
         <HomeContentBlock type='dark'>
-          <h3 className={ styles.sectionExplainer }>In my free time I'm usually  writing, doing something with javascript, or playing video games.</h3>
+          <h3 className={ styles.sectionExplainer }>Outside of work, I write words, javascript, and play video games.</h3>
           <ul>
             <li>
-              <p>I review games at <a href='http://byte-sized-reviews.whatbrentsay.com'>byte sized reviews</a></p>
+              <p>I review games at <a href='https://byte-sized-reviews.whatbrentsay.com'>byte sized reviews</a></p>
             </li>
             <li>
-              <p>I keep other words at <a href='http://whatbrentsay.com'>whatbrentsay</a></p>
+              <p>I write weekly&mdash;mostly about tech&mdash;at <a href='https://whatbrentsay.com'>whatbrentsay</a></p>
             </li>
           </ul>
         </HomeContentBlock>
