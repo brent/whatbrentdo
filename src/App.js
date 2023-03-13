@@ -1,5 +1,6 @@
 import React from 'react';
-import './reset.css';
+import './css/reset.css';
+import './css/global.css';
 import styles from './app.module.css';
 
 import { Home } from './views/Home';
