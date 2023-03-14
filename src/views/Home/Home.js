@@ -1,4 +1,9 @@
-import React, { useState, useEffect, useRef, useLayoutEffect } from 'react';
+import React, {
+  useState,
+  useEffect,
+  useRef,
+  useLayoutEffect,
+} from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -20,40 +25,66 @@ const IntroSection = () => {
   const otherTitles = [
     'a hobbyist back-end developer',
     'savvy on the command line',
-    'an infrequent writer',
-    'a gamer',
     'a technophile',
-    'not as tall as you think',
+    'a gamer',
+    'an infrequent writer',
     'an NBA fan',
+    'not as tall as you think',
   ]
 
-  const getTitles = (fixedTitles, titlesToShuffle) => {
-    const shuffledTitles = titlesToShuffle
-      .map(value => ({ value, sort: Math.random() }))
-      .sort((a, b) => a.sort - b.sort)
-      .map(({ value }) => value)
+  const titlesList = [...proTitles, ...otherTitles];
 
-    return [...fixedTitles, ...shuffledTitles]
+  const renderTitlesList = (activeIndex) => {
+    return titlesList.map((title, index) => (
+      <li 
+        key={title}
+        className={styles.introTitleItem}
+      >{title}</li>
+    ))
   }
 
-  const titlesRef = useRef(getTitles(proTitles, otherTitles));
+  const [activeTitle, setActiveTitle] = useState(0)
+  const [topLineVisible, setTopLineVisible] = useState(true)
+  const [scrolled, setScrolled] = useState(false)
 
-  const [currentTitle, setCurrentTitle] = useState(0);
+  const sectionRef = useRef()
+  const introTopLineRef = useRef()
+  const introTitles = useRef()
 
-  useEffect(() => {
-    const changeTitleTimer = setTimeout((e) => {
-      setCurrentTitle(currentTitle < (titlesRef.current.length - 1) ? currentTitle + 1 : 0);
-    }, 2000);
+  useLayoutEffect(() => {
+    let ctx = gsap.context(() => {
+      gsap.to(introTopLineRef.current, {
+        scrollTrigger: {
+          //markers: true,
+          trigger: introTitles.current,
+          endTrigger: sectionRef.current,
+          start: "top top+=176px",
+          end: "bottom top",
+          onStart: () => setScrolled(true),
+          onLeave: () => setTopLineVisible(false),
+          onEnterBack: () => setTopLineVisible(true),
+          onLeaveBack: () => setScrolled(false)
+        }
+      })
+    })
 
-    return () => clearTimeout(changeTitleTimer);
-  }, [currentTitle]);
+    return () => ctx.revert()
+  })
 
+  const topLineClass = (() => {
+    const baseClass = `${styles.introTopLine}`
+    return topLineVisible
+      ? baseClass
+      : `${baseClass} ${styles.introTopLine__hidden}`
+  })()
 
   return (
-    <section className={ styles.introSection }>
+    <section ref={sectionRef} className={ styles.introSection }>
       <h2 className={ styles.introContent }>
-        <span className={ styles.introTopLine }>Brent is</span>
-        <span className={ styles.introBottomLine }>{ titlesRef.current[currentTitle] }</span>
+        <p ref={introTopLineRef} className={ topLineClass }>Brent is</p>
+        <ul ref={introTitles} className={ styles.introTitles }>
+          { renderTitlesList() }
+        </ul>
       </h2>
     </section>
   );
@@ -84,16 +115,10 @@ const WavesSection = () => {
           trigger: wavesRef.current,
           endTrigger: emojiRef.current,
           start: "top top",
-          end: "top top+=200px",
-          onUpdate: self => {
-            updateWave(self)
-          },
-          onLeave: () => {
-            setShowGreeting(true)
-          },
-          onEnterBack: () => {
-            setShowGreeting(false)
-          },
+          end: "bottom top+=168px",
+          onUpdate: self => updateWave(self),
+          onLeave: () => setShowGreeting(true),
+          onEnterBack: () => setShowGreeting(false),
         },
       })
     })

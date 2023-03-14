@@ -4,29 +4,44 @@
 
 .homeWrapper { 
   font-size: 1.125em;
-  height: 100%;
+}
+
+.wavesSection,
+.professionalSection,
+.personalProjectsSection {
+  padding: 2rem 1rem;
 }
 
 .homeWrapper > section {
-  padding: 2rem 1rem;
   box-sizing: border-box;
 }
 
 .introSection {
-  background-image:
-    linear-gradient(#fff 60%, rgba(255,255,255,0) 99%),
-    linear-gradient(rgba(54,44,56,0) 60%, var(--colorBrandDark1) 99%);
   display: flex;
   flex-flow: row wrap;
-  height: calc(100vh - 1rem);
   justify-content: center;
   position: relative;
+  padding-bottom: 4rem;
 }
 
 .introTopLine {
+  background: rgba(255,255,255,0.8);
+  backdrop-filter: blur(8px);
   color: var(--colorBrandDark1);
   font-family: var(--fontFamilySerif);
+  font-size: 2.5rem;
   font-weight: bold;
+  padding: 8rem 0 1rem;
+  position: fixed;
+  width: 100%;
+}
+
+.introTopLine__hidden {
+  display: none;
+}
+
+.introTopLine__scrolled {
+  box-shadow: 0 0.25rem 1rem rgba(0,0,0,0.15);
 }
 
 .introBottomLine {
@@ -35,13 +50,30 @@
 }
 
 .introContent {
-  margin-top: 66%;
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
 }
 
-.introContent > span {
-  display: block;
-  font-size: 4rem;
-  text-align: center;
+.introTitles {
+  color: var(--colorBrandDark2);
+  margin-top: 11.5rem;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.introTitles > li {
+  margin-bottom: 1rem;
+}
+
+.introTitles > li:last-child {
+  margin-bottom: 0;
+}
+
+.introTitleItem { }
+
+.introTitleItem__active {
+  color: var(--colorBrandPrimary);
 }
 
 .introBottom {
@@ -58,12 +90,15 @@
 
 .wavesSection {
   align-items: flex-start;
-  background: var(--colorBrandDark1);
+  background-image:
+    linear-gradient(#fff, rgba(255,255,255,0) 25%),
+    linear-gradient(rgba(54,44,56,0), var(--colorBrandDark1) 25%);
   display: flex;
   flex-flow: column nowrap;
   font-size: 4rem;
-  height: 100vh;
   justify-content: center;
+  padding-top: 16rem;
+  padding-bottom: 0;
   position: relative;
 }
 
