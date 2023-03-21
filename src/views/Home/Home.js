@@ -1,103 +1,101 @@
 import React, {
   useState,
   useEffect,
-  useRef,
-  useLayoutEffect,
 } from 'react';
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import styles from './home.module.css';
 
 import { Header } from '../Header';
 import { Emoji } from '../../components/Emoji';
 
-gsap.registerPlugin(ScrollTrigger);
+const GreetingSection = ({ onAnimationDone }) => {
+  const [wavesAnimating, setWavesAnimating] = useState(true)
+  const [greetingAnimating, setGreetingAnimating] = useState(false)
 
-const IntroSection = () => {
-  const proTitles = [
-    'a Product Design Manager',
-    'a UX Designer',
-    'a UI Designer',
-    'a front-end developer',
-  ]
-
-  const otherTitles = [
-    'a hobbyist back-end developer',
-    'savvy on the command line',
-    'a technophile',
-    'a gamer',
-    'an infrequent writer',
-    'an NBA fan',
-    'not as tall as you think',
-  ]
-
-  const titlesList = [...proTitles, ...otherTitles];
-
-  const renderTitlesList = (activeIndex) => {
-    return titlesList.map((title, index) => (
-      <li 
-        key={title}
-        className={styles.introTitleItem}
-      >{title}</li>
-    ))
-  }
-
-  const [activeTitle, setActiveTitle] = useState(0)
-  const [topLineVisible, setTopLineVisible] = useState(true)
-  const [scrolled, setScrolled] = useState(false)
-
-  const sectionRef = useRef()
-  const introTopLineRef = useRef()
-  const introTitles = useRef()
-
-  useLayoutEffect(() => {
-    let ctx = gsap.context(() => {
-      gsap.to(introTopLineRef.current, {
-        scrollTrigger: {
-          //markers: true,
-          trigger: introTitles.current,
-          endTrigger: sectionRef.current,
-          start: "top top+=176px",
-          end: "bottom top",
-          onStart: () => setScrolled(true),
-          onLeave: () => setTopLineVisible(false),
-          onEnterBack: () => setTopLineVisible(true),
-          onLeaveBack: () => setScrolled(false)
-        }
-      })
-    })
-
-    return () => ctx.revert()
-  })
-
-  const topLineClass = (() => {
-    const baseClass = `${styles.introTopLine}`
-    return topLineVisible
-      ? baseClass
-      : `${baseClass} ${styles.introTopLine__hidden}`
-  })()
+  useEffect(() => {
+    if (wavesAnimating === false && greetingAnimating === false) {
+      console.log('useEffect')
+      onAnimationDone()
+    }
+  }, [greetingAnimating])
 
   return (
-    <section ref={sectionRef} className={ styles.introSection }>
-      <h2 className={ styles.introContent }>
-        <p ref={introTopLineRef} className={ topLineClass }>Brent is</p>
-        <ul ref={introTitles} className={ styles.introTitles }>
-          { renderTitlesList() }
-        </ul>
-      </h2>
+    <section className={ styles.greetingSection }>
+      { wavesAnimating
+        ? (
+          <WavesSection
+            isAnimating={wavesAnimating}
+            onAnimationDone={() => {
+              setWavesAnimating(false)
+              setGreetingAnimating(true)
+            }}
+          />
+        ) : (
+          <TextGreeting
+            isAnimating={greetingAnimating}
+            onAnimationDone={() => setGreetingAnimating(false)}
+          />
+        )
+      }
     </section>
-  );
+  )
 }
 
-const WavesSection = () => {
+const TextGreeting = ({ onAnimationDone }) => {
+  const [greetLevel, setGreetLevel] = useState(0)
+
+  const InitialGreet = () => (
+    <>
+      <p className={styles.bigText}>Hi</p>
+    </>
+  )
+
+  const FullGreet = () => (
+    <>
+      <p className={styles.bigText}>Hi,</p>
+      <p className={styles.bigText}>I'm Brent</p>
+    </>
+  )
+
+  const FullGreetWithSubline = () => (
+    <>
+      <FullGreet />
+      <p>I make apps and web sites</p>
+    </>
+  )
+
+  const greetings = [
+    <InitialGreet />,
+    <FullGreet />,
+    <FullGreetWithSubline />,
+  ]
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      if (greetLevel < (greetings.length - 1)) {
+        setGreetLevel(greetLevel + 1)
+      } else {
+        console.log('animation done')
+        onAnimationDone()
+      }
+    }, 250)
+
+    return () => clearTimeout(timer)
+  }, [greetLevel])
+
+  return (
+    <div className={ styles.textGreeting }>
+      { greetings[greetLevel] }
+    </div>
+  )
+}
+
+const WavesSection = ({
+  isAnimating,
+  onAnimationDone,
+}) => {
   const [currentWave, setCurrentWave] = useState(0);
   const [wavesSticky, setWavesSticky] = useState(false);
-  const [showGreeting, setShowGreeting] = useState(false);
-
-  const wavesRef = useRef(null)
-  const emojiRef = useRef(null)
-  const hiRef = useRef(null)
 
   const waves = [
     { symbol: "👋🏽", label: "flipped hand wave emoji" },
@@ -107,87 +105,34 @@ const WavesSection = () => {
     { symbol: "🌊", label: "waves emoji"},
   ]
 
-  useLayoutEffect(() => {
-    let ctx = gsap.context(() => {
-      gsap.to(wavesRef.current, {
-        scrollTrigger: {
-          //markers: true,
-          trigger: wavesRef.current,
-          endTrigger: emojiRef.current,
-          start: "top top",
-          end: "bottom top+=168px",
-          onUpdate: self => updateWave(self),
-          onLeave: () => setShowGreeting(true),
-          onEnterBack: () => setShowGreeting(false),
-        },
-      })
-    })
-
-    return () => ctx.revert();
-  })
-
-  const progressSectors = ((waves) => {
-    const threshold = (1.0/waves.length).toFixed(3);
-    let sectors = [parseFloat(threshold)];
-
-    for (let i = 0; i < waves.length; i++) {
-      const sectorsTotal = threshold * i;
-      const newSector = parseFloat(sectorsTotal) + parseFloat(threshold);
-      sectors.push(newSector);
-    }
-
-    return sectors;
-  })(waves);
-
-  const updateWave = (self) => {
-    const scrollPos = self.progress.toFixed(3);
-    const progressThreshold = (1.0/waves.length).toFixed(3);
-    let nextWave = currentWave;
-
-    if (scrollPos < progressSectors[0]) {
-      setCurrentWave(0)
-      return
-    }
-
-    progressSectors.forEach((sector, i) => {
-      if (scrollPos > sector) {
-        nextWave = i;
-      }
-    })
-
-    setCurrentWave(nextWave);
-  }
-
   const setWavesStyle = (currentWave, cb) => {
     const flipWave = currentWave === 0 || currentWave === 2;
     const waveStyle = flipWave ? { transform: "scale(-1, 1)" } : null
 
-    let moreStyles = (() => typeof cb === "function" ? cb() : null)();
-
-    return {
-      ...waveStyle,
-      ...moreStyles,
-    }
+    return waveStyle
   }
 
   useEffect(() => {
-  }, [currentWave]);
+    const timer = setTimeout(() => {
+      currentWave < (waves.length - 1)
+        ? setCurrentWave(currentWave + 1)
+        : onAnimationDone()
+    }, 200)
+
+    return () => clearTimeout(timer)
+  }, [currentWave])
 
   return (
-    <section className={styles.wavesSection} ref={wavesRef}>
+    <section className={styles.wavesSection}>
       <div 
         className={styles.emojiWrapper}
         style={setWavesStyle(currentWave)}
-        ref={emojiRef}
       >
-        { !showGreeting ? (
-          <Emoji 
-            symbol={waves[currentWave].symbol}
-            label={waves[currentWave].label}
-          />
-        ) : (
-          <p className={styles.bigHi} ref={hiRef}>Hi</p>
-        )}
+        <Emoji
+          className={styles.bigText}
+          symbol={waves[currentWave].symbol}
+          label={waves[currentWave].label}
+        />
       </div>
     </section>
   )
@@ -197,6 +142,7 @@ const ProfessionalSection = () => (
   <section className={styles.professionalSection}>
     <div className={styles.proBlurb}>
       <p>I’m the Product Design Manager at Maisonette where I lead design for web and app.</p>
+      <p>In my time there, I created a style guide, redesigned our checkout experience, helped launch our app, hired a designer, managed a few different freelancers, supported A/B tests, and redesigned the site (which never went live), among other feature work and initiatives.</p>
       <p>Previously, I worked at InHome, Text to Shop, and Jetblack&mdash;internally incubated products at Walmart. Before that, Crowdtap (now Suzy), BuddyMedia, and other startups.</p>
     </div>
   </section>
@@ -263,6 +209,8 @@ const PersonalProjectsSection = () => {
 }
 
 export const Home = () => {
+  const [isIntroAnimating, setIsIntroAnimating] = useState(true)
+
   return (
     <>
       <Header
@@ -272,11 +220,18 @@ export const Home = () => {
       />
 
       <div className={ styles.homeWrapper }>
-        <IntroSection />
-        <WavesSection />
-        <ProfessionalSection />
-        <PersonalProjectsSection />
+        <GreetingSection
+          onAnimationDone={() => setIsIntroAnimating(false)}
+        />
+        { !isIntroAnimating
+          ? (
+            <div className={styles.mainContentWrapper}>
+              <ProfessionalSection />
+              <PersonalProjectsSection />
+            </div>
+          ) : null
+        }
       </div>
     </>
-  );
-};
+  )
+}
