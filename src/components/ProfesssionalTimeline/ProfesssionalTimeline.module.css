@@ -1,0 +1,99 @@
+.professionalTimeline {
+  background: var(--colorBrandDark1);
+  color: var(--colorBrandDark1);
+  margin-top: 2rem;
+}
+
+.professionalTimeline__inner {
+  display: flex;
+  overflow: auto hidden;
+}
+
+.professionalTimeline__inner::-webkit-scrollbar {
+  display: none;
+}
+
+.timelineItem {
+  background: #fff;
+  flex: 0 0 20rem;
+  padding: 2rem 0;
+}
+
+.timelineItem:first-child {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  margin-left: 1rem;
+  padding-left: 1rem;
+}
+
+.timelineItem:last-child {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  margin-right: 1rem;
+  padding-right: 1rem;
+}
+
+.timelineSection {
+  display: inline-block;
+  width: 120rem;
+}
+
+.timelineComponents {
+  height: 2rem;
+  width: 100%;
+  position: relative;
+}
+
+.timelineNub,
+.timelineTrack {
+  display: block;
+  position: absolute;
+}
+
+.timelineNub {
+  background: var(--colorBrandPrimary);
+  border-radius: 0.5rem;
+  width: 1rem;
+  height: 1rem;
+  left: calc(50% - 0.5rem);
+  top: calc(50% - 0.5rem);
+  z-index: 1;
+}
+
+.timelineTrack {
+  background: var(--colorBrandDark2);
+  height: 0.25rem;
+  top: calc(50% - 0.125rem);
+  width: 100%;
+}
+
+.timelineItem:first-child .timelineComponents .timelineTrack {
+  background: linear-gradient(to right, transparent, var(--colorBrandDark2));
+}
+
+.timelineItem:last-child .timelineComponents .timelineTrack {
+  background: linear-gradient(to left, transparent, var(--colorBrandDark2));
+}
+
+.jobMetadata {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.jobMetadata > li {
+  position: relative;
+}
+
+.jobName {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.jobStartDate {
+  color: var(--colorBrandDark2);
+  font-size: 1rem;
+}
+
+.jobTitle {
+  font-size: 1rem;
+}

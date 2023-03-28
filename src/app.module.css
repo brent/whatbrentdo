@@ -1,15 +1,5 @@
-a {
-  color: #fff;
-}
-
 .wrapper {
-  color: #444;
   font-family: Barlow, sans-serif;
   font-size: 16px;
   height: 100%;
-}
-
-.container {
-  max-width: 50rem;
-  margin: 0 auto;
 }

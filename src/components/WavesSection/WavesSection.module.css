@@ -1,0 +1,16 @@
+.wavesSection { }
+
+.wavesSection {
+  align-items: flex-start;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.wavesSection__sticky {
+  position: fixed;
+}
+
+.bigText {
+  font-size: 4rem;
+}

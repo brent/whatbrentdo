@@ -5,47 +5,12 @@
 .homeWrapper { 
   color: var(--colorBrandDark1);
   font-size: 1.125em;
-}
-
-.greetingSection,
-.professionalSection,
-.personalProjectsSection {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
 .homeWrapper > section {
   box-sizing: border-box;
-}
-
-.wavesSection {
-  align-items: flex-start;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-}
-
-.wavesSection__sticky {
-  position: fixed;
-}
-
-.emojiWrapper { }
-
-.textGreeting {
-  font-family: var(--fontFamilySansSerif);
-  font-size: 1.5rem;
-}
-
-.greetingSection {
-  padding-bottom: 0;
-  padding-top: 16rem;
-  margin-bottom: 4rem;
-}
-
-.bigText {
-  font-family: var(--fontFamilySerif);
-  font-weight: bold;
-  font-size: 4rem;
 }
 
 @keyframes fadeIn {
@@ -61,67 +26,6 @@
 .mainContentWrapper {
   position: relative;
   animation: fadeIn 0.1s, slideUp 0.1s;
-}
-
-.professionalSection {
-  margin-bottom: 4rem;
-}
-
-.proBlurb {
-  font-size: 1.125rem;
-}
-
-.proBlurb > p:first-child {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 2rem;
-}
-
-.personalProjectsSection a {
-  color: #656565;
-}
-
-.personalProjectsHeader {
-  font-size: 1.25rem;
-  margin-bottom: 2rem;
-}
-
-.personalProjectsHeader > p:first-of-type {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 2rem;
-}
-
-.projectDescription a {
-  color: var(--colorBrandPrimary);
-}
-
-.personalProjectSubsection {
-  margin-bottom: 2rem;
-}
-
-.personalProjectSubsection > p:first-of-type {
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-
-.personalProjectSubsection img {
-  max-width: 100vw;
-  margin: 2rem 0 0 -1rem;
-}
-
-.projectHeader {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.projectHeader > p {
-  font-family: var(--fontFamilySerif);
-  font-size: 2rem;
-}
-
-.projectImgWrapper {
-  transform: translateY(calc(1rem * -1));
 }
 
 @media (min-width: 768px) {
