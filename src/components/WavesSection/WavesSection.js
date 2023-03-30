@@ -6,10 +6,7 @@ import styles from './WavesSection.module.css';
 
 import { Emoji } from '../Emoji';
 
-export const WavesSection = ({
-  isAnimating,
-  onAnimationDone,
-}) => {
+export const WavesSection = ({ onAnimationDone }) => {
   const [currentWave, setCurrentWave] = useState(0);
 
   const waves = [

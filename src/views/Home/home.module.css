@@ -5,8 +5,6 @@
 .homeWrapper { 
   color: var(--colorBrandDark1);
   font-size: 1.125em;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .homeWrapper > section {

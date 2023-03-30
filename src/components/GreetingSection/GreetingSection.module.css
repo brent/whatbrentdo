@@ -1,7 +1,4 @@
-.greetingSection { }
-
 .greetingSection {
-  padding-bottom: 0;
-  padding-top: 16rem;
+  padding: 75% 1rem 0;
   margin-bottom: 4rem;
 }

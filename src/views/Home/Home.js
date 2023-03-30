@@ -8,6 +8,7 @@ import { Header } from '../Header';
 import { GreetingSection } from '../../components/GreetingSection';
 import { ProfessionalSection } from '../../components/ProfessionalSection';
 import { PersonalProjectsSection } from '../../components/PersonalProjectsSection';
+import { Footer } from '../../components/Footer';
 
 export const Home = () => {
   const [isIntroAnimating, setIsIntroAnimating] = useState(true)
@@ -30,6 +31,7 @@ export const Home = () => {
             <div className={styles.mainContentWrapper}>
               <ProfessionalSection />
               <PersonalProjectsSection />
+              <Footer />
             </div>
           ) : null
         }
