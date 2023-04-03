@@ -3,11 +3,13 @@
 }
 
 .personalProjectsSection p {
+  color: #767676;
   font-size: 1.125rem;
   line-height: 1.5rem;
 }
 
 .personalProjectsSection strong {
+  color: var(--colorBrandDark1);
   font-weight: bold;
 }
 
@@ -33,6 +35,7 @@
 }
 
 .personalProjectsHeader > p:first-of-type {
+  color: var(--colorBrandDark1);
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
@@ -43,13 +46,14 @@
 }
 
 .projectHeader .projectName {
+  color: var(--colorBrandDark1);
   font-family: var(--fontFamilySerif);
   font-size: 1.5rem;
   font-weight: bold;
 }
 
 .projectHeader .projectLink {
-  color: var(--colorBrandDark2);
+  color: var(--colorBrandPrimary);
   font-family: var(--fontFamilySansSerif);
 }
 
@@ -58,12 +62,8 @@
   font-weight: inherit;
 }
 
-.projectHeader > p {
-  margin-bottom: 0.5rem;
-}
-
 .projectHeader .projectNumber {
-  background: var(--colorBrandDark2);
+  background: var(--colorBrandMedium);
   border-radius: 100%;
   box-sizing: border-box;
   color: #fff;

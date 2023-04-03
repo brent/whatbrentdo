@@ -1,14 +1,10 @@
 .professionalSection {
-  background: var(--colorBrandDark1);
-  color: #fff;
-  padding: 2rem 0;
-  width: 100vw;
-}
-
-.professionalSection {
+  color: #767676;
   font-size: 1.125rem;
   line-height: 1.25rem;
   margin-bottom: 4rem;
+  padding: 2rem 0;
+  width: 100vw;
 }
 
 .professionalRecent,
@@ -18,16 +14,17 @@
 }
 
 .professionalRecent {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .professionalPast a {
-  color: #fff;
+  color: var(--colorBrandPrimary);
 }
 
 .professionalRecent__highlight {
+  color: var(--colorBrandDark1);
   font-size: 1.5rem;
   font-weight: bold;
-  line-height: 2rem;
+  line-height: 1.75rem;
   margin-bottom: 0.5rem;
 }

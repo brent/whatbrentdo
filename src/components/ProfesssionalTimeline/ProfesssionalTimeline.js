@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './ProfesssionalTimeline.module.css';
-
+import { BtnCta } from '../BtnCta';
 
 const TimelineComponents = () => (
   <div className={styles.timelineComponents}>
@@ -112,10 +112,11 @@ export const ProfesssionalTimeline = () => {
   }
 
   return (
-    <div className={styles.professionalTimeline}>
-      <ol className={styles.professionalTimeline__inner}>
+    <div className={styles.professionalTimelineSection}>
+      <ol className={styles.professionalTimeline}>
         { renderTimelineItems() }
       </ol>
+      {/* <BtnCta label="More professional work &rarr;" /> */}
     </div>
   )
 }

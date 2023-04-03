@@ -1,0 +1,20 @@
+.btnCta {
+  text-align: center;
+}
+
+.btnCta__fill > a {
+  background: var(--colorBrandPrimary);
+  color: #fff;
+}
+
+.btnCta__outline > a {
+  border: 0.125rem solid var(--colorBrandPrimary);
+  color: var(--colorBrandPrimary);
+}
+
+.btnCta > a {
+  display: inline-block;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}

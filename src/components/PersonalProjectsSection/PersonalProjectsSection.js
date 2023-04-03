@@ -76,7 +76,7 @@ export const PersonalProjectsSection = () => {
       <ul>
         <li>
           <PersonalProjectSubsection number={1} project={projectsData[0]}>
-            <p><strong><a href={projectsData[0].link}>whatbrentplay</a> is a personal game review site I built using React and Firebase.</strong></p>
+            <p><strong><a href={projectsData[0].link}>whatbrentplay</a> is a personal video game review site I built using React and Firebase.</strong></p>
             <p>I play the games and review them with a bespoke scoring system.</p>
           </PersonalProjectSubsection>
         </li>
