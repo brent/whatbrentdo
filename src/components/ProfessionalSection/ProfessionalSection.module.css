@@ -11,6 +11,7 @@
 .professionalPast {
   line-height: 1.5rem;
   padding: 0 1rem;
+  max-width: 37rem;
 }
 
 .professionalRecent {
@@ -27,4 +28,11 @@
   font-weight: bold;
   line-height: 1.75rem;
   margin-bottom: 0.5rem;
+}
+
+@media (min-width: 37rem) {
+  .professionalRecent,
+  .professionalPast {
+    margin: 0 auto;
+  }
 }

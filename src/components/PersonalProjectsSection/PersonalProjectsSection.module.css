@@ -1,5 +1,6 @@
 .personalProjectsSection {
   padding: 0 1rem;
+  max-width: 37rem;
 }
 
 .personalProjectsSection p {
@@ -78,13 +79,9 @@
   margin-bottom: 1rem;
 }
 
-.projectWbp .projectImgWrapper,
+.projectImgWrapper,
 .projectImgWrapper img {
   width: 100%;
-}
-
-.projectWbp img {
-  max-width: 100%;
 }
 
 .projectDescription a {
@@ -93,4 +90,10 @@
 
 .projectDescription > p:first-child {
   margin-bottom: 0.5rem;
+}
+
+@media (min-width: 37rem) {
+  .personalProjectsSection {
+    margin: 0 auto;
+  }
 }

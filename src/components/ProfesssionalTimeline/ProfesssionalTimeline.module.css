@@ -1,6 +1,6 @@
 .professionalTimelineSection {
   color: var(--colorBrandDark1);
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -23,7 +23,7 @@
   border: 2px solid #ddd;
   border-left-style: none;
   border-right-style: none;
-  flex: 0 0 66vw;
+  flex: 0 0 66%;
   padding: 2rem 0;
 }
 
@@ -101,4 +101,10 @@
 
 .jobTitle {
   font-size: 1rem;
+}
+
+@media (min-width: 37rem) {
+  .timelineItem {
+    flex-basis: 33%;
+  }
 }

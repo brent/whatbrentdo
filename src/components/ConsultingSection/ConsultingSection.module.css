@@ -1,20 +1,19 @@
 .consultingSection {
   padding: 0 1rem;
+  max-width: 37rem;
 }
 
 .consultingSection__inner {
-  border: 0.125rem solid #ddd;
   border-radius: 0.5rem;
-  background: #fff;
+  background: #F7F4F8;
   color: var(--colorBrandDark1);
   padding: 1rem;
   text-align: center;
 }
 
 .consultingSection p {
-  color: #656565;
+  color: #75647A;
   font-size: 1rem;
-  font-style: italic;
   margin-bottom: 1rem;
 }
 
@@ -31,4 +30,10 @@
 
 .consultingSectionCta {
   font-size: 1rem;
+}
+
+@media (min-width: 37rem) {
+  .consultingSection {
+    margin: 0 auto;
+  }
 }

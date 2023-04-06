@@ -4,7 +4,7 @@ import React, {
 
 import styles from './home.module.css';
 
-import { Header } from '../Header';
+import { Header } from '../../components/Header';
 import { GreetingSection } from '../../components/GreetingSection';
 import { ProfessionalSection } from '../../components/ProfessionalSection';
 import { PersonalProjectsSection } from '../../components/PersonalProjectsSection';
