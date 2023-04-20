@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './ProfessionalSection.module.css';
 
-import { ProfesssionalTimeline } from '../ProfesssionalTimeline'
+import { ProfessionalTimeline } from '../ProfessionalTimeline'
 import { ConsultingSection } from '../ConsultingSection'
 
 export const ProfessionalSection = () => (
@@ -13,7 +13,7 @@ export const ProfessionalSection = () => (
 
     <p className={styles.professionalPast}>Previously, I worked at <a href="https://www.walmart.com/plus/inhome">InHome</a>, <a href="https://texttoshop.walmart.com/">Text to Shop</a>, and <a href="https://www.crunchbase.com/organization/jetblack">Jetblack</a>&mdash;internally incubated products at Walmart. Before that, <a href="https://crowdtap.com/">Crowdtap</a>, <a href="https://www.crunchbase.com/organization/buddymedia">BuddyMedia</a>, and other startups. In between, I freelanced.</p>
 
-    <ProfesssionalTimeline />
+    <ProfessionalTimeline />
     <ConsultingSection />
   </section>
 );

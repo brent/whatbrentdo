@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './ProfesssionalTimeline.module.css';
+import styles from './ProfessionalTimeline.module.css';
 import { BtnCta } from '../BtnCta';
 
 const TimelineComponents = () => (
@@ -41,7 +41,7 @@ const JobMetadata = ({ job }) => {
   )
 }
 
-export const ProfesssionalTimeline = () => {
+export const ProfessionalTimeline = () => {
   const timelineData = [
     {
       name: "Maisonette",
@@ -52,20 +52,20 @@ export const ProfesssionalTimeline = () => {
     {
       name: "Walmart+ InHome",
       title: "Senior Product Designer",
-      startDate: new Date('9/1/2021'),
+      startDate: new Date('9/1/2020'),
       endDate: new Date('5/1/2021'),
     },
     {
       name: "Walmart Text to Shop",
       title: "Senior UX Designer",
-      startDate: new Date('2/1/2021'),
-      endDate: new Date('9/1/2021'),
+      startDate: new Date('2/1/2020'),
+      endDate: new Date('9/1/2020'),
     },
     {
       name: "Jetblack",
       title: "Senior UX Designer",
       startDate: new Date('5/1/2018'),
-      endDate: new Date('2/1/2021'),
+      endDate: new Date('2/1/2020'),
     },
     {
       name: "Freelance",
