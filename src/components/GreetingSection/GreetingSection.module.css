@@ -1,6 +1,5 @@
 .greetingSection {
   padding: 40vh 1rem 0;
-  margin-bottom: 4rem;
   max-width: 37.5rem;
 }
 
@@ -9,5 +8,6 @@
     padding-left: 0;
     padding-right: 0;
     margin: 0 auto;
+    max-width: min(64rem, 75vw);
   }
 }

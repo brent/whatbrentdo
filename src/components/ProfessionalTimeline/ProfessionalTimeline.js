@@ -113,6 +113,7 @@ export const ProfessionalTimeline = () => {
 
   return (
     <div className={styles.professionalTimelineSection}>
+      <p>Prior to Maisonette, I worked on a few internally incubated products at Walmart. Before that, mostly startups.</p>
       <ol className={styles.professionalTimeline}>
         { renderTimelineItems() }
       </ol>
