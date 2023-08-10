@@ -13,7 +13,6 @@
 .professionalTimelineSection > p:first-child {
   color: var(--colorBrandDark1);
   font-size: 1.5rem;
-  font-weight: bold;
   line-height: 1.75rem;
 }
 

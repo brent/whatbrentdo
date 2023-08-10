@@ -6,8 +6,11 @@ import { ConsultingSection } from '../ConsultingSection'
 
 const RecentlySection = () => (
   <section className={styles.recentlySection}>
+    <div className={styles.professionalCurrent}>
+      <p className={styles.professionalRecent__highlight}>I'm currently the Lead Digital Product Designer at Spanx where I'm responsible for all things web.</p>
+    </div>
     <div className={styles.professionalRecent}>
-      <p className={styles.professionalRecent__highlight}>I was most recently the Product Design Manager at Maisonette.</p>
+      <p className={styles.professionalRecent__highlight}>Right before that I was the Product Design Manager at Maisonette.</p>
       <p>As the functional lead I was responsible for all digital product design.</p>
     </div>
 
@@ -55,6 +58,5 @@ export const ProfessionalSection = () => (
   <section className={styles.professionalSection}>
     <RecentlySection />
     <ProfessionalTimeline />
-    <ConsultingSection />
   </section>
 );

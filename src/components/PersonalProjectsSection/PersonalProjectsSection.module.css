@@ -1,14 +1,14 @@
 .personalProjectsSection {
+  border-top: 1px solid #ddd;
   color: #767676;
   font-size: 1.125rem;
   line-height: 1.5rem;
-  margin-top: 8rem;
+  margin-top: 4rem;
   max-width: 37rem;
-  padding: 0 1rem;
+  padding: 4rem 1rem 0;
 }
 
-.personalProjectsSection p {
-}
+.personalProjectsSection p { }
 
 .personalProjectsSection strong {
   color: var(--colorBrandDark1);
@@ -34,6 +34,7 @@
 
 .personalProjectsHeader {
   margin-bottom: 4rem;
+  text-align: center;
 }
 
 .personalProjectsHeader > p {
@@ -111,6 +112,11 @@
   margin-bottom: 0.5rem;
 }
 
+.gradientProjectImg1 {
+  /* box-shadow: 0 0.25rem 1rem rgba(0,0,0, 0.1); */
+  border: 1px solid #7BAE61;
+}
+
 @media (min-width: 37rem) {
   .personalProjectsSection {
     margin-left: auto;
@@ -121,6 +127,22 @@
   .personalProjectSubsection img,
   .projectImgWrapper,
   .projectImgWrapper img {
-    width: 75%;
+    display: block;
+    margin: 0 auto 2rem;
+  }
+
+  .projectImgWrapper {
+    margin-bottom: 1rem;
+  }
+
+  .projectDescription img {
+    width: 50%;
+  }
+  .projectHeader .projectName {
+    font-size: 2rem;
+  }
+
+  .personalProjectsSection .wbpProjectImg2 {
+    width: 100%;
   }
 }
