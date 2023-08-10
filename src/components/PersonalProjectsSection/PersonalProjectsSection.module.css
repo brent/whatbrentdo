@@ -121,7 +121,7 @@
   .personalProjectsSection {
     margin-left: auto;
     margin-right: auto;
-    max-width: min(64rem, 75vw);
+    max-width: 37rem;
   }
 
   .personalProjectSubsection img,

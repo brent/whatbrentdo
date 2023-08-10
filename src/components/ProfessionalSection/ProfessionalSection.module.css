@@ -117,13 +117,13 @@
   .professionalRecent,
   .professionalPast {
     margin: 0 auto;
-    max-width: min(64rem, 75vw);
+    max-width: 37rem;
   }
 
   .recentlySection p {
     padding-left: 0;
     padding-right: 0;
-    max-width: min(64rem, 75vw);
+    max-width: 37rem;
   }
 
   .mStyleGuideScreens {
