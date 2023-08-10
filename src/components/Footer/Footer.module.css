@@ -1,0 +1,21 @@
+.footer {
+  background: var(--colorBrandDark1);
+  color: var(--colorBrandDark2);
+  margin-top: 8rem;
+  padding: 2rem 1rem;
+}
+
+.farewell {
+  color: #fff;
+  font-family: var(--fontFamilySerif);
+  font-size: 2rem;
+  line-height: 125%;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 37rem) {
+  .footer__inner {
+    max-width: 37rem;
+    margin: 0 auto;
+  }
+}

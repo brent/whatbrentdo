@@ -1,18 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
-
-a {
-  color: #fff;
-}
-
 .wrapper {
-  background: #eee;
-  color: #444;
   font-family: Barlow, sans-serif;
   font-size: 16px;
   height: 100%;
-}
-
-.container {
-  max-width: 50rem;
-  margin: 0 auto;
 }

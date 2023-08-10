@@ -1,0 +1,145 @@
+.professionalTimelineSection {
+  color: var(--colorBrandDark1);
+  margin-top: 4rem;
+}
+
+.professionalTimelineSection > p {
+  color: #767676;
+  margin: 0 auto 1rem;
+  padding: 0 1rem;
+  max-width: 37rem;
+}
+
+.professionalTimelineSection > p:first-child {
+  color: var(--colorBrandDark1);
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+}
+
+.timelineWrapper {
+  max-width: 37rem;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+.professionalTimeline {
+  display: flex;
+  overflow: auto hidden;
+  /* padding-bottom: 1rem; */
+}
+
+.professionalTimeline::before {
+  margin-left: 1rem;
+}
+
+.professionalTimeline::-webkit-scrollbar {
+  display: none;
+}
+
+.timelineItem {
+  background: #fff;
+  border: 2px solid #ddd;
+  border-left-style: none;
+  border-right-style: none;
+  flex: 0 0 66%;
+  padding: 2rem 0;
+}
+
+.timelineItem:first-child {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border-left-style: solid;
+  padding-left: 1rem;
+  margin-left: max(1rem, calc(calc(100vw - 37rem)/2));
+}
+
+.timelineItem:last-child {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-right-style: solid;
+  padding-right: 1rem;
+  margin-right: max(1rem, calc(calc(100vw - 37rem)/2));
+}
+
+.timelineComponents {
+  height: 2rem;
+  width: 100%;
+  position: relative;
+}
+
+.timelineNub,
+.timelineTrack {
+  display: block;
+  position: absolute;
+}
+
+.timelineNub {
+  background: var(--colorBrandPrimary);
+  border-radius: 0.5rem;
+  width: 1rem;
+  height: 1rem;
+  left: calc(50% - 0.5rem);
+  top: calc(50% - 0.5rem);
+  z-index: 1;
+}
+
+.timelineTrack {
+  background: var(--colorBrandDark2);
+  height: 0.25rem;
+  top: calc(50% - 0.125rem);
+  width: 100%;
+}
+
+.timelineItem:first-child .timelineComponents .timelineTrack {
+  background: linear-gradient(to right, transparent, var(--colorBrandDark2));
+}
+
+.timelineItem:last-child .timelineComponents .timelineTrack {
+  background: linear-gradient(to left, transparent, var(--colorBrandDark2));
+}
+
+.jobMetadata {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.jobMetadata > li {
+  position: relative;
+}
+
+.jobName {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.jobStartDate {
+  color: var(--colorBrandDark2);
+  font-size: 1rem;
+}
+
+.jobTitle {
+  font-size: 1rem;
+}
+
+@media (min-width: 37rem) {
+  .timelineWrapper {
+    max-width: min(64rem, 75vw);
+  }
+  .timelineItem {
+    flex-basis: 33%;
+  }
+
+  .professionalTimelineSection > p {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: min(64rem, 75vw);
+  }
+
+  .timelineItem:first-child {
+    margin-left: max(1rem, calc(calc(100vw - min(64rem, 75vw))/2));
+  }
+
+  .timelineItem:last-child {
+    margin-right: max(1rem, calc(calc(100vw - min(64rem, 75vw))/2));
+  }
+}

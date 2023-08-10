@@ -1,0 +1,148 @@
+.personalProjectsSection {
+  border-top: 1px solid #ddd;
+  color: #767676;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  margin-top: 4rem;
+  max-width: 37rem;
+  padding: 4rem 1rem 0;
+}
+
+.personalProjectsSection p { }
+
+.personalProjectsSection strong {
+  color: var(--colorBrandDark1);
+  font-weight: bold;
+}
+
+.personalProjectsSection a {
+  color: var(--colorBrandPrimary);
+}
+
+.personalProjectSubsection {
+  margin-bottom: 4rem;
+}
+
+.personalProjectSubsection > *,
+.projectDescription > * {
+  margin-bottom: 2rem;
+}
+
+.personalProjectSubsection img {
+  border-radius: 0.75rem;
+}
+
+.personalProjectsHeader {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.personalProjectsHeader > p {
+  margin-bottom: 1rem;
+}
+
+.personalProjectsHeader > p:first-of-type,
+.sectionHeader {
+  color: var(--colorBrandDark1);
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.projectHeader {
+  text-align: center;
+}
+
+.projectHeader .projectName {
+  color: var(--colorBrandDark1);
+  font-family: var(--fontFamilySerif);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.projectHeader .projectLink {
+  color: var(--colorBrandPrimary);
+  font-family: var(--fontFamilySansSerif);
+}
+
+.projectHeader .projectLink a {
+  color: inherit;
+  font-weight: inherit;
+}
+
+.projectHeader .projectNumber {
+  background: var(--colorBrandMedium);
+  border-radius: 100%;
+  box-sizing: border-box;
+  color: #fff;
+  display: inline-block;
+  font-family: var(--fontFamilySerif);
+  font-size: 1.25rem;
+  font-weight: normal;
+  height: 2rem;
+  padding-top: 0.25rem;
+  text-align: center;
+  width: 2rem;
+  margin-bottom: 1rem;
+}
+
+.personalProjectSubsection img,
+.projectImgWrapper,
+.projectImgWrapper img {
+  width: 100%;
+}
+
+.projectDescription a {
+  color: var(--colorBrandPrimary);
+}
+
+.projectDescription > p:first-child {
+  margin-bottom: 0.5rem;
+}
+
+.blogSection {
+  margin-top: 8rem;
+}
+
+.blogSection p {
+  margin-bottom: 2rem;
+}
+
+.blogSection p.sectionHeader {
+  margin-bottom: 0.5rem;
+}
+
+.gradientProjectImg1 {
+  /* box-shadow: 0 0.25rem 1rem rgba(0,0,0, 0.1); */
+  border: 1px solid #7BAE61;
+}
+
+@media (min-width: 37rem) {
+  .personalProjectsSection {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: min(64rem, 75vw);
+  }
+
+  .personalProjectSubsection img,
+  .projectImgWrapper,
+  .projectImgWrapper img {
+    display: block;
+    margin: 0 auto 2rem;
+  }
+
+  .projectImgWrapper {
+    margin-bottom: 1rem;
+  }
+
+  .projectDescription img {
+    width: 50%;
+  }
+  .projectHeader .projectName {
+    font-size: 2rem;
+  }
+
+  .personalProjectsSection .wbpProjectImg2 {
+    width: 100%;
+  }
+}

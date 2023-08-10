@@ -1,0 +1,11 @@
+.textGreeting {
+  font-family: var(--fontFamilySansSerif);
+  font-size: 1.5rem;
+}
+
+.bigText {
+  color: var(--colorBrandMedium);
+  font-family: var(--fontFamilySerif);
+  font-weight: bold;
+  font-size: 4rem;
+}

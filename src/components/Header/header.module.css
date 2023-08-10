@@ -3,6 +3,7 @@
   text-align: center;
   padding-top: 1rem;
   width: 100%;
+  z-index: 9999;
 }
 
 .title { 
@@ -11,6 +12,6 @@
 }
 
 .logo {
-  width: 36px;
-  height: 29px;
+  width: 3rem;
+  height: 3rem;
 }
