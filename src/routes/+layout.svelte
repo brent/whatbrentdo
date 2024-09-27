@@ -1,13 +1,13 @@
-<script lang='ts'>
-  import Header from './Header.svelte'
-  import Footer from './Footer.svelte'
+<script lang="ts">
+  import Header from '$lib/components/Header'
+  import Footer from '$lib/components/Footer'
   import type { Snippet } from 'svelte'
 
   type Props = { children: Snippet }
-  const { children } : Props = $props()
+  const { children }: Props = $props()
 </script>
 
-<div class='wrapper'>
+<div class="wrapper">
   <Header />
   <main>
     {@render children()}
@@ -27,3 +27,4 @@
     margin-top: 6rem;
   }
 </style>
+
