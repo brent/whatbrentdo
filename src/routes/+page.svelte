@@ -1,12 +1,21 @@
 <script lang="ts">
+  import type { SvelteComponent } from 'svelte'
   import { default as About } from '$lib/components/AboutPage'
+  import { default as Now } from '$lib/components/NowPage'
+  import { default as Interests } from '$lib/components/InterestsPage'
+  import { default as Defaults } from '$lib/components/DefaultsPage'
+  import { default as Uses } from '$lib/components/UsesPage'
+  import { default as Colophon } from '$lib/components/ColophonPage'
+  import { default as Changelog } from '$lib/components/ChangelogPage'
 
   const pages = [
-    {
-      name: 'about',
-      url: '/about',
-      component: About,
-    },
+    { name: 'about', url: '/about', component: About },
+    { name: 'now', url: '/now', component: Now },
+    { name: 'interests', url: '/interests', component: Interests },
+    { name: 'defaults', url: '/defaults', component: Defaults },
+    { name: 'uses', url: '/uses', component: Uses },
+    { name: 'changelog', url: '/changelog', component: Changelog },
+    { name: 'colophon', url: '/colophon', component: Colophon },
   ]
 </script>
 

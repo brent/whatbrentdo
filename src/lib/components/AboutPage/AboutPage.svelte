@@ -158,8 +158,8 @@
   <h2>Hi, I'm Brent</h2>
 
   <p>
-    I'm a <strong>Digital Product Designer</strong> who is just as comfortable
-    in neovim as Figma.<RevealText>
+    I'm a <strong>Digital Product Designer</strong> who is as comfortable in a
+    terminal as Figma.<RevealText>
       I've also been a Product Design Manager, User Experience Designer, User
       Interface Designer, Front-end Developer, and even Conversational UX
       Designer.</RevealText
