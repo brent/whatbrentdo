@@ -1,22 +1,21 @@
-<script lang='ts'>
+<script lang="ts">
   import type { Snippet } from 'svelte'
 
   type Props = { children: Snippet }
-  const { children } : Props = $props()
+  const { children }: Props = $props()
 
   let isChildVisible = $state(false)
 
   function handleClick() {
     isChildVisible = true
   }
-
 </script>
 
 <span>
   {#if !isChildVisible}
     <button onclick={handleClick}>more</button>
   {:else}
-    {@render children()}
+    {' '}{@render children()}
   {/if}
 </span>
 
@@ -36,3 +35,4 @@
   @media (prefers-color-scheme: dark) {
   }
 </style>
+
