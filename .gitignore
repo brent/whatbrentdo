@@ -13,6 +13,7 @@ upload.sh
 
 # production
 /build
+/.svelte-kit
 
 # misc
 .DS_Store
