@@ -30,7 +30,7 @@
 
 <style>
   section {
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
   }
 
   section:last-of-type {
@@ -40,7 +40,6 @@
   h2 {
     font-size: 1.25rem;
     font-weight: normal;
-    opacity: 0.7;
     margin-bottom: 1rem;
   }
 </style>
