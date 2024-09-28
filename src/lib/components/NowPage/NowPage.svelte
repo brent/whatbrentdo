@@ -210,4 +210,10 @@
       border-color: var(--color-ui-gray-900);
     }
   }
+
+  @media (max-width: 392px) {
+    .media-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
 </style>
