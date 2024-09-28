@@ -12,54 +12,96 @@
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 	<style>
-		@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,600;1,400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,600;1,400&display=swap');
+
+    :root {
+      --color-brand-primary: #a168ab;
+      --color-brand-primary-dark-mode: #c586d0;
+      --color-brand-black: #222;
+      --color-brand-white: #fafafa;
+      --color-ui-gray-100: #eee;
+      --color-ui-gray-300: #ddd;
+      --color-ui-gray-500: #aaa;
+      --color-ui-gray-700: #777;
+      --color-ui-gray-900: #444;
+      --color-ui-bg-dark: #1e2529;
+      --color-text-body-dark: var(--color-ui-gray-900);
+      --color-text-body-medium: var(--color-ui-gray-700);
+      --color-text-link: var(--color-brand-primary);
+    }
 
     * {
       box-sizing: border-box;
     }
 
-    html, body {
+    html,
+    body {
       height: 100%;
       margin: 0;
       min-height: 100%;
     }
 
     html {
-      background: #fafafa;
-      color: #222;
+      background: var(--color-brand-white);
+      color: var(--color-brand-black);
     }
 
     body {
       padding: 1rem;
-			font-family: 'Barlow', sans-serif;
-			font-size: 16px;
+      font-family: 'Barlow', sans-serif;
+      font-size: 16px;
     }
 
-    h1, h2, h3, h4, h5, h6, p, li, dt, dd { 
+    main {
+      margin-top: 6rem;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    li,
+    dt,
+    dd {
       margin: 0;
     }
 
-		a {
-			color: #a168ab;
+    a {
+      color: var(--color-brand-primary);
       text-decoration-color: #a168ab80;
-		}
+    }
 
-    h1 { font-size: 3rem; }
-    h2 { font-size: 2rem; }
-    h3 { font-size: 1.5rem; }
-    h4 { font-size: 1.125rem; }
-    h5 { font-size: 0.875rem; }
-    h6 { font-size: 0.75rem; }
+    h1 {
+      font-size: 3rem;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+    h3 {
+      font-size: 1.5rem;
+    }
+    h4 {
+      font-size: 1.125rem;
+    }
+    h5 {
+      font-size: 0.875rem;
+    }
+    h6 {
+      font-size: 0.75rem;
+    }
 
     @media (prefers-color-scheme: dark) {
       html {
-        background: #1E2529;
-        color: #ddd;
+        background: var(--color-ui-bg-dark);
+        color: var(--color-ui-gray-300);
       }
 
-			a {
-				color: #C586D0;
-			}
+      a {
+        color: var(--color-brand-primary-dark-mode);
+      }
     }
   </style>
 </html>
