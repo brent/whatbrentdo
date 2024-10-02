@@ -14,8 +14,7 @@
     },
     {
       name: 'a writing app',
-      description:
-        'what if writing prompts were excerpts from existing writing?',
+      description: "writing prompts, but they're excerpts from other writing",
       url: '',
     },
     {
@@ -33,24 +32,17 @@
     url: '',
   }
 
-  const playing = [
-    {
-      name: "Baldur's Gate 3",
-      platform: 'PlayStation 5',
-      image: '/img/playing/baldurs-gate-3-cover.webp',
-      url: '',
-    },
-    {
-      name: 'Hogwarts Legacy',
-      platform: 'PlayStation 5',
-      image: '/img/playing/hogwarts-legacy-cover.jpg',
-      url: '',
-    },
-  ]
+  const playing = {
+    name: "Baldur's Gate 3",
+    platform: 'PlayStation 5',
+    image: '/img/playing/baldurs-gate-3-cover.webp',
+    url: '',
+  }
 
   const watching = [
     {
       name: 'The Wire',
+      secondary: 'Season 3',
       image: '/img/watching/the-wire-cover.jpg',
       url: '',
     },
@@ -81,46 +73,51 @@
     </ul>
   </section>
 
-  <section class="reading">
-    <h3>Reading</h3>
-    <ul class="media-grid">
-      <li class="book">
-        <span class="book-cover">
-          <img src={reading.image} alt={`${reading.name} book cover`} />
-        </span>
-        {reading.name}
-        <span class="author">
-          by <a href={reading.authorUrl}>{reading.author}</a></span
-        >
-      </li>
-    </ul>
-  </section>
+  <div class="media-grid">
+    <section class="reading">
+      <h3>Reading</h3>
+      <ul>
+        <li class="book">
+          <span class="book-cover">
+            <img src={reading.image} alt={`${reading.name} book cover`} />
+          </span>
+          {reading.name}
+          <span class="author">
+            by <a href={reading.authorUrl}>{reading.author}</a></span
+          >
+        </li>
+      </ul>
+    </section>
 
-  <section class="playing">
-    <h3>Playing</h3>
-    <ul class="media-grid">
-      {#each playing as game}
+    <section class="playing">
+      <h3>Playing</h3>
+      <ul>
         <li class="game">
-          <img src={game.image} alt={`${game.name} cover image`} />
+          <img src={playing.image} alt={`${playing.name} cover image`} />
           <p>
-            {game.name} <span class="game-platform">on {game.platform}</span>
+            {playing.name}
+            <span class="game-platform">on {playing.platform}</span>
           </p>
         </li>
-      {/each}
-    </ul>
-  </section>
+      </ul>
+    </section>
 
-  <section class="watching">
-    <h3>Watching</h3>
-    <ul class="media-grid">
-      {#each watching as media}
-        <li class="media">
-          <img src={media.image} alt={`${media.name} cover image`} />
-          <p>{media.name}</p>
-        </li>
-      {/each}
-    </ul>
-  </section>
+    <section class="watching">
+      <h3>Watching</h3>
+      <ul>
+        {#each watching as media}
+          <li class="media">
+            <img src={media.image} alt={`${media.name} cover image`} />
+            <p>
+              {media.name}{#if media.secondary}
+                <span class="media-secondary">, {media.secondary}</span>
+              {/if}
+            </p>
+          </li>
+        {/each}
+      </ul>
+    </section>
+  </div>
 </div>
 
 <style>
@@ -193,16 +190,14 @@
     text-decoration: underline;
   }
 
-  .author {
+  .author,
+  .game-platform,
+  .media-secondary {
     font-style: italic;
   }
 
   .media-grid img {
     width: 100%;
-  }
-
-  .game-platform {
-    font-style: italic;
   }
 
   @media (prefers-color-scheme: dark) {
