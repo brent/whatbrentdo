@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { shuffleArray } from '$lib/funcs'
+
   const interests = [
     { name: 'tech' },
     { name: 'Apple' },
@@ -36,17 +38,10 @@
     { name: 'augmented reality' },
     { name: 'mixed-reality' },
   ]
-
-  const shuffleInterests = () => {
-    return interests
-      .map((value) => ({ value, sort: Math.random() }))
-      .sort((a, b) => a.sort - b.sort)
-      .map(({ value }) => value)
-  }
 </script>
 
 <ul>
-  {#each shuffleInterests() as interest}
+  {#each shuffleArray(interests) as interest}
     <li>{interest.name}</li>
   {/each}
 </ul>
