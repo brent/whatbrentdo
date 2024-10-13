@@ -3,22 +3,23 @@
 
   const projects = [
     {
-      name: 'learning piano',
+      title: 'learning piano',
       description: '250+ hours played this year',
       url: '',
     },
     {
-      name: 'bundle',
-      description: 'maintaining my simple link-based list maker/sharer',
+      title: 'making bundle',
+      description:
+        'right now just maintaining my simple link-based list maker/sharer while I launch...',
       url: 'https://bundleof.link',
     },
     {
-      name: 'a writing app',
+      title: 'a writing app',
       description: "writing prompts, but they're excerpts from other writing",
       url: '',
     },
     {
-      name: 'Tales From Around The System',
+      title: 'Tales From Around The System',
       description: 'a small anthology of short stories from a shared world',
       url: '',
     },
@@ -60,12 +61,12 @@
           {#if project.url}
             <a href={project.url}>
               <span class="project-name project-name__linked"
-                >{project.name}</span
+                >{project.title}</span
               >
               <span class="project-description">{project.description}</span>
             </a>
           {:else}
-            <span class="project-name">{project.name}</span>
+            <span class="project-name">{project.title}</span>
             <span class="project-description">{project.description}</span>
           {/if}
         </li>
