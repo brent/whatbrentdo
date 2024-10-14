@@ -19,7 +19,7 @@
       url: '',
     },
     {
-      title: 'writing Tales From Around The System',
+      title: 'drafting Tales From Around The System',
       description: 'a (small) anthology of short stories',
       url: '',
     },

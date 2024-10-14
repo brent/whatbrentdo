@@ -9,7 +9,8 @@
   and
   <a href="https://kit.svelte.dev/">SvelteKit</a>, and served via
   <a href="https://nginx.org/en/">nginx</a> from a
-  <a href="https://www.digitalocean.com/">DigitalOcean</a> VPS.
+  <a href="https://www.digitalocean.com/">DigitalOcean</a> VPS. The source code
+  can be found on <a href="https://github.com/brent/whatbrentdo">github</a>.
 </p>
 
 <style>

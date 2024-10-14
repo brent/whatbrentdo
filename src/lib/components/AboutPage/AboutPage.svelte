@@ -185,7 +185,7 @@
   </p>
 
   <p>
-    I really like making digital products.<RevealText
+    I love making digital products.<RevealText
       >I've got a few I'm working on for fun: {@render sideProjects(
         projectsData,
       )}As well as a blog that doesn't have a schedule: {@render wbs(
