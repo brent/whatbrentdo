@@ -15,7 +15,7 @@
     {
       title: 'building a writing-related app',
       description:
-        'transform excerpts from existing writing into writing prompts for new writing',
+        'transform excerpts from existing writing into prompts for new writing',
       url: '',
     },
     {
@@ -77,7 +77,11 @@
       <h3>Reading</h3>
       <ul>
         <li class="book">
-          <img src={reading.image} alt={`${reading.name} book cover`} />
+          <img
+            src={reading.image}
+            alt={`${reading.name} book cover`}
+            loading="lazy"
+          />
           <p>
             {reading.name}
             <span class="author">
@@ -92,7 +96,11 @@
       <h3>Playing</h3>
       <ul>
         <li class="game">
-          <img src={playing.image} alt={`${playing.name} cover image`} />
+          <img
+            src={playing.image}
+            alt={`${playing.name} cover image`}
+            loading="lazy"
+          />
           <p>
             {playing.name}
             <span class="game-platform">on {playing.platform}</span>
@@ -105,7 +113,11 @@
       <h3>Watching</h3>
       <ul>
         <li class="media">
-          <img src={watching.image} alt={`${watching.name} cover image`} />
+          <img
+            src={watching.image}
+            alt={`${watching.name} cover image`}
+            loading="lazy"
+          />
           <p>
             {watching.name}{#if watching.secondary}
               <span class="watching-secondary">, {watching.secondary}</span>
