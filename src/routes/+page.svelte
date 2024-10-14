@@ -24,7 +24,7 @@
 
 <style>
   section {
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
   }
 
   section:last-of-type {

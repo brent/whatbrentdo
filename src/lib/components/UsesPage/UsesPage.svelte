@@ -211,17 +211,21 @@
 
 <section>
   <section class="uses-section uses-hardware">
-    <h3 class="">Hardware</h3>
+    <h3 class="uses-heading">Hardware</h3>
     {@render usesSection(hardware)}
   </section>
 
   <section class="uses-section uses-software">
-    <h3 class="">Software</h3>
+    <h3 class="uses-heading">Software</h3>
     {@render usesSection(software)}
   </section>
 </section>
 
 <style>
+  h3.uses-heading {
+    font-size: 1.25rem;
+  }
+
   .uses-section {
     margin-bottom: 1.5rem;
   }

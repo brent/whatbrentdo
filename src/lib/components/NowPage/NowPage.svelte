@@ -1,35 +1,35 @@
 <script lang="ts">
-  const updated = new Date(2024, 8, 27) // month is zero indexed
+  const updated = new Date(2024, 10 - 1, 2) // month is zero indexed
 
   const projects = [
     {
       title: 'learning piano',
-      description: '250+ hours played this year',
+      description: 'goal: 400 practice hours in 2024',
       url: '',
     },
     {
-      title: 'making bundle',
-      description:
-        'right now just maintaining my simple link-based list maker/sharer while I launch...',
+      title: 'maintaining bundle',
+      description: 'a simple link-based list maker/sharer',
       url: 'https://bundleof.link',
     },
     {
-      title: 'a writing app',
-      description: "writing prompts, but they're excerpts from other writing",
+      title: 'building a writing-related app',
+      description:
+        'transform excerpts from existing writing into writing prompts for new writing',
       url: '',
     },
     {
-      title: 'Tales From Around The System',
-      description: 'a small anthology of short stories from a shared world',
+      title: 'writing Tales From Around The System',
+      description: 'a (small) anthology of short stories',
       url: '',
     },
   ]
 
   const reading = {
-    name: 'Yumi and the Nightmare Painter',
+    name: 'The Sunlit Man',
     author: 'Brandon Sanderson',
     authorUrl: 'https://www.dragonsteelbooks.com/',
-    image: '/img/reading/yumi-and-the-nightmare-painter-cover.jpg',
+    image: '/img/reading/sunlit-man-cover.jpg',
     url: '',
   }
 
@@ -40,22 +40,20 @@
     url: '',
   }
 
-  const watching = [
-    {
-      name: 'The Wire',
-      secondary: 'Season 3',
-      image: '/img/watching/the-wire-cover.jpg',
-      url: '',
-    },
-  ]
+  const watching = {
+    name: 'The Wire',
+    secondary: 'Season 3',
+    image: '/img/watching/the-wire-cover.jpg',
+    url: '',
+  }
 </script>
 
 <div>
-  <p class="updated">last updated: {updated.toDateString()}</p>
+  <p class="updated">last updated: {updated.toLocaleDateString()}</p>
 
   <section class="doing">
     <h3>Doing</h3>
-    <ul>
+    <ul class="projects-list">
       {#each projects as project}
         <li class="project">
           {#if project.url}
@@ -79,13 +77,13 @@
       <h3>Reading</h3>
       <ul>
         <li class="book">
-          <span class="book-cover">
-            <img src={reading.image} alt={`${reading.name} book cover`} />
-          </span>
-          {reading.name}
-          <span class="author">
-            by <a href={reading.authorUrl}>{reading.author}</a></span
-          >
+          <img src={reading.image} alt={`${reading.name} book cover`} />
+          <p>
+            {reading.name}
+            <span class="author">
+              by <a href={reading.authorUrl}>{reading.author}</a></span
+            >
+          </p>
         </li>
       </ul>
     </section>
@@ -106,16 +104,14 @@
     <section class="watching">
       <h3>Watching</h3>
       <ul>
-        {#each watching as media}
-          <li class="media">
-            <img src={media.image} alt={`${media.name} cover image`} />
-            <p>
-              {media.name}{#if media.secondary}
-                <span class="media-secondary">, {media.secondary}</span>
-              {/if}
-            </p>
-          </li>
-        {/each}
+        <li class="media">
+          <img src={watching.image} alt={`${watching.name} cover image`} />
+          <p>
+            {watching.name}{#if watching.secondary}
+              <span class="watching-secondary">, {watching.secondary}</span>
+            {/if}
+          </p>
+        </li>
       </ul>
     </section>
   </div>
@@ -125,7 +121,8 @@
   .updated {
     color: var(--color-text-body-medium);
     font-size: 0.875rem;
-    margin: -0.875rem 0 2rem;
+    font-style: italic;
+    margin: -0.875rem 0 1rem;
   }
 
   section {
@@ -146,10 +143,19 @@
     list-style-type: none;
   }
 
+  .projects-list {
+    align-items: stretch;
+    align-content: stretch;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.5rem;
+  }
+
   .project {
-    border: 0.0625rem solid var(--color-ui-gray-300);
+    background: #fff;
     border-radius: 0.25rem;
-    margin-bottom: 0.5rem;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.033);
+    flex: 1 0 calc(calc(37.5rem / 2) - calc(0.875rem + 0.5rem));
     padding: 0.5rem;
   }
 
@@ -173,18 +179,19 @@
     font-size: 0.875rem;
   }
 
-  .book-cover,
   .project-name,
   .project-description {
     display: block;
   }
 
   .project-name {
+    font-size: 1.125rem;
     margin-bottom: 0.25rem;
   }
 
   .project-description {
     color: var(--color-text-body-medium);
+    font-size: 0.875rem;
   }
 
   .project-name__linked {
@@ -193,23 +200,32 @@
 
   .author,
   .game-platform,
-  .media-secondary {
+  .watching-secondary {
     font-style: italic;
   }
 
   .media-grid img {
     width: 100%;
+    aspect-ratio: 2/3;
+    object-fit: cover;
   }
 
   @media (prefers-color-scheme: dark) {
     .project {
+      background-color: rgba(255, 255, 255, 0.05);
       border-color: var(--color-ui-gray-900);
+    }
+
+    .project-description {
+      color: var(--color-text-body-light);
     }
   }
 
-  @media (max-width: 392px) {
-    .media-grid {
-      grid-template-columns: repeat(2, 1fr);
+  @media (min-width: 600px) {
+    .book,
+    .game,
+    .media {
+      font-size: 1rem;
     }
   }
 </style>

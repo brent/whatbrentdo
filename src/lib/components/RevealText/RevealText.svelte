@@ -35,4 +35,3 @@
   @media (prefers-color-scheme: dark) {
   }
 </style>
-

@@ -155,11 +155,11 @@
 {/snippet}
 
 <section>
-  <h2>Hi, I'm Brent</h2>
+  <p class="hi">Hi, I'm Brent</p>
 
   <p>
-    I'm a <strong>Digital Product Designer</strong> who is as comfortable in a
-    terminal as Figma.<RevealText>
+    I'm a <strong>Digital Product Designer</strong> who is just as comfortable
+    in Vim as Figma.<RevealText>
       I've also been a Product Design Manager, User Experience Designer, User
       Interface Designer, Front-end Developer, and even Conversational UX
       Designer.</RevealText
@@ -196,8 +196,9 @@
 </section>
 
 <style>
-  h2 {
-    margin-bottom: 2rem;
+  p.hi {
+    font-size: 3rem;
+    font-weight: bold;
   }
 
   p {
