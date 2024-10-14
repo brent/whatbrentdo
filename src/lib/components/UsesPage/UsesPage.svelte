@@ -250,7 +250,7 @@
     grid-auto-flow: column;
     grid-template-rows: repeat(2, max-content);
     width: fit-content;
-    margin-right: 1rem;
+    padding-right: 1rem;
   }
 
   .uses-card {
