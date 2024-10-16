@@ -164,7 +164,7 @@
   }
 
   .project {
-    background: #fff;
+    background-color: rgba(255, 255, 255, 0.05);
     border-radius: 0.25rem;
     box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.033);
     flex: 1 0 calc(calc(37.5rem / 2) - calc(0.875rem + 0.5rem));
@@ -222,16 +222,17 @@
     object-fit: cover;
   }
 
-  @media (prefers-color-scheme: dark) {
+  /*
+  @media (prefers-color-scheme: light) {
     .project {
-      background-color: rgba(255, 255, 255, 0.05);
-      border-color: var(--color-ui-gray-900);
+      background: #fff;
     }
 
     .project-description {
       color: var(--color-text-body-light);
     }
   }
+  */
 
   @media (min-width: 600px) {
     .book,

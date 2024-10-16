@@ -254,9 +254,9 @@
   }
 
   .uses-card {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.1);
     border-radius: 0.125rem;
-    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.05);
     font-size: 0.875rem;
     padding: 0.5rem;
   }
@@ -301,12 +301,14 @@
     background: orange;
   }
 
-  @media (prefers-color-scheme: dark) {
+  /*
+  @media (prefers-color-scheme: light) {
     .uses-card {
-      background-color: rgba(255, 255, 255, 0.05);
-      box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+      box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.05);
     }
   }
+  */
 
   @media (min-width: 600px) {
     .grid-wrapper {

@@ -54,9 +54,8 @@
   }
 
   li {
+    background: #ffffff10;
     display: inline-block;
-    background: #fff;
-    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.033);
     border-radius: 0.125rem;
     padding: 0.25rem 0.75rem;
     margin: 0 0.5rem 0.5rem 0;
@@ -66,10 +65,12 @@
     margin: 0;
   }
 
+  /*
   @media (prefers-color-scheme: dark) {
     li {
-      background: #ffffff10;
-      box-shadow: none;
+      background: #fff;
+      box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.033);
     }
   }
+  */
 </style>

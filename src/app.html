@@ -43,8 +43,8 @@
     }
 
     html {
-      background: var(--color-brand-white);
-      color: var(--color-brand-black);
+      background: var(--color-ui-bg-dark);
+      color: var(--color-ui-gray-300);
     }
 
     body {
@@ -71,7 +71,7 @@
     }
 
     a {
-      color: var(--color-brand-primary);
+      color: var(--color-brand-primary-dark-mode);
       text-decoration-color: #a168ab80;
     }
 
@@ -94,15 +94,17 @@
       font-size: 0.75rem;
     }
 
-    @media (prefers-color-scheme: dark) {
+    /*
+    @media (prefers-color-scheme: light) {
       html {
-        background: var(--color-ui-bg-dark);
-        color: var(--color-ui-gray-300);
+        background: var(--color-brand-white);
+        color: var(--color-brand-black);
       }
 
       a {
-        color: var(--color-brand-primary-dark-mode);
+        color: var(--color-brand-primary);
       }
     }
+    */
   </style>
 </html>
