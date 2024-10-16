@@ -164,9 +164,8 @@
   }
 
   .project {
-    background-color: rgba(255, 255, 255, 0.05);
-    border-radius: 0.25rem;
-    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.033);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.125rem;
     flex: 1 0 calc(calc(37.5rem / 2) - calc(0.875rem + 0.5rem));
     padding: 0.5rem;
   }
