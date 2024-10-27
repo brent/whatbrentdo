@@ -163,7 +163,8 @@
     margin: -0.875rem 0 1rem;
   }
 
-  section {
+  .doing,
+  .media-grid {
     margin-bottom: 2rem;
   }
 
