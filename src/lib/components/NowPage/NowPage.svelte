@@ -1,11 +1,37 @@
 <script lang="ts">
-  const updated = new Date(2024, 10 - 1, 2) // month is zero indexed
+  type NowEntry = {
+    name: string
+    image?: string
+    url?: string
+  }
 
-  const projects = [
+  type ReadingEntry = NowEntry & {
+    author: string
+    authorUrl?: string
+  }
+
+  type PlayingEntry = NowEntry & {
+    platform: string
+  }
+
+  type WatchingEntry = NowEntry & {
+    secondary: string
+  }
+
+  type ProjectEntry = {
+    title: string
+    description: string
+    url?: string
+  }
+
+  type Projects = ProjectEntry[]
+
+  const updated = new Date(2024, 10 - 1, 27) // month is zero indexed
+
+  const projects: Projects = [
     {
       title: 'learning piano',
       description: 'goal: 400 practice hours in 2024',
-      url: '',
     },
     {
       title: 'maintaining bundle',
@@ -16,35 +42,28 @@
       title: 'building a writing-related app',
       description:
         'transform excerpts from existing writing into prompts for new writing',
-      url: '',
     },
     {
       title: 'drafting Tales From Around The System',
       description: 'a (small) anthology of short stories',
-      url: '',
     },
   ]
 
-  const reading = {
-    name: 'The Sunlit Man',
-    author: 'Brandon Sanderson',
-    authorUrl: 'https://www.dragonsteelbooks.com/',
-    image: '/img/reading/sunlit-man-cover.jpg',
-    url: '',
+  const reading: ReadingEntry = {
+    name: 'A draft novel',
+    author: 'a friend',
   }
 
-  const playing = {
-    name: "Baldur's Gate 3",
-    platform: 'PlayStation 5',
-    image: '/img/playing/baldurs-gate-3-cover.webp',
-    url: '',
+  const playing: PlayingEntry = {
+    name: 'Balatro',
+    platform: 'iOS',
+    image: '/img/playing/balatro-cover.avif',
   }
 
-  const watching = {
-    name: 'The Wire',
-    secondary: 'Season 3',
-    image: '/img/watching/the-wire-cover.jpg',
-    url: '',
+  const watching: WatchingEntry = {
+    name: 'NBA basketball',
+    secondary: "'24 - '25 season",
+    image: '/img/watching/nba.png',
   }
 </script>
 
@@ -78,15 +97,22 @@
       <ul>
         <li class="book">
           <img
-            src={reading.image}
+            src={reading.image
+              ? reading.image
+              : `/img/reading/placeholder-book.png`}
             alt={`${reading.name} book cover`}
             loading="lazy"
           />
           <p>
             {reading.name}
             <span class="author">
-              by <a href={reading.authorUrl}>{reading.author}</a></span
-            >
+              by
+              {#if reading.authorUrl}
+                <a href={reading.authorUrl}>{reading.author}</a>
+              {:else}
+                {reading.author}
+              {/if}
+            </span>
           </p>
         </li>
       </ul>
