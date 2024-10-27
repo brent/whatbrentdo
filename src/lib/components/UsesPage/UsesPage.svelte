@@ -280,8 +280,8 @@
     margin-bottom: 0;
   }
 
-  .uses-item-name:has(+ .badge) {
-    margin-bottom: 0.25rem;
+  .uses-item-name + .badge {
+    margin-top: 0.25rem;
   }
 
   .badge {
