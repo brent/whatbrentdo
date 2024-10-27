@@ -28,6 +28,12 @@
       imgUrl: 'img/hardware/ipad-pro-13.jpg',
     },
     {
+      name: 'WHOOP',
+      category: 'wearable',
+      status: 'new',
+      imgUrl: 'img/hardware/whoop.jpg',
+    },
+    {
       name: 'Kindle Paperwhite',
       category: 'e-reader',
       status: '',
@@ -75,12 +81,14 @@
       status: '',
       imgUrl: 'img/hardware/dell-u2720q.jpg',
     },
+    /*
     {
       name: 'Apple Watch',
       category: 'wearable',
       status: '',
       imgUrl: 'img/hardware/apple-watch-s4.jpg',
     },
+    */
     {
       name: 'Meta Ray-Ban Wayfarer',
       category: 'wearable',
