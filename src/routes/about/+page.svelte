@@ -1,10 +1,10 @@
 <script lang="ts">
-  import { default as About } from '$lib/components/AboutPage'
+  import AboutPage from '$lib/components/AboutPage'
   const { data } = $props()
   const { jobs, projects, wbs } = data
 </script>
 
-<About {jobs} {projects} {wbs} />
+<AboutPage {jobs} {projects} {wbs} />
 
 <style>
 </style>
