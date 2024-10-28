@@ -54,14 +54,14 @@
   <p>
     I'm a <strong>Digital Product Designer</strong> who is just as comfortable
     in Vim as Figma.<RevealText>
-      I've also been a Product Design Manager, User Experience Designer, User
+      I've been a Product Design Manager, User Experience Designer, User
       Interface Designer, Front-end Developer, and even Conversational UX
       Designer.</RevealText
     >
   </p>
   <p>
-    I'm working at Spanx where I'm <strong>Lead Digital Product Designer</strong
-    >.<RevealText>
+    Right now, I'm <strong>Lead Digital Product Designer</strong> at Spanx.<RevealText
+    >
       My team is responsible for all UX and UI design for the site. We support
       feature development work and ecommerce initiatives while improving
       usability and expressing our brand.</RevealText
