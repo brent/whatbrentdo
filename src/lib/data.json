@@ -1,0 +1,430 @@
+{
+  "about": {
+    "jobs": [
+      {
+        "role": "Lead Digital Product Designer",
+        "company": "Spanx",
+        "years": {
+          "start": "2023",
+          "end": "now"
+        }
+      },
+      {
+        "role": "Product Design Manager",
+        "company": "Maisonette",
+        "years": {
+          "start": "2021",
+          "end": "2023"
+        }
+      },
+      {
+        "role": "Senior Product Designer",
+        "company": "Walmart+ InHome",
+        "years": {
+          "start": "2020",
+          "end": "2021"
+        }
+      },
+      {
+        "role": "Conversational UX Designer",
+        "company": "Walmart Text-to-Shop",
+        "years": {
+          "start": "2020"
+        }
+      },
+      {
+        "role": "Senior UX Designer",
+        "company": "Jetblack",
+        "years": {
+          "start": "2018",
+          "end": "2020"
+        }
+      },
+      {
+        "role": "Freelance Product Designer",
+        "years": {
+          "start": "2016",
+          "end": "2018"
+        }
+      },
+      {
+        "role": "Senior Product Designer",
+        "company": "Crowdtap",
+        "years": {
+          "start": "2012",
+          "end": "2015"
+        }
+      },
+      {
+        "role": "User Interface Designer",
+        "company": "BuddyMedia",
+        "years": {
+          "start": "2011",
+          "end": "2012"
+        }
+      }
+    ],
+    "projects": [
+      {
+        "name": "bundle",
+        "description": "A simple list-based link sharing app. Made to solve a very specific annoyance of mine. Built with NextJs and Supabase.",
+        "url": "https://bundleof.link"
+      },
+      {
+        "name": "whatbrentplay",
+        "description": "Concise video game reviews with a bespoke scoring system. I don't play as many as I used to but I do review all the ones I finish. Built with React and Firebase.",
+        "url": "https://whatbrentplay.com"
+      }
+    ],
+    "wbs": {
+      "name": "whatbrentsay",
+      "url": "https://whatbrentsay.com",
+      "description": "Most of what I write about is related to tech. The feature articles are my favorite thing about it. Each one is unique--designed and built to delight.",
+      "features": [
+        {
+          "name": "Siri, Use My Phone For Me",
+          "url": "https://whatbrentsay.com/features/siri-use-my-phone-for-me"
+        },
+        {
+          "name": "A Practical Guide to Consuming a Backlog",
+          "url": "https://whatbrentsay.com/features/a-practical-guide-to-consuming-a-backlog/"
+        },
+        {
+          "name": "Hello Again, Night City",
+          "url": "https://whatbrentsay.com/features/hello-again-night-city/"
+        },
+        {
+          "name": "Notable Quotables",
+          "url": "https://whatbrentsay.com/features/notable-quotables"
+        },
+        {
+          "name": "A Half Hour in Kyrat",
+          "url": "https://whatbrentsay.com/features/a-half-hour-in-kyrat-remastered/"
+        }
+      ]
+    }
+  },
+  "now": {
+    "updated": "10/27/2024",
+    "projects": [
+      {
+        "title": "learning piano",
+        "description": "goal: 400 practice hours in 2024"
+      },
+      {
+        "title": "maintaining bundle",
+        "description": "a simple link-based list maker/sharer",
+        "url": "https://bundleof.link"
+      },
+      {
+        "title": "building a writing-related app",
+        "description": "transform excerpts from existing writing into prompts for new writing"
+      },
+      {
+        "title": "drafting Tales From Around The System",
+        "description": "a (small) anthology of short stories"
+      }
+    ],
+    "reading": {
+      "name": "A draft novel",
+      "author": "a friend"
+    },
+    "playing": {
+      "name": "Balatro",
+      "platform": "iOS",
+      "image": "/img/playing/balatro-cover.avif"
+    },
+    "watching": {
+      "name": "NBA basketball",
+      "secondary": "'24 - '25 season",
+      "image": "/img/watching/nba.png"
+    }
+  },
+  "uses": {
+    "hardware": [
+      {
+        "name": "iPhone 16 Pro",
+        "category": "phone",
+        "status": "new",
+        "imgUrl": "img/hardware/iphone-16-pro.jpg"
+      },
+      {
+        "name": "16\" MacBook Pro",
+        "category": "laptop",
+        "status": "",
+        "imgUrl": "img/hardware/mbp16-m2.jpg"
+      },
+      {
+        "name": "13\" iPad Pro",
+        "category": "tablet",
+        "status": "new",
+        "imgUrl": "img/hardware/ipad-pro-13.jpg"
+      },
+      {
+        "name": "WHOOP",
+        "category": "wearable",
+        "status": "new",
+        "imgUrl": "img/hardware/whoop.jpg"
+      },
+      {
+        "name": "Kindle Paperwhite",
+        "category": "e-reader",
+        "status": "",
+        "imgUrl": "img/hardware/kindle-paperwhite.webp"
+      },
+      {
+        "name": "AirPods Pro 2",
+        "category": "earbuds",
+        "status": "",
+        "imgUrl": "img/hardware/airpods-pro-2.jpg"
+      },
+      {
+        "name": "LG C1",
+        "category": "tv",
+        "status": "",
+        "imgUrl": "img/hardware/lg-c1.jpg"
+      },
+      {
+        "name": "Pixel 4a",
+        "category": "phone",
+        "status": "",
+        "imgUrl": "img/hardware/pixel-4a.jpg"
+      },
+      {
+        "name": "Keychron K6",
+        "category": "keyboard",
+        "status": "",
+        "imgUrl": "img/hardware/keychron-k6.jpg"
+      },
+      {
+        "name": "PlayStation 5",
+        "category": "video games",
+        "status": "",
+        "imgUrl": "img/hardware/playstation-5.jpg"
+      },
+      {
+        "name": "Dell P2715Q",
+        "category": "monitor",
+        "status": "",
+        "imgUrl": "img/hardware/dell-p2715q.jpg"
+      },
+      {
+        "name": "Dell UltraSharp U2720Q",
+        "category": "monitor",
+        "status": "",
+        "imgUrl": "img/hardware/dell-u2720q.jpg"
+      },
+      {
+        "name": "Meta Ray-Ban Wayfarer",
+        "category": "wearable",
+        "status": "",
+        "imgUrl": "img/hardware/meta-ray-ban-wayfarer.jpg"
+      },
+      {
+        "name": "Sony WH1000XM3",
+        "category": "headphones",
+        "status": "",
+        "imgUrl": "img/hardware/sony-wh1000xm3.jpg"
+      },
+      {
+        "name": "Synology DS212j",
+        "category": "nas",
+        "status": "",
+        "imgUrl": "img/hardware/synology-ds212j.jpg"
+      }
+    ],
+    "software": [
+      {
+        "name": "Obsidian",
+        "category": "note-taking",
+        "status": "",
+        "imgUrl": "img/software/obsidian-icon.png"
+      },
+      {
+        "name": "Reader",
+        "category": "rss",
+        "status": "",
+        "imgUrl": "img/software/reader-icon.png"
+      },
+      {
+        "name": "iTerm",
+        "category": "terminal",
+        "status": "",
+        "imgUrl": "img/software/iterm-icon.png"
+      },
+      {
+        "name": "Arc",
+        "category": "browser",
+        "status": "",
+        "imgUrl": "img/software/arc-icon.png"
+      },
+      {
+        "name": "Copilot",
+        "category": "finance",
+        "status": "",
+        "imgUrl": "img/software/copilot-icon.png"
+      },
+      {
+        "name": "Figma",
+        "category": "design",
+        "status": "",
+        "imgUrl": "img/software/figma-icon.png"
+      },
+      {
+        "name": "Slack",
+        "category": "communication",
+        "status": "",
+        "imgUrl": "img/software/slack-icon.png"
+      },
+      {
+        "name": "Soulver",
+        "category": "calculator",
+        "status": "",
+        "imgUrl": "img/software/soulver-icon.png"
+      },
+      {
+        "name": "Bartender",
+        "category": "utility",
+        "status": "",
+        "imgUrl": "img/software/bartender-icon.png"
+      },
+      {
+        "name": "1Password",
+        "category": "utility",
+        "status": "",
+        "imgUrl": "img/software/1password-icon.png"
+      },
+      {
+        "name": "Hazel",
+        "category": "utility",
+        "status": "",
+        "imgUrl": "img/software/hazel-icon.png"
+      },
+      {
+        "name": "Magnet",
+        "category": "utility",
+        "status": "",
+        "imgUrl": "img/software/magnet-icon.png"
+      },
+      {
+        "name": "Homerow",
+        "category": "utility",
+        "status": "",
+        "imgUrl": "img/software/homerow-icon.png"
+      },
+      {
+        "name": "Raycast",
+        "category": "utility",
+        "status": "",
+        "imgUrl": "img/software/raycast-icon.png"
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "tech"
+    },
+    {
+      "name": "Apple"
+    },
+    {
+      "name": "iPhone"
+    },
+    {
+      "name": "iPad"
+    },
+    {
+      "name": "Google"
+    },
+    {
+      "name": "web design"
+    },
+    {
+      "name": "app design"
+    },
+    {
+      "name": "programming"
+    },
+    {
+      "name": "reading"
+    },
+    {
+      "name": "movies"
+    },
+    {
+      "name": "writing"
+    },
+    {
+      "name": "architecture"
+    },
+    {
+      "name": "astronomy"
+    },
+    {
+      "name": "cosmology"
+    },
+    {
+      "name": "interior design"
+    },
+    {
+      "name": "JavaScript"
+    },
+    {
+      "name": "Svelte"
+    },
+    {
+      "name": "React"
+    },
+    {
+      "name": "macOS"
+    },
+    {
+      "name": "iOS"
+    },
+    {
+      "name": "iPadOS"
+    },
+    {
+      "name": "PlayStation"
+    },
+    {
+      "name": "graphic novels"
+    },
+    {
+      "name": "sci-fi"
+    },
+    {
+      "name": "video games"
+    },
+    {
+      "name": "cooking"
+    },
+    {
+      "name": "Android"
+    },
+    {
+      "name": "industrial design"
+    },
+    {
+      "name": "drawing"
+    },
+    {
+      "name": "photography"
+    },
+    {
+      "name": "watches"
+    },
+    {
+      "name": "mechanical keyboards"
+    },
+    {
+      "name": "smartphones"
+    },
+    {
+      "name": "augmented reality"
+    },
+    {
+      "name": "mixed-reality"
+    }
+  ]
+}

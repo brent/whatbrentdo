@@ -1,119 +1,11 @@
 <script lang="ts">
   import RevealText from '$lib/components/RevealText'
-
-  const jobsData = [
-    {
-      role: 'Lead Digital Product Designer',
-      company: 'Spanx',
-      years: {
-        start: '2023',
-        end: 'now',
-      },
-    },
-    {
-      role: 'Product Design Manager',
-      company: 'Maisonette',
-      years: {
-        start: '2021',
-        end: '2023',
-      },
-    },
-    {
-      role: 'Senior Product Designer',
-      company: 'Walmart+ InHome',
-      years: {
-        start: '2020',
-        end: '2021',
-      },
-    },
-    {
-      role: 'Conversational UX Designer',
-      company: 'Walmart Text-to-Shop',
-      years: {
-        start: '2020',
-      },
-    },
-    {
-      role: 'Senior UX Designer',
-      company: 'Jetblack',
-      years: {
-        start: '2018',
-        end: '2020',
-      },
-    },
-    {
-      role: 'Freelance Product Designer',
-      years: {
-        start: '2016',
-        end: '2018',
-      },
-    },
-    {
-      role: 'Senior Product Designer',
-      company: 'Crowdtap',
-      years: {
-        start: '2012',
-        end: '2015',
-      },
-    },
-    {
-      role: 'User Interface Designer',
-      company: 'BuddyMedia',
-      years: {
-        start: '2011',
-        end: '2012',
-      },
-    },
-  ]
-
-  const projectsData = [
-    {
-      name: 'bundle',
-      description:
-        'A simple list-based link sharing app. Made to solve a very specific annoyance of mine. Built with NextJs and Supabase.',
-      url: 'https://bundleof.link',
-    },
-    {
-      name: 'whatbrentplay',
-      description:
-        "Concise video game reviews with a bespoke scoring system. I don't play as many as I used to but I do review all the ones I finish. Built with React and Firebase.",
-      url: 'https://whatbrentplay.com',
-    },
-  ]
-
-  const wbsData = {
-    name: 'whatbrentsay',
-    url: 'https://whatbrentsay.com',
-    description:
-      'Most of what I write about is related to tech. The feature articles are my favorite thing about it. Each one is unique--designed and built to delight.',
-    features: [
-      {
-        name: 'Siri, Use My Phone For Me',
-        url: 'https://whatbrentsay.com/features/siri-use-my-phone-for-me',
-      },
-      {
-        name: 'A Practical Guide to Consuming a Backlog',
-        url: 'https://whatbrentsay.com/features/a-practical-guide-to-consuming-a-backlog/',
-      },
-      {
-        name: 'Hello Again, Night City',
-        url: 'https://whatbrentsay.com/features/hello-again-night-city/',
-      },
-      {
-        name: 'Notable Quotables',
-        url: 'https://whatbrentsay.com/features/notable-quotables',
-      },
-      {
-        name: 'A Half Hour in Kyrat',
-        url: 'https://whatbrentsay.com/features/a-half-hour-in-kyrat-remastered/',
-      },
-    ],
-  }
+  const { jobs: jobsData, projects: projectsData, wbs: wbsData } = $props()
 </script>
 
-{#snippet job(data)}
+{#snippet job(jobsData)}
   <span class="experience">
-    {#each data as job}
+    {#each jobsData as job}
       <span class="job">
         {#if job.company}<span class="company">{job.company}</span>{/if}
         <span class="role">{job.role}</span>
@@ -127,9 +19,9 @@
   </span>
 {/snippet}
 
-{#snippet sideProjects(data)}
+{#snippet sideProjects(projectsData)}
   <span class="sideProjects">
-    {#each data as project}
+    {#each projectsData as project}
       <span class="project">
         <span class="name"
           ><a href={project.url} target="_blank">{project.name} </a></span
@@ -140,12 +32,14 @@
   </span>
 {/snippet}
 
-{#snippet wbs(data)}
+{#snippet wbs(wbsData)}
   <span class="wbs project">
-    <span class="name"><a href={data.url} target="_blank">{data.name}</a></span>
-    <span class="description">{data.description}</span>
+    <span class="name"
+      ><a href={wbsData.url} target="_blank">{wbsData.name}</a></span
+    >
+    <span class="description">{wbsData.description}</span>
     <span class="features">
-      {#each data.features as feature}
+      {#each wbsData.features as feature}
         <span class="featureName"
           ><a href={feature.url} target="_blank">{feature.name}</a></span
         >

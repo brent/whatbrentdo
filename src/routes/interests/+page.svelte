@@ -1,8 +1,10 @@
 <script lang="ts">
-  import { default as Interests } from '$lib/components/InterestsPage'
+  import InterestsPage from '$lib/components/InterestsPage'
+  const { data }: { data: { interests: { name: string }[] } } = $props()
+  const { interests } = data
 </script>
 
-<Interests />
+<InterestsPage {interests} />
 
 <style>
 </style>

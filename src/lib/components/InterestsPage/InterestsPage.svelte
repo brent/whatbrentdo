@@ -1,47 +1,17 @@
 <script lang="ts">
-  import { shuffleArray } from '$lib/funcs'
+  type Interest = {
+    name: string
+  }
 
-  const interests = [
-    { name: 'tech' },
-    { name: 'Apple' },
-    { name: 'iPhone' },
-    { name: 'iPad' },
-    { name: 'Google' },
-    { name: 'web design' },
-    { name: 'app design' },
-    { name: 'programming' },
-    { name: 'reading' },
-    { name: 'movies' },
-    { name: 'writing' },
-    { name: 'architecture' },
-    { name: 'astronomy' },
-    { name: 'cosmology' },
-    { name: 'interior design' },
-    { name: 'JavaScript' },
-    { name: 'Svelte' },
-    { name: 'React' },
-    { name: 'macOS' },
-    { name: 'iOS' },
-    { name: 'iPadOS' },
-    { name: 'PlayStation' },
-    { name: 'graphic novels' },
-    { name: 'sci-fi' },
-    { name: 'video games' },
-    { name: 'cooking' },
-    { name: 'Android' },
-    { name: 'industrial design' },
-    { name: 'drawing' },
-    { name: 'photography' },
-    { name: 'watches' },
-    { name: 'mechanical keyboards' },
-    { name: 'smartphones' },
-    { name: 'augmented reality' },
-    { name: 'mixed-reality' },
-  ]
+  type Props = {
+    interests: Interest[]
+  }
+
+  const { interests }: Props = $props()
 </script>
 
 <ul>
-  {#each shuffleArray(interests) as interest}
+  {#each interests as interest}
     <li>{interest.name}</li>
   {/each}
 </ul>

@@ -26,49 +26,20 @@
 
   type Projects = ProjectEntry[]
 
-  const updated = new Date(2024, 10 - 1, 27) // month is zero indexed
-
-  const projects: Projects = [
-    {
-      title: 'learning piano',
-      description: 'goal: 400 practice hours in 2024',
-    },
-    {
-      title: 'maintaining bundle',
-      description: 'a simple link-based list maker/sharer',
-      url: 'https://bundleof.link',
-    },
-    {
-      title: 'building a writing-related app',
-      description:
-        'transform excerpts from existing writing into prompts for new writing',
-    },
-    {
-      title: 'drafting Tales From Around The System',
-      description: 'a (small) anthology of short stories',
-    },
-  ]
-
-  const reading: ReadingEntry = {
-    name: 'A draft novel',
-    author: 'a friend',
+  type Props = {
+    updated: string
+    projects: Projects
+    playing: PlayingEntry
+    reading: ReadingEntry
+    watching: WatchingEntry
   }
 
-  const playing: PlayingEntry = {
-    name: 'Balatro',
-    platform: 'iOS',
-    image: '/img/playing/balatro-cover.avif',
-  }
-
-  const watching: WatchingEntry = {
-    name: 'NBA basketball',
-    secondary: "'24 - '25 season",
-    image: '/img/watching/nba.png',
-  }
+  const { updated, projects, reading, playing, watching }: Props = $props()
+  const updatedDate = new Date(Date.parse(updated))
 </script>
 
 <div>
-  <p class="updated">last updated: {updated.toLocaleDateString()}</p>
+  <p class="updated">last updated: {updatedDate.toLocaleDateString()}</p>
 
   <section class="doing">
     <h3>Doing</h3>
