@@ -121,8 +121,9 @@
         "description": "transform excerpts from existing writing into prompts for new writing"
       },
       {
-        "title": "drafting Tales From Around The System",
-        "description": "a (small) anthology of short stories"
+        "title": "editing Tales From Around The System",
+        "description": "a (small) anthology of short stories",
+        "url": "https://whatbrentsay.com/features/tales-from-around-the-system"
       }
     ],
     "reading": {
