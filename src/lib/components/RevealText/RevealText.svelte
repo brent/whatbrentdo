@@ -20,16 +20,28 @@
 </span>
 
 <style>
-  button {
+  button::before {
     background: url('/plus-btn.svg') no-repeat;
-    background-size: contain;
-    border: none;
-    margin-left: 0.25rem;
+    background-size: cover;
+    content: '';
+    display: inline-block;
+    width: 0.75rem;
+    height: 0.75rem;
     position: relative;
-    text-indent: -9999px;
+    top: 0.125rem;
+    margin-right: 0.125rem;
+  }
+
+  button {
+    background-color: var(--color-brand-primary);
+    border: none;
+    border-radius: 1rem;
+    color: var(--color-brand-white);
+    font-size: 0.875rem;
+    margin-left: 0.25rem;
+    padding: 0.1875rem 0.5rem;
+    position: relative;
     top: -3px;
-    width: 1.25rem;
-    height: 1.25rem;
   }
 
   @media (prefers-color-scheme: dark) {
