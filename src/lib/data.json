@@ -105,25 +105,16 @@
     }
   },
   "now": {
-    "updated": "10/27/2024",
+    "updated": "11/15/2024",
     "projects": [
       {
         "title": "learning piano",
-        "description": "goal: 400 practice hours in 2024"
+        "description": "goal: 350+ practice hours in 2024"
       },
       {
-        "title": "maintaining bundle",
-        "description": "a simple link-based list maker/sharer",
-        "url": "https://bundleof.link"
-      },
-      {
-        "title": "building a writing-related app",
-        "description": "transform excerpts from existing writing into prompts for new writing"
-      },
-      {
-        "title": "editing Tales From Around The System",
-        "description": "a (small) anthology of short stories",
-        "url": "https://whatbrentsay.com/features/tales-from-around-the-system"
+        "title": "observing NaNoWriMo",
+        "description": "writing a novel",
+        "url": "https://en.wikipedia.org/wiki/National_Novel_Writing_Month"
       }
     ],
     "reading": {
