@@ -398,16 +398,10 @@
       "name": "industrial design"
     },
     {
-      "name": "drawing"
-    },
-    {
       "name": "photography"
     },
     {
       "name": "watches"
-    },
-    {
-      "name": "mechanical keyboards"
     },
     {
       "name": "smartphones"
@@ -417,6 +411,9 @@
     },
     {
       "name": "mixed-reality"
+    },
+    {
+      "name": "piano"
     }
   ]
 }
