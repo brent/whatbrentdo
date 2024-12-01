@@ -105,16 +105,11 @@
     }
   },
   "now": {
-    "updated": "11/15/2024",
+    "updated": "12/01/2024",
     "projects": [
       {
         "title": "learning piano",
         "description": "goal: 350+ practice hours in 2024"
-      },
-      {
-        "title": "observing NaNoWriMo",
-        "description": "writing a novel",
-        "url": "https://en.wikipedia.org/wiki/National_Novel_Writing_Month"
       }
     ],
     "reading": {
