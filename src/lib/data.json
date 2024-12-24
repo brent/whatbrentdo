@@ -271,12 +271,6 @@
         "imgUrl": "/img/software/soulver-icon.png"
       },
       {
-        "name": "Bartender",
-        "category": "utility",
-        "status": "",
-        "imgUrl": "/img/software/bartender-icon.png"
-      },
-      {
         "name": "1Password",
         "category": "utility",
         "status": "",
@@ -289,22 +283,28 @@
         "imgUrl": "/img/software/hazel-icon.png"
       },
       {
-        "name": "Magnet",
-        "category": "utility",
-        "status": "",
-        "imgUrl": "/img/software/magnet-icon.png"
-      },
-      {
-        "name": "Homerow",
-        "category": "utility",
-        "status": "",
-        "imgUrl": "/img/software/homerow-icon.png"
-      },
-      {
         "name": "Raycast",
         "category": "utility",
         "status": "",
         "imgUrl": "/img/software/raycast-icon.png"
+      },
+      {
+        "name": "Aerospace",
+        "category": "utility",
+        "status": "",
+        "imgUrl": "/img/software/aerospace-icon.png"
+      },
+      {
+        "name": "Mouseless",
+        "category": "utility",
+        "status": "",
+        "imgUrl": "/img/software/mouseless-icon.png"
+      },
+      {
+        "name": "SketchyBar",
+        "category": "utility",
+        "status": "",
+        "imgUrl": "/img/software/sketchybar-icon.png"
       }
     ]
   },
