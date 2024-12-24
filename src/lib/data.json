@@ -105,7 +105,7 @@
     }
   },
   "now": {
-    "updated": "12/01/2024",
+    "updated": "12/23/2024",
     "projects": [
       {
         "title": "learning piano",
@@ -113,13 +113,14 @@
       }
     ],
     "reading": {
-      "name": "A draft novel",
-      "author": "a friend"
+      "name": "Red Rising",
+      "author": "Pierce Brown",
+      "image": "/img/reading/red-rising-cover.jpg"
     },
     "playing": {
-      "name": "Balatro",
-      "platform": "iOS",
-      "image": "/img/playing/balatro-cover.avif"
+      "name": "Path of Exile 2",
+      "platform": "PlayStation 5",
+      "image": "/img/playing/path-of-exile-2-cover.jpg"
     },
     "watching": {
       "name": "NBA basketball",
