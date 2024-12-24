@@ -141,7 +141,7 @@
 
   h3 {
     font-size: 1.25rem;
-    margin-bottom: 0.375rem;
+    margin-bottom: 1rem;
   }
 
   ul {
@@ -214,6 +214,7 @@
   }
 
   .media-grid img {
+    border-radius: 0.125rem;
     width: 100%;
     aspect-ratio: 2/3;
     object-fit: cover;
@@ -236,6 +237,10 @@
     .game,
     .media {
       font-size: 1rem;
+    }
+
+    .media-grid {
+      gap: 1rem;
     }
   }
 </style>
