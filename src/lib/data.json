@@ -105,22 +105,26 @@
     }
   },
   "now": {
-    "updated": "12/23/2024",
+    "updated": "1/11/2025",
     "projects": [
       {
-        "title": "learning piano",
-        "description": "goal: 350+ practice hours in 2024"
+        "title": "learn piano",
+        "description": "goal: 250+ practice hours for 2025"
+      },
+      {
+        "title": "write a novel",
+        "description": "goal: first draft complete by October"
       }
     ],
     "reading": {
-      "name": "Red Rising",
-      "author": "Pierce Brown",
-      "image": "/img/reading/red-rising-cover.jpg"
+      "name": "Horus Rising",
+      "author": "Dan Abnett",
+      "image": "/img/reading/horus-rising-cover.jpg"
     },
     "playing": {
-      "name": "Path of Exile 2",
+      "name": "Silent Hill 2 Remake",
       "platform": "PlayStation 5",
-      "image": "/img/playing/path-of-exile-2-cover.jpg"
+      "image": "/img/playing/silent-hill-2-remake-cover.webp"
     },
     "watching": {
       "name": "NBA basketball",
