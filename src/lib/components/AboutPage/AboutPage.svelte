@@ -79,12 +79,9 @@
   </p>
 
   <p>
-    I love making digital products and even do it in my spare time.<RevealText
-      >Here's a few I'm working on for fun: {@render sideProjects(
-        projectsData,
-      )}As well as a blog that doesn't have a schedule: {@render wbs(
-        wbsData,
-      )}</RevealText
+    I love making digital products and often do it for fun.<RevealText
+      >{@render sideProjects(projectsData)}I also maintain a blog that doesn't
+      have a schedule: {@render wbs(wbsData)}</RevealText
     >
   </p>
 </section>
