@@ -105,21 +105,21 @@
     }
   },
   "now": {
-    "updated": "1/11/2025",
+    "updated": "1/31/2025",
     "projects": [
       {
         "title": "learn piano",
         "description": "goal: 250+ practice hours for 2025"
       },
       {
-        "title": "write a novel",
-        "description": "goal: first draft complete by October"
+        "title": "draft a novel",
+        "description": "finishing outline"
       }
     ],
     "reading": {
-      "name": "Horus Rising",
-      "author": "Dan Abnett",
-      "image": "/img/reading/horus-rising-cover.jpg"
+      "name": "The Blade Itself",
+      "author": "Joe Abercrombie",
+      "image": "/img/reading/the-blade-itself-cover.jpg"
     },
     "playing": {
       "name": "Silent Hill 2 Remake",
@@ -127,9 +127,9 @@
       "image": "/img/playing/silent-hill-2-remake-cover.webp"
     },
     "watching": {
-      "name": "NBA basketball",
-      "secondary": "'24 - '25 season",
-      "image": "/img/watching/nba.png"
+      "name": "Random YT videos",
+      "secondary": "",
+      "image": "/img/watching/yt.png"
     }
   },
   "uses": {
