@@ -137,7 +137,7 @@
       {
         "name": "iPhone 16 Pro",
         "category": "phone",
-        "status": "new",
+        "status": "",
         "imgUrl": "/img/hardware/iphone-16-pro.jpg"
       },
       {
@@ -155,7 +155,7 @@
       {
         "name": "WHOOP",
         "category": "wearable",
-        "status": "new",
+        "status": "",
         "imgUrl": "/img/hardware/whoop.jpg"
       },
       {
