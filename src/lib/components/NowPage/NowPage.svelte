@@ -186,6 +186,7 @@
   .game,
   .media {
     font-size: 0.875rem;
+    font-style: italic;
   }
 
   .project-name,
@@ -210,7 +211,7 @@
   .author,
   .game-platform,
   .watching-secondary {
-    font-style: italic;
+    font-style: normal;
   }
 
   .media-grid img {
@@ -241,6 +242,11 @@
 
     .media-grid {
       gap: 1rem;
+    }
+
+    .projects-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 </style>
