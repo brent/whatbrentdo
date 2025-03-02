@@ -105,26 +105,30 @@
     }
   },
   "now": {
-    "updated": "1/31/2025",
+    "updated": "3/2/2025",
     "projects": [
       {
-        "title": "learn piano",
+        "title": "learning piano",
         "description": "goal: 250+ practice hours for 2025"
       },
       {
-        "title": "draft a novel",
-        "description": "finishing outline"
+        "title": "drafting a novel",
+        "description": "15k+ words in, mid-October ETA"
+      },
+      {
+        "title": "setting up a home server",
+        "description": "proxmox, zfs, unpriviledged samba lxc configured"
       }
     ],
     "reading": {
-      "name": "The Blade Itself",
-      "author": "Joe Abercrombie",
-      "image": "/img/reading/the-blade-itself-cover.jpg"
+      "name": "Golden Son",
+      "author": "Pierce Brown",
+      "image": "/img/reading/golden-son-cover.jpg"
     },
     "playing": {
-      "name": "Silent Hill 2 Remake",
+      "name": "NBA 2K25",
       "platform": "PlayStation 5",
-      "image": "/img/playing/silent-hill-2-remake-cover.webp"
+      "image": "/img/playing/nba-2k25-cover.png"
     },
     "watching": {
       "name": "Random YT videos",
