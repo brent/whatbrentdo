@@ -73,8 +73,8 @@
       >Since 2010, I’ve worked for, with, at, and around tech companies</strong
     >
     in the NYC area.<RevealText
-      >{@render job(jobsData)} I have a lot of experience with start-ups and early
-      stage companies.</RevealText
+      >{@render job(jobsData)} I have a lot of experience with start-ups, early
+      stage companies, and small, lean teams.</RevealText
     >
   </p>
 
