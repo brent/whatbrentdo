@@ -60,7 +60,7 @@
     >
   </p>
   <p>
-    Right now, I'm <strong>Lead Digital Product Designer</strong> at Spanx.<RevealText
+    Right now, I'm <strong>Director of Digital Product Design</strong> at Spanx.<RevealText
     >
       My team is responsible for all UX and UI design for the site. We support
       feature development work and ecommerce initiatives while improving
