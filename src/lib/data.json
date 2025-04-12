@@ -105,30 +105,30 @@
     }
   },
   "now": {
-    "updated": "3/2/2025",
+    "updated": "4/12/2025",
     "projects": [
+      {
+        "title": "drafting a novel",
+        "description": "37k+ words written, late October ETA"
+      },
+      {
+        "title": "working on a WBS feature",
+        "description": "fumbling through using d3.js"
+      },
       {
         "title": "learning piano",
         "description": "goal: 250+ practice hours for 2025"
-      },
-      {
-        "title": "drafting a novel",
-        "description": "15k+ words in, mid-October ETA"
-      },
-      {
-        "title": "setting up a home server",
-        "description": "proxmox, zfs, unpriviledged samba lxc configured"
       }
     ],
     "reading": {
-      "name": "Golden Son",
+      "name": "Morning Star",
       "author": "Pierce Brown",
-      "image": "/img/reading/golden-son-cover.jpg"
+      "image": "/img/reading/morning-star-cover.jpg"
     },
     "playing": {
-      "name": "NBA 2K25",
-      "platform": "PlayStation 5",
-      "image": "/img/playing/nba-2k25-cover.png"
+      "name": "not much",
+      "platform": "anything",
+      "image": "/img/playing/playing-placeholder.png"
     },
     "watching": {
       "name": "Random YT videos",
