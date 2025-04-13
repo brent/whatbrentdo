@@ -82,6 +82,10 @@
       "description": "Most of what I write about is related to tech. The feature articles are my favorite thing about it. Each one is unique--designed and built to delight.",
       "features": [
         {
+          "name": "Tales From Around The System",
+          "url": "https://whatbrentsay.com/features/tales-from-around-the-system/"
+        },
+        {
           "name": "Siri, Use My Phone For Me",
           "url": "https://whatbrentsay.com/features/siri-use-my-phone-for-me"
         },
@@ -126,7 +130,7 @@
       "image": "/img/reading/morning-star-cover.jpg"
     },
     "playing": {
-      "name": "not much",
+      "name": "Not much",
       "platform": "anything",
       "image": "/img/playing/playing-placeholder.png"
     },
