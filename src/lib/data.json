@@ -109,29 +109,33 @@
     }
   },
   "now": {
-    "updated": "4/12/2025",
+    "updated": "5/11/2025",
     "projects": [
       {
         "title": "drafting a novel",
-        "description": "37k+ words written, late October ETA"
-      },
-      {
-        "title": "working on a WBS feature",
-        "description": "fumbling through using d3.js"
+        "description": "46k+ words written, late December ETA"
       },
       {
         "title": "learning piano",
         "description": "goal: 250+ practice hours for 2025"
+      },
+      {
+        "title": "WBS feature: Seekers pogress tracker",
+        "description": "simple stats and spoiler-light excerpts"
+      },
+      {
+        "title": "WBS feature: 339 Hours Later",
+        "description": "year 1 piano practice retrospective and data viz"
       }
     ],
     "reading": {
-      "name": "Morning Star",
-      "author": "Pierce Brown",
-      "image": "/img/reading/morning-star-cover.jpg"
+      "name": "Fourth Wing",
+      "author": "Rebecca Yarros",
+      "image": "/img/reading/fourth-wing-cover.jpg"
     },
     "playing": {
-      "name": "Not much",
-      "platform": "anything",
+      "name": "",
+      "platform": "",
       "image": "/img/playing/playing-placeholder.png"
     },
     "watching": {
