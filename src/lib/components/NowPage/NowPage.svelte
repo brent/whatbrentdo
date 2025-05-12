@@ -98,10 +98,14 @@
             alt={`${playing.name} cover image`}
             loading="lazy"
           />
-          <p>
-            {playing.name}
-            <span class="game-platform">on {playing.platform}</span>
-          </p>
+          {#if playing.name || playing.platform}
+            <p>
+              {playing.name}
+              <span class="game-platform">on {playing.platform}</span>
+            </p>
+          {:else}
+            <p>Nothing</p>
+          {/if}
         </li>
       </ul>
     </section>
