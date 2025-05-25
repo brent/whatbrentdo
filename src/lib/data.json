@@ -82,6 +82,10 @@
       "description": "Most of what I write about is related to tech. The feature articles are my favorite thing about it. Each one is unique--designed and built to delight.",
       "features": [
         {
+          "name": "Seekers Progress Tracker",
+          "url": "https://whatbrentsay.com/features/seekers-progress-tracker/"
+        },
+        {
           "name": "Tales From Around The System",
           "url": "https://whatbrentsay.com/features/tales-from-around-the-system/"
         },
@@ -109,19 +113,15 @@
     }
   },
   "now": {
-    "updated": "5/11/2025",
+    "updated": "5/25/2025",
     "projects": [
       {
         "title": "drafting a novel",
-        "description": "46k+ words written, late December ETA"
+        "description": "52k+ words written, early January ETA"
       },
       {
         "title": "learning piano",
-        "description": "goal: 250+ practice hours for 2025"
-      },
-      {
-        "title": "WBS feature: Seekers pogress tracker",
-        "description": "simple stats and spoiler-light excerpts"
+        "description": "goal: 200+ practice hours for 2025"
       },
       {
         "title": "WBS feature: 339 Hours Later",
@@ -129,9 +129,9 @@
       }
     ],
     "reading": {
-      "name": "Fourth Wing",
-      "author": "Rebecca Yarros",
-      "image": "/img/reading/fourth-wing-cover.jpg"
+      "name": "The Fifth Season",
+      "author": "N.K. Jemisin",
+      "image": "/img/reading/the-fifth-season-cover.jpg"
     },
     "playing": {
       "name": "",
@@ -426,6 +426,9 @@
     },
     {
       "name": "piano"
+    },
+    {
+      "name": "music production"
     }
   ]
 }
