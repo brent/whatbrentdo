@@ -82,6 +82,10 @@
       "description": "Most of what I write about is related to tech. The feature articles are my favorite thing about it. Each one is unique--designed and built to delight.",
       "features": [
         {
+          "name": "339 Hours Later",
+          "url": "https://whatbrentsay.com/features/339-hours-later"
+        },
+        {
           "name": "Seekers Progress Tracker",
           "url": "https://whatbrentsay.com/features/seekers-progress-tracker/"
         },
