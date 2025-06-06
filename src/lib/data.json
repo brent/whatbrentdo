@@ -113,19 +113,15 @@
     }
   },
   "now": {
-    "updated": "5/25/2025",
+    "updated": "6/6/2025",
     "projects": [
       {
         "title": "drafting a novel",
-        "description": "52k+ words written, early January ETA"
+        "description": "57k+ words written, early January ETA"
       },
       {
         "title": "learning piano",
         "description": "goal: 200+ practice hours for 2025"
-      },
-      {
-        "title": "WBS feature: 339 Hours Later",
-        "description": "year 1 piano practice retrospective and data viz"
       }
     ],
     "reading": {
