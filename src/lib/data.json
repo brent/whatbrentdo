@@ -117,26 +117,26 @@
     }
   },
   "now": {
-    "updated": "6/6/2025",
+    "updated": "7/25/2025",
     "projects": [
       {
         "title": "drafting a novel",
-        "description": "57k+ words written, early January ETA"
+        "description": "63k+ words written, mid November ETA"
       },
       {
         "title": "learning piano",
-        "description": "goal: 200+ practice hours for 2025"
+        "description": "goal: 150+ practice hours for 2025"
       }
     ],
     "reading": {
-      "name": "The Fifth Season",
-      "author": "N.K. Jemisin",
-      "image": "/img/reading/the-fifth-season-cover.jpg"
+      "name": "The Lies of Locke Lamora",
+      "author": "Scott Lynch",
+      "image": "/img/reading/the-lies-of-locke-lamora-cover.jpg"
     },
     "playing": {
-      "name": "",
-      "platform": "",
-      "image": "/img/playing/playing-placeholder.png"
+      "name": "Warhammer 40,000: Space Marine 2",
+      "platform": "PC",
+      "image": "/img/playing/Warhammer_40k_Space_Marine_2_cover.jpg"
     },
     "watching": {
       "name": "Random YT videos",
@@ -189,10 +189,10 @@
         "imgUrl": "/img/hardware/lg-c1.jpg"
       },
       {
-        "name": "Pixel 4a",
+        "name": "Pixel 9a",
         "category": "phone",
-        "status": "",
-        "imgUrl": "/img/hardware/pixel-4a.jpg"
+        "status": "new",
+        "imgUrl": "/img/hardware/pixel-9a.png"
       },
       {
         "name": "Keychron K6",
@@ -303,12 +303,6 @@
         "category": "utility",
         "status": "",
         "imgUrl": "/img/software/raycast-icon.png"
-      },
-      {
-        "name": "Aerospace",
-        "category": "utility",
-        "status": "",
-        "imgUrl": "/img/software/aerospace-icon.png"
       },
       {
         "name": "Mouseless",
