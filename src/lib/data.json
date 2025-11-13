@@ -148,19 +148,19 @@
   "uses": {
     "hardware": [
       {
-        "name": "iPhone 16 Pro",
+        "name": "iPhone 17 Pro",
         "category": "phone",
-        "status": "",
-        "imgUrl": "/img/hardware/iphone-16-pro.jpg"
+        "status": "new",
+        "imgUrl": "/img/hardware/iphone-17-pro.jpg"
       },
       {
-        "name": "16\" MacBook Pro",
+        "name": "16\" MacBook Pro (M2)",
         "category": "laptop",
         "status": "",
         "imgUrl": "/img/hardware/mbp16-m2.jpg"
       },
       {
-        "name": "13\" iPad Pro",
+        "name": "13\" iPad Pro (M4)",
         "category": "tablet",
         "status": "",
         "imgUrl": "/img/hardware/ipad-pro-13.jpg"
@@ -192,7 +192,7 @@
       {
         "name": "Pixel 9a",
         "category": "phone",
-        "status": "new",
+        "status": "",
         "imgUrl": "/img/hardware/pixel-9a.png"
       },
       {
@@ -300,12 +300,6 @@
         "imgUrl": "/img/software/hazel-icon.png"
       },
       {
-        "name": "Raycast",
-        "category": "utility",
-        "status": "",
-        "imgUrl": "/img/software/raycast-icon.png"
-      },
-      {
         "name": "Mouseless",
         "category": "utility",
         "status": "",
@@ -316,6 +310,12 @@
         "category": "utility",
         "status": "",
         "imgUrl": "/img/software/sketchybar-icon.png"
+      },
+      {
+        "name": "Claude",
+        "category": "utility",
+        "status": "",
+        "imgUrl": "/img/software/claude-icon.png"
       }
     ]
   },
