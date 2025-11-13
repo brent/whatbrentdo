@@ -118,26 +118,26 @@
     }
   },
   "now": {
-    "updated": "7/25/2025",
+    "updated": "11/12/2025",
     "projects": [
       {
-        "title": "drafting a novel",
-        "description": "63k+ words written, mid November ETA"
+        "title": "building reproze",
+        "description": "adding features, looking for users"
       },
       {
         "title": "learning piano",
-        "description": "goal: 150+ practice hours for 2025"
+        "description": "100+ more hours for 2025"
       }
     ],
     "reading": {
-      "name": "The Lies of Locke Lamora",
-      "author": "Scott Lynch",
-      "image": "/img/reading/the-lies-of-locke-lamora-cover.jpg"
+      "name": "Ninefox Gambit",
+      "author": "Yoon Ha Lee",
+      "image": "/img/reading/ninefox-gambit-cover.jpg"
     },
     "playing": {
-      "name": "Warhammer 40,000: Space Marine 2",
-      "platform": "PC",
-      "image": "/img/playing/Warhammer_40k_Space_Marine_2_cover.jpg"
+      "name": "Ghost of Yotei",
+      "platform": "PlayStation 5",
+      "image": "/img/playing/ghost-of-yotei-cover.jpg"
     },
     "watching": {
       "name": "Random YT videos",
