@@ -74,6 +74,11 @@
         "name": "whatbrentplay",
         "description": "Concise video game reviews with a bespoke scoring system. I don't play as many as I used to but I do review all the ones I finish. Built with React and Firebase.",
         "url": "https://whatbrentplay.com"
+      },
+      {
+        "name": "reproze",
+        "description": "A creative game for writers where every week a new excerpt is plucked from somewhere published and members write original stories that include them.",
+        "url": "https://reproze.com"
       }
     ],
     "wbs": {
@@ -84,10 +89,6 @@
         {
           "name": "339 Hours Later",
           "url": "https://whatbrentsay.com/features/339-hours-later"
-        },
-        {
-          "name": "Seekers Progress Tracker",
-          "url": "https://whatbrentsay.com/features/seekers-progress-tracker/"
         },
         {
           "name": "Tales From Around The System",
