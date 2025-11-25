@@ -80,7 +80,7 @@
 
   <p>
     I love making digital products and often do it for fun.<RevealText
-      >{@render sideProjects(projectsData)}I also maintain a blog that doesn't
+      >Some of them are live if you want to check them out.{@render sideProjects(projectsData)}I also maintain a blog that doesn't
       have a schedule: {@render wbs(wbsData)}</RevealText
     >
   </p>
