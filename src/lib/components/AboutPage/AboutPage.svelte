@@ -52,20 +52,17 @@
   <p class="hi">Hi, I'm Brent</p>
 
   <p>
-    I'm a <strong>Digital Product Designer</strong> who is just as comfortable
-    in Vim as Figma.<RevealText>
-      I've been a Product Design Manager, User Experience Designer, User
-      Interface Designer, Front-end Developer, and even Conversational UX
-      Designer.</RevealText
-    >
+    I'm a <strong>Digital Product Design Leader</strong> who is just as comfortable in Vim as Figma.
+    <RevealText>
+      I've also been a User Experience Designer, User Interface Designer, Front-end Developer, and even Conversational UX Designer.
+    </RevealText>
   </p>
   <p>
-    Right now, I'm <strong>Director of Digital Product Design</strong> at Spanx.<RevealText
-    >
+    Right now, I'm <strong>Director of Digital Product Design</strong> at Spanx.<RevealText>
       My team is responsible for all UX and UI design for the site. We support
       feature development work and ecommerce initiatives while improving
-      usability and expressing our brand.</RevealText
-    >
+      usability and expressing our brand.
+    </RevealText>
   </p>
 
   <p>
