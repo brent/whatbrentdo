@@ -66,9 +66,9 @@
     ],
     "projects": [
       {
-        "name": "bundle",
-        "description": "A simple list-based link sharing app. Made to solve a very specific annoyance of mine. Built with NextJs and Supabase.",
-        "url": "https://bundleof.link"
+        "name": "reproze",
+        "description": "A creative outlet where every week(ish) a new excerpt is plucked from somewhere published and members write original stories that include them.",
+        "url": "https://reproze.com"
       },
       {
         "name": "whatbrentplay",
@@ -76,9 +76,9 @@
         "url": "https://whatbrentplay.com"
       },
       {
-        "name": "reproze",
-        "description": "A creative game for writers where every week a new excerpt is plucked from somewhere published and members write original stories that include them.",
-        "url": "https://reproze.com"
+        "name": "bundle",
+        "description": "A simple list-based link sharing app. Made to solve a very specific annoyance of mine. Built with NextJs and Supabase.",
+        "url": "https://bundleof.link"
       }
     ],
     "wbs": {
