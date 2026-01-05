@@ -49,10 +49,10 @@
 {/snippet}
 
 <section>
-  <p class="hi">Hi, I'm Brent</p>
+  <p class="hi">Hi, I'm Brent.</p>
 
   <p>
-    I'm a <strong>Digital Product Design Leader</strong> who is just as comfortable in Vim as Figma.
+    I'm a <strong>Digital Product Design Leader</strong> just as comfortable in Figma as VS Code.
     <RevealText>
       I've also been a User Experience Designer, User Interface Designer, Front-end Developer, and even Conversational UX Designer.
     </RevealText>

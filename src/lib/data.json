@@ -118,26 +118,30 @@
     }
   },
   "now": {
-    "updated": "11/12/2025",
+    "updated": "1/4/2026",
     "projects": [
+      {
+        "title": "planning for 2026",
+        "description": "thinking about forecasts and commitments"
+      },
       {
         "title": "building reproze",
         "description": "adding features, looking for users"
       },
       {
         "title": "learning piano",
-        "description": "100+ more hours for 2025"
+        "description": "heading into year 3"
       }
     ],
     "reading": {
-      "name": "Ninefox Gambit",
-      "author": "Yoon Ha Lee",
-      "image": "/img/reading/ninefox-gambit-cover.jpg"
+      "name": "Along Came A Spider",
+      "author": "James Patterson",
+      "image": "/img/reading/along-came-a-spider-cover.jpg"
     },
     "playing": {
-      "name": "Ghost of Yotei",
-      "platform": "PlayStation 5",
-      "image": "/img/playing/ghost-of-yotei-cover.jpg"
+      "name": "",
+      "platform": "",
+      "image": "/img/playing/playing-placeholder.png"
     },
     "watching": {
       "name": "Random YT videos",
@@ -150,7 +154,7 @@
       {
         "name": "iPhone 17 Pro",
         "category": "phone",
-        "status": "new",
+        "status": "",
         "imgUrl": "/img/hardware/iphone-17-pro.jpg"
       },
       {
@@ -166,10 +170,10 @@
         "imgUrl": "/img/hardware/ipad-pro-13.jpg"
       },
       {
-        "name": "WHOOP",
+        "name": "Amazfit Helio Strap",
         "category": "wearable",
-        "status": "",
-        "imgUrl": "/img/hardware/whoop.jpg"
+        "status": "new",
+        "imgUrl": "/img/hardware/amazfit-helio-strap.jpg"
       },
       {
         "name": "Kindle Paperwhite",
