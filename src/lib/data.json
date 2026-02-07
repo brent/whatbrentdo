@@ -118,25 +118,17 @@
     }
   },
   "now": {
-    "updated": "1/4/2026",
+    "updated": "2/7/2026",
     "projects": [
       {
-        "title": "planning for 2026",
-        "description": "thinking about forecasts and commitments"
-      },
-      {
-        "title": "building reproze",
-        "description": "adding features, looking for users"
-      },
-      {
         "title": "learning piano",
-        "description": "heading into year 3"
+        "description": ""
       }
     ],
     "reading": {
-      "name": "Along Came A Spider",
-      "author": "James Patterson",
-      "image": "/img/reading/along-came-a-spider-cover.jpg"
+      "name": "Plum Island",
+      "author": "Nelson DeMille",
+      "image": "/img/reading/plum-island-cover.jpg"
     },
     "playing": {
       "name": "",
@@ -172,7 +164,7 @@
       {
         "name": "Amazfit Helio Strap",
         "category": "wearable",
-        "status": "new",
+        "status": "",
         "imgUrl": "/img/hardware/amazfit-helio-strap.jpg"
       },
       {
@@ -240,6 +232,18 @@
         "category": "nas",
         "status": "",
         "imgUrl": "/img/hardware/synology-ds212j.jpg"
+      },
+      {
+        "name": "Olympus OM-D E-M5 Mk II",
+        "category": "camera",
+        "status": "new",
+        "imgUrl": "/img/hardware/omd-em5-ii.jpg"
+      },
+      {
+        "name": "Bambu Lab A1",
+        "category": "3d printer",
+        "status": "new",
+        "imgUrl": "/img/hardware/bambulab-a1.jpg"
       }
     ],
     "software": [
