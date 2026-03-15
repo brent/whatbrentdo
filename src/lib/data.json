@@ -244,6 +244,12 @@
         "category": "3d printer",
         "status": "new",
         "imgUrl": "/img/hardware/bambulab-a1.jpg"
+      },
+      {
+        "name": "Roland FP-10",
+        "category": "piano",
+        "status": "",
+        "imgUrl": "/img/hardware/roland-fp-10.jpg"
       }
     ],
     "software": [
