@@ -118,7 +118,7 @@
     }
   },
   "now": {
-    "updated": "2/7/2026",
+    "updated": "3/14/2026",
     "projects": [
       {
         "title": "learning piano",
@@ -126,9 +126,9 @@
       }
     ],
     "reading": {
-      "name": "Plum Island",
-      "author": "Nelson DeMille",
-      "image": "/img/reading/plum-island-cover.jpg"
+      "name": "Elantris",
+      "author": "Brandon Sanderson",
+      "image": "/img/reading/elantris-cover.jpg"
     },
     "playing": {
       "name": "",
@@ -296,12 +296,6 @@
         "imgUrl": "/img/software/soulver-icon.png"
       },
       {
-        "name": "1Password",
-        "category": "utility",
-        "status": "",
-        "imgUrl": "/img/software/1password-icon.png"
-      },
-      {
         "name": "Hazel",
         "category": "utility",
         "status": "",
@@ -425,13 +419,22 @@
       "name": "augmented reality"
     },
     {
-      "name": "mixed-reality"
+      "name": "mixed reality"
     },
     {
       "name": "piano"
     },
     {
       "name": "music production"
+    },
+    {
+      "name": "3D printing"
+    },
+    {
+      "name": "LLMs"
+    },
+    {
+      "name": "live looping"
     }
   ]
 }
