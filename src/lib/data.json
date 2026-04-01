@@ -118,22 +118,26 @@
     }
   },
   "now": {
-    "updated": "3/14/2026",
+    "updated": "3/31/2026",
     "projects": [
       {
         "title": "learning piano",
         "description": ""
+      },
+      {
+        "title": "maintaining apps",
+        "description": "reproze, taskflow obsidian plugin, bundle"
       }
     ],
     "reading": {
-      "name": "Elantris",
-      "author": "Brandon Sanderson",
-      "image": "/img/reading/elantris-cover.jpg"
+      "name": "There Is No Antimemetics Division",
+      "author": "qtmn",
+      "image": "/img/reading/there-is-no-antimemetics-division.jpg"
     },
     "playing": {
-      "name": "",
-      "platform": "",
-      "image": "/img/playing/playing-placeholder.png"
+      "name": "Clair Obscur: Expedition 33",
+      "platform": "PC",
+      "image": "/img/playing/clair-obscur-expedition-33-cover.webp"
     },
     "watching": {
       "name": "Random YT videos",
