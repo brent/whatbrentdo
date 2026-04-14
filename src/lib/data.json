@@ -118,11 +118,15 @@
     }
   },
   "now": {
-    "updated": "3/31/2026",
+    "updated": "4/13/2026",
     "projects": [
       {
         "title": "learning piano",
-        "description": ""
+        "description": "year 3"
+      },
+      {
+        "title": "building an agent harness",
+        "description": "figuring out how these things work"
       },
       {
         "title": "maintaining apps",
@@ -130,9 +134,9 @@
       }
     ],
     "reading": {
-      "name": "There Is No Antimemetics Division",
-      "author": "qtmn",
-      "image": "/img/reading/there-is-no-antimemetics-division.jpg"
+      "name": "Six of Crows",
+      "author": "Leigh Bardugo",
+      "image": "/img/reading/six-of-crows-cover.jpg"
     },
     "playing": {
       "name": "Clair Obscur: Expedition 33",
@@ -246,7 +250,7 @@
       {
         "name": "Bambu Lab A1",
         "category": "3d printer",
-        "status": "new",
+        "status": "",
         "imgUrl": "/img/hardware/bambulab-a1.jpg"
       },
       {
