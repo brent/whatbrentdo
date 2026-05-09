@@ -76,6 +76,11 @@
         "url": "https://whatbrentplay.com"
       },
       {
+        "name": "bigman.page",
+        "description": "Terminal man pages in your browser with better (and larger) typography.",
+        "url": "https://bigman.page"
+      },
+      {
         "name": "bundle",
         "description": "A simple list-based link sharing app. Made to solve a very specific annoyance of mine. Built with NextJs and Supabase.",
         "url": "https://bundleof.link"
