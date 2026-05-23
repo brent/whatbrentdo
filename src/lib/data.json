@@ -5,7 +5,7 @@
         "role": "Director, Digital Product Design",
         "company": "Spanx",
         "years": {
-          "start": "2023",
+          "start": "2025",
           "end": "now"
         }
       },
@@ -131,15 +131,11 @@
     }
   },
   "now": {
-    "updated": "5/6/2026",
+    "updated": "5/22/2026",
     "projects": [
       {
         "title": "learning piano",
         "description": "year 3"
-      },
-      {
-        "title": "building an agent harness",
-        "description": "figuring out how these things work"
       },
       {
         "title": "maintaining apps",
@@ -147,9 +143,9 @@
       }
     ],
     "reading": {
-      "name": "Count Zero",
-      "author": "William Gibson",
-      "image": "/img/reading/count-zero-cover.jpg"
+      "name": "Crooked Kingdom",
+      "author": "Leigh Bardugo",
+      "image": "/img/reading/crooked-kingdom-cover.jpg"
     },
     "playing": {
       "name": "Clair Obscur: Expedition 33",
@@ -335,16 +331,22 @@
         "imgUrl": "/img/software/mouseless-icon.png"
       },
       {
-        "name": "SketchyBar",
-        "category": "utility",
-        "status": "",
-        "imgUrl": "/img/software/sketchybar-icon.png"
-      },
-      {
         "name": "Claude",
         "category": "utility",
         "status": "",
         "imgUrl": "/img/software/claude-icon.png"
+      },
+      {
+        "name": "Tuna",
+        "category": "utility",
+        "status": "",
+        "imgUrl": "/img/software/tuna-icon.png"
+      },
+      {
+        "name": "VS Code",
+        "category": "code-editor",
+        "status": "",
+        "imgUrl": "/img/software/vscode-icon.png"
       }
     ]
   },
