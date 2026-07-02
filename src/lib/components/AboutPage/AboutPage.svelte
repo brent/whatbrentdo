@@ -76,7 +76,7 @@
 
   <p>
     I love making digital products and often do it for fun.<RevealText
-      >Some of them are live if you want to check them out.{@render sideProjects(projectsData)}I also maintain a blog that doesn't
+      ><span class="block pt-1">Some of them are live if you want to check them out.</span>{@render sideProjects(projectsData)}I also maintain a blog that doesn't
       have a schedule: {@render wbs(wbsData)}</RevealText
     >
   </p>
@@ -171,5 +171,13 @@
 
   .featureName:last-child {
     margin-bottom: 0;
+  }
+
+  .block {
+    display: block;
+  }
+
+  .pt-1 {
+    padding-top: 0.25rem;
   }
 </style>
