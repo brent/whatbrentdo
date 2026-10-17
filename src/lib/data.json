@@ -245,12 +245,6 @@
         "imgUrl": "/img/hardware/sony-wh1000xm3.jpg"
       },
       {
-        "name": "Synology DS212j",
-        "category": "nas",
-        "status": "",
-        "imgUrl": "/img/hardware/synology-ds212j.jpg"
-      },
-      {
         "name": "Olympus OM-D E-M5 Mk II",
         "category": "camera",
         "status": "new",
