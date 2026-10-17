@@ -179,10 +179,10 @@
         "imgUrl": "/img/hardware/ipad-pro-13.jpg"
       },
       {
-        "name": "Amazfit Helio Strap",
+        "name": "Whoop 5.0",
         "category": "wearable",
         "status": "",
-        "imgUrl": "/img/hardware/amazfit-helio-strap.jpg"
+        "imgUrl": "/img/hardware/whoop.jpg"
       },
       {
         "name": "Kindle Paperwhite",
@@ -233,12 +233,6 @@
         "imgUrl": "/img/hardware/dell-u2720q.jpg"
       },
       {
-        "name": "Meta Ray-Ban Wayfarer (Gen 1)",
-        "category": "wearable",
-        "status": "",
-        "imgUrl": "/img/hardware/meta-ray-ban-wayfarer.jpg"
-      },
-      {
         "name": "Sony WH1000XM3",
         "category": "headphones",
         "status": "",
@@ -247,7 +241,7 @@
       {
         "name": "Olympus OM-D E-M5 Mk II",
         "category": "camera",
-        "status": "new",
+        "status": "",
         "imgUrl": "/img/hardware/omd-em5-ii.jpg"
       },
       {
@@ -261,6 +255,24 @@
         "category": "piano",
         "status": "",
         "imgUrl": "/img/hardware/roland-fp-10.jpg"
+      },
+      {
+        "name": "Code Keyboard V2B",
+        "category": "keyboard",
+        "status": "",
+        "imgUrl": "/img/hardware/code-keyboard-v2b.jpg"
+      },
+      {
+        "name": "Logitech G502",
+        "category": "mouse",
+        "status": "",
+        "imgUrl": "/img/hardware/logitech-g502.jpg"
+      },
+      {
+        "name": "Logitech MX Anywhere 3S",
+        "category": "mouse",
+        "status": "",
+        "imgUrl": "/img/hardware/logitech-mx-anywhere-3s.jpg"
       }
     ],
     "software": [
@@ -341,6 +353,12 @@
         "category": "code-editor",
         "status": "",
         "imgUrl": "/img/software/vscode-icon.png"
+      },
+      {
+        "name": "Vorssaint",
+        "category": "utility",
+        "status": "",
+        "imgUrl": "/img/software/vorssaint-icon.png"
       }
     ]
   },
