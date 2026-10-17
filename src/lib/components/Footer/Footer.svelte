@@ -1,7 +1,7 @@
 <section>
   <footer>
     <span class='divider'></span>
-    <p>made by brent • © 2024</p>
+    <p>made by brent</p>
   </footer>
 </section>
 
