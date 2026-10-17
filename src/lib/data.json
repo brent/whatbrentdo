@@ -131,26 +131,26 @@
     }
   },
   "now": {
-    "updated": "5/22/2026",
+    "updated": "10/13/2026",
     "projects": [
+      {
+        "title": "drafting short stories",
+        "description": "for Tales From Around The System"
+      },
       {
         "title": "learning piano",
         "description": "year 3"
-      },
-      {
-        "title": "maintaining apps",
-        "description": "reproze, taskflow obsidian plugin, bundle"
       }
     ],
     "reading": {
-      "name": "Crooked Kingdom",
-      "author": "Leigh Bardugo",
-      "image": "/img/reading/crooked-kingdom-cover.jpg"
+      "name": "Hollywood, Ending",
+      "author": "John Green",
+      "image": "/img/reading/hollywood-ending-cover.webp"
     },
     "playing": {
-      "name": "Clair Obscur: Expedition 33",
+      "name": "Marathon",
       "platform": "PC",
-      "image": "/img/playing/clair-obscur-expedition-33-cover.webp"
+      "image": "/img/playing/marathon-cover.jpg"
     },
     "watching": {
       "name": "Random YT videos",
