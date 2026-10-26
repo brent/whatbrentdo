@@ -131,7 +131,7 @@
     }
   },
   "now": {
-    "updated": "10/13/2026",
+    "updated": "10/20/2026",
     "projects": [
       {
         "title": "drafting short stories",
@@ -143,9 +143,9 @@
       }
     ],
     "reading": {
-      "name": "Hollywood, Ending",
-      "author": "John Green",
-      "image": "/img/reading/hollywood-ending-cover.webp"
+      "name": "Annihilation",
+      "author": "Jeff VanderMeer",
+      "image": "/img/reading/annihilation-cover.jpg"
     },
     "playing": {
       "name": "Marathon",
