@@ -161,10 +161,10 @@
   "uses": {
     "hardware": [
       {
-        "name": "iPhone 17 Pro",
+        "name": "iPhone Duo",
         "category": "phone",
-        "status": "",
-        "imgUrl": "/img/hardware/iphone-17-pro.jpg"
+        "status": "new",
+        "imgUrl": "/img/hardware/iphone-duo.jpg"
       },
       {
         "name": "16\" MacBook Pro (M2)",
@@ -179,7 +179,7 @@
         "imgUrl": "/img/hardware/ipad-pro-13.jpg"
       },
       {
-        "name": "Whoop 5.0",
+        "name": "Whoop",
         "category": "wearable",
         "status": "",
         "imgUrl": "/img/hardware/whoop.jpg"
@@ -273,6 +273,12 @@
         "category": "mouse",
         "status": "",
         "imgUrl": "/img/hardware/logitech-mx-anywhere-3s.jpg"
+      },
+      {
+        "name": "AirTags",
+        "category": "utility",
+        "status": "",
+        "imgUrl": "/img/hardware/airtags.jpg"
       }
     ],
     "software": [
