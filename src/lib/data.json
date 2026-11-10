@@ -131,7 +131,7 @@
     }
   },
   "now": {
-    "updated": "10/20/2026",
+    "updated": "11/2/2026",
     "projects": [
       {
         "title": "drafting short stories",
@@ -143,9 +143,9 @@
       }
     ],
     "reading": {
-      "name": "Annihilation",
-      "author": "Jeff VanderMeer",
-      "image": "/img/reading/annihilation-cover.jpg"
+      "name": "The Fires of December",
+      "author": "Brandon Sanderson",
+      "image": "/img/reading/the-fires-of-december-cover.jpg"
     },
     "playing": {
       "name": "Marathon",
